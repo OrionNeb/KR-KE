@@ -37,7 +37,7 @@ format:
     toc-depth: 4
     number-sections: true
     self-contained: true  # Alle Ressourcen (Bilder, CSS, etc.) in einer Datei speichern
-	math: mathjax
+    math: mathjax
     other-formats: ["pdf", "docx", "pptx"]
   docx:
     toc: false
@@ -149,6 +149,8 @@ Laut einer Untersuchung von Mustermann [@TestEintrag1] ist das Problem bekannt.
 Andere Autoren sind anderer Meinung [@TestEintrag2].
 
 Was eine \gls{mfa} ist, wird im Glossar beschrieben.
+
+Test
 
 ## Problemstellung {#sec-problemstellung}
 

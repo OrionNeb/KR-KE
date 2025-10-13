@@ -20,32 +20,32 @@
 
 % ------------------------- Studierender A und B -------------------------
 
-\newcommand{\studentname}{[Name Studierender A]}
-\newcommand{\studentadresse}{[Adresse A]}
-\newcommand{\studentplzort}{[PLZ Ort A]}
-\newcommand{\studentemail}{[E-Mail A]}
-\newcommand{\eingereichtam}{[Datum Einreichung A]}
-\newcommand{\einreichungsort}{[Einreichungsort A]}
+\newcommand{\studentname}{Christian Roth}
+\newcommand{\studentadresse}{Senner Stra\ss{}e 68}
+\newcommand{\studentplzort}{33647 Bielefeld}
+\newcommand{\studentemail}{christian.roth@edu.fhdw.de}
+\newcommand{\eingereichtam}{29. M\"arz 2026}
+\newcommand{\einreichungsort}{Bielefeld}
 
-\newcommand{\studentnameB}{[Name Studierender B]}
-\newcommand{\studentadresseB}{[Adresse B]}
-\newcommand{\studentplzortB}{[PLZ Ort B]}
-\newcommand{\studentemailB}{[E-Mail B]}
-\newcommand{\eingereichtamB}{[Datum Einreichung B]}
-\newcommand{\einreichungsortB}{[Einreichungsort B]}
+\newcommand{\studentnameB}{Nick Schneider}
+\newcommand{\studentadresseB}{Wilhelm-Baumann-Stra\ss{}e 38}
+\newcommand{\studentplzortB}{Gütersloh}
+\newcommand{\studentemailB}{nick.schneider@edu.fhdw.de}
+\newcommand{\eingereichtamB}{29. M\"arz 2026}
+\newcommand{\einreichungsortB}{Bielefeld}
 
 % ------------------------- Studiengang & Standort -------------------------
 
-\newcommand{\studiengang}{[Studiengang]}
-\newcommand{\fhdwstandort}{[Standort]}
-\newcommand{\modulname}{Modulname}
+\newcommand{\studiengang}{Wirtschaftsinformatik mit Schwerpunkt Data Science (\textit{M.Sc.})}
+\newcommand{\fhdwstandort}{Bielefeld}
+\newcommand{\modulname}{Knowledge Engineering and Knowledge Representation}
 
 % ------------------------- Prüfende Personen -------------------------
 
-\newcommand{\prueferA}{[Name Prüfer*in A]}
+\newcommand{\prueferA}{Dr.-Ing. Roland Pleger}
 \newcommand{\prueferB}{} % leer lassen, falls nur eine Person
 
 % ------------------------- Unterschriften -------------------------
 
-\newcommand{\unterschriftA}{[Pfad zur Unterschrift A]} % nur wenn vorhanden
-\newcommand{\unterschriftB}{[Pfad zur Unterschrift B]} % optional
+\newcommand{\unterschriftA}{img/UnterschriftA} % nur wenn vorhanden
+\newcommand{\unterschriftB}{img/UnterschriftB} % optional
