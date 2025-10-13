@@ -1,0 +1,13 @@
+\tableofcontents
+\thispagestyle{nohead}
+\clearpage
+
+\clearpage
+\listoffigures
+\thispagestyle{nohead} 
+\clearpage
+
+\clearpage
+\thispagestyle{nohead} 
+\listoftables
+\clearpage

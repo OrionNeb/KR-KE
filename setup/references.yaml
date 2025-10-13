@@ -1,0 +1,21 @@
+references:
+  - id: TestEintrag1
+    type: article
+    author:
+      - family: Mustermann
+        given: Max
+    title: "Ein einfacher Testartikel"
+    container-title: "Beispiel-Zeitschrift"
+    issued:
+      year: 2024
+
+  - id: TestEintrag2
+    type: article
+    author:
+      - family: Musterfrau
+        given: Erika
+    title: "Ein weiterer Testartikel"
+    container-title: "Test-Journal"
+    issued:
+      year: 2023
+

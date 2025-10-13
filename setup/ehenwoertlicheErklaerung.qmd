@@ -1,0 +1,12 @@
+\chapter*{Ehrenw\"ortliche Erkl\"arung}
+\label{tab:ehrenwoertlicheerklaerung}
+\thispagestyle{empty}
+
+Hiermit erkl\"are ich, dass ich die vorliegende \arbeitstyp  selbstst\"andig angefertigt habe. Es wurden nur die in der Arbeit ausdr\"ucklich benannten Quellen und Hilfsmittel benutzt. W\"ortlich oder sinngem\"aß \"ubernommenes Gedankengut habe ich als solches kenntlich gemacht. Diese Arbeit hat in gleicher oder \"ahnlicher Form noch keiner Pr\"ufungsbeh\"orde vorgelegen.
+
+\vspace{2cm}
+\noindent
+\hspace*{\fill}
+
+\ehrenwoertlicheErklaerung
+

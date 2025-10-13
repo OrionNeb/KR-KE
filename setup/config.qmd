@@ -1,0 +1,51 @@
+% ==================================================================
+% Konfigurationsdatei für wissenschaftliche Arbeiten an der FHDW
+% Autor: [Autor Name]
+% Stand: [Monat Jahr]
+% ==================================================================
+
+% ---------------- Dokumenttitel & Metadaten -----------------------
+
+\newcommand{\thetitle}{[Titel der Arbeit]} % Dokumenttitel
+\newcommand{\headertitle}{[Kurztitel für Kopfzeile]} % Kurztitel für Kopfzeile
+\newcommand{\kooperationsunternehmen}{[Name des Unternehmens]} % optional
+
+% 1 = Seminararbeit, 2 = Projektarbeit, 3 = Studienarbeit, 4 = Praxisarbeit,
+% 5 = Bachelorarbeit, 6 = Masterarbeit, 7 = Dissertation
+\newcommand{\arbeitstypwahl}{3} % Studienarbeit
+
+% ------------------------- Beteiligte Personen -------------------------
+% Gebe hier an, wie viele Personen beteiligt sind: 1 oder 2
+\newcommand{\anzahlpersonen}{1} % zentrale Steuerung
+
+% ------------------------- Studierender A und B -------------------------
+
+\newcommand{\studentname}{[Name Studierender A]}
+\newcommand{\studentadresse}{[Adresse A]}
+\newcommand{\studentplzort}{[PLZ Ort A]}
+\newcommand{\studentemail}{[E-Mail A]}
+\newcommand{\eingereichtam}{[Datum Einreichung A]}
+\newcommand{\einreichungsort}{[Einreichungsort A]}
+
+\newcommand{\studentnameB}{[Name Studierender B]}
+\newcommand{\studentadresseB}{[Adresse B]}
+\newcommand{\studentplzortB}{[PLZ Ort B]}
+\newcommand{\studentemailB}{[E-Mail B]}
+\newcommand{\eingereichtamB}{[Datum Einreichung B]}
+\newcommand{\einreichungsortB}{[Einreichungsort B]}
+
+% ------------------------- Studiengang & Standort -------------------------
+
+\newcommand{\studiengang}{[Studiengang]}
+\newcommand{\fhdwstandort}{[Standort]}
+\newcommand{\modulname}{Modulname}
+
+% ------------------------- Prüfende Personen -------------------------
+
+\newcommand{\prueferA}{[Name Prüfer*in A]}
+\newcommand{\prueferB}{} % leer lassen, falls nur eine Person
+
+% ------------------------- Unterschriften -------------------------
+
+\newcommand{\unterschriftA}{[Pfad zur Unterschrift A]} % nur wenn vorhanden
+\newcommand{\unterschriftB}{[Pfad zur Unterschrift B]} % optional

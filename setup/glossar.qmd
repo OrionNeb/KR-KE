@@ -1,0 +1,6 @@
+\printglossary[title=Glossar, toctitle=Glossar]
+\label{tab:Glossar}
+
+
+
+

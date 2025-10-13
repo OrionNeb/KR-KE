@@ -1,0 +1,62 @@
+\begin{titlepage}
+\centering
+\thispagestyle{empty}
+
+% Logo der FHDW
+\vspace*{0.5cm}
+\includegraphics[width=0.4\textwidth]{img/fhdw.png}
+
+\vspace*{1cm}
+{\large Fachhochschule der Wirtschaft\\[0.3em]
+FHDW \fhdwstandort}
+
+\vspace*{1.0cm}
+{\large \arbeitstyp{} im Modul \modulname}
+
+\vspace*{1.2cm}
+{\Large\bfseries \thetitle}
+
+\vspace{1.2cm}
+{\normalsize Vorgestellt von:}
+
+\vspace{0.5em}
+\ifnum\anzahlpersonen=1
+\begin{minipage}[t]{0.6\textwidth}
+\centering
+\textbf{\studentname{}}\\
+\studentadresse{}\\
+\studentplzort{}\\
+\texttt{\studentemail{}}
+\end{minipage}
+\else
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\textbf{\studentname{}}\\
+\studentadresse{}\\
+\studentplzort{}\\
+\texttt{\studentemail{}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\textbf{\studentnameB{}}\\
+\studentadresseB{}\\
+\studentplzortB{}\\
+\texttt{\studentemailB{}}
+\end{minipage}
+\fi
+
+\vspace{1.0cm}
+{\normalsize Studiengang:}\\[0.3em]
+{\normalsize \studiengang{}}
+
+\vspace{0.8cm}
+{\normalsize Prüfer:}\\[0.3em]
+{\normalsize \prueferA{}
+\ifstrempty{\prueferB}{}{\\ \prueferB}}
+
+\vspace{0.8cm}
+{\normalsize Eingereicht am:}\\[0.3em]
+{\normalsize \eingereichtam{} in \einreichungsort{}}
+
+\end{titlepage}

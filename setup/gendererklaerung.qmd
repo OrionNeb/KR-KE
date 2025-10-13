@@ -1,0 +1,10 @@
+\pagenumbering{roman}
+\setcounter{page}{1}
+\chapter*{Gendererkl\"arung}
+\addcontentsline{toc}{chapter}{Gendererkl\"arung}
+\thispagestyle{nohead}
+
+Aus Gr\"unden der besseren Lesbarkeit wird auf die gleichzeitige Verwendung der Sprachformen m\"annlich, weiblich und divers (m/w/d) verzichtet. S\"amtliche Personenbezeichnungen gelten gleichermaßen für alle Geschlechter.
+
+
+\clearpage

@@ -1,0 +1,249 @@
+
+%%%%%%%%%%%%%%% Encoding & Sprache %%%%%%%%%%%%%%%
+\usepackage{fontspec} % Eingabekodierung
+\setmainfont{Latin Modern Roman} % Standard-Schrift
+\usepackage{anyfontsize}
+\usepackage{microtype} % Verbesserte Typografie
+
+%%%%%%%%%%%%%%% Inhaltsverzeichnis & Abschnitte %%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{tocbibind}
+
+%%%%%%%%%%%%%%%%% Aufzählungen %%%%%%%%%%%%%%%%%%%%
+\usepackage{enumitem}
+
+
+%%%%%%%%%%%%%%%%%%%%%% Hängender Einzug zwischen den Absätzen %%%%%%%%%%%%%%%%%%
+\setlength{\parindent}{15pt}  % Standardmäßiger Absatzeinzug
+\setlength{\parskip}{0pt}     % Verhindert zusätzlichen vertikalen Abstand zwischen Absätzen
+
+%%%%%%%%%%%%%%% Absatz & Abstände %%%%%%%%%%%%%%%
+
+\usepackage{adjustbox}
+\usepackage{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{stackengine}
+\usepackage{verbatim}
+\usepackage{tocloft}
+
+\titleformat{\chapter}[hang]
+{\normalfont\LARGE\bfseries} % Schriftstil: Normal, Groß, Fett
+{\thechapter} % Nur die Kapitelnummer
+{1ex} % Abstand zwischen Nummer und Titel
+{\LARGE} % Schriftgröße des Titels
+
+
+%%%%%%%%%%%%%%% Grafiken %%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{tikz}
+\usepackage{caption}
+\captionsetup{format=hang,labelfont=bf}
+
+%%%%%%%%%%%%%%% Tabellen %%%%%%%%%%%%%%%
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage{ltablex}
+\usepackage{capt-of}
+
+%%%%%%%%%%%%%%% Hyperlinks %%%%%%%%%%%%%%%
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage[automake, toc, nonumberlist]{glossaries-extra} % Automake macht makefile obsolet
+
+\hypersetup{
+	hidelinks=false,           % Deaktiviert die vollständige Unterdrückung der Linkfarben
+	colorlinks=true,           % Aktiviert farbige Links statt Boxen
+	linktoc=all,               % Macht den gesamten Eintrag im Inhaltsverzeichnis klickbar
+	linkcolor=blue!50!black,   % Interne Links (Kapitelverweise) in Dunkelblau
+	citecolor=teal!70!black,   % Literaturverweise in Dunkelgrün
+	filecolor=magenta,         % Links zu Dateien in Magenta
+	urlcolor=purple!60!black,  % Externe Links in Dunkellila
+	runcolor=orange,           % Links zu ausführbaren Dateien in Orange
+	menucolor=cyan,            % Menülinks in Cyan
+	anchorcolor=black          % Anker (Zielmarkierungen) in Schwarz
+}
+
+\makeglossaries
+
+% Sicherstellen, dass keine doppelte Definition erfolgt
+
+\renewcommand*{\glstextformat}[1]{\textcolor{cyan!50!black}{#1}}
+
+
+%%%%%%%%%%%%%%% Mathematics %%%%%%%%%%%%%%%
+\usepackage{amsmath}
+\numberwithin{equation}{chapter}
+\newcommand{\dif}{\mathrm{d}}
+
+%%%%%%%%%%%%%%% Titel-Stile %%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]
+{\normalfont\LARGE\bfseries}{\thechapter}{1ex}{\LARGE}
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\setcounter{secnumdepth}{3}
+
+%%%%%%%%%%%%%%%%%% Kopfzeilen und Fußzeilen %%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Leere Kopf- und Fußzeilen
+
+% Kopfzeile: Links Kapitelnummer + Titel, Rechts benutzerdefinierter Titel
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\headertitle} 
+\fancyfoot[C]{\thepage}
+
+% Kopfzeilenlinie aktivieren, Fußzeile ohne Linie
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Definiere das Layout für die erste Seite jedes Kapitels
+\fancypagestyle{plain}{%
+	\fancyhf{} % Leere Kopf- und Fußzeilen
+	\fancyfoot[C]{\thepage} % Seitenzahl bleibt unten
+	\renewcommand{\headrulewidth}{0pt} % Kopfzeilenlinie deaktivieren
+}
+
+\fancypagestyle{nohead}{
+    \fancyhf{} % Entfernt Kopf- und Fußzeilen
+    \fancyfoot[C]{\thepage} % Seitenzahl unten mittig behalten
+    \renewcommand{\headrulewidth}{0pt} % Kopfzeilenlinie entfernen
+    \renewcommand{\footrulewidth}{0pt} % Keine Fußzeilenlinie
+}
+
+\usepackage{fancyhdr}
+\fancypagestyle{literature}{%
+    \fancyhead[L]{Literaturverzeichnis} % Links: Literaturverzeichnis
+    \fancyhead[R]{\headertitle} % Rechts: Seitenzahl
+    \fancyfoot[C]{\thepage} % Seitenzahl unten mittig
+}
+
+% Definition der Kopfzeilen für das Anhangsverzeichnis
+\fancypagestyle{appendixTOC}{%
+    \fancyhf{} % Leere Kopf- und Fußzeilen
+    \fancyhead[L]{Anhangsverzeichnis} % Links "Anhangsverzeichnis"
+    \fancyhead[R]{\headertitle} 
+    \fancyfoot[C]{\thepage} % Seitenzahl unten mittig
+}
+
+% Definition der Kopfzeilen für den eigentlichen Anhang
+\fancypagestyle{appendix}{%
+    \fancyhf{} % Leere Kopf- und Fußzeilen
+    \fancyhead[L]{\nouppercase{\leftmark}}
+    \fancyhead[R]{\headertitle} 
+    \fancyfoot[C]{\thepage} % Seitenzahl unten mittig
+}
+
+% Entferne "Kapitel" aus der Kopfzeile
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\quad #1}}
+
+% Titel für ein bestimmtes Kapitel setzen (manuell einstellbar)
+\newcommand{\setcustomtitle}[1]{\renewcommand{\customtitle}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% clip upper,
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\usepackage{fvextra}
+\usepackage{setspace}
+\usepackage{etoolbox}
+\usepackage{tikz}
+
+% Farben definieren
+\definecolor{terminalbg}{RGB}{89,33,69}
+\definecolor{terminalfg}{RGB}{211,211,211}
+\definecolor{titlebarcolor}{RGB}{80,78,73}
+\definecolor{dotred}{RGB}{220,50,47}
+\definecolor{dotyellow}{RGB}{240,190,60}
+\definecolor{dotgreen}{RGB}{52,191,73}
+
+% Terminalbox mit dauerhafter Titelleiste
+\newtcolorbox{terminalbox}[1][]{%
+  enhanced,
+  breakable,
+  colback=terminalbg,
+  colframe=terminalbg,
+  boxrule=0pt,
+  arc=0pt,
+  sharp corners=north,
+  colupper=terminalfg,
+  fontupper=\ttfamily\small\setstretch{1},
+  width=\dimexpr\linewidth-2\fboxsep\relax,
+  left=8pt, right=8pt,
+  top=32pt, bottom=8pt,
+  clip upper,
+  before skip=10pt,
+  after skip=10pt,
+  overlay={
+    % Titelleiste immer anzeigen – auch bei Seitenumbruch
+    \fill[titlebarcolor, rounded corners=5pt]
+      (frame.north west) rectangle ([yshift=-2em]frame.north east);
+    \node[anchor=mid west] at ([xshift=0.9em,yshift=-1em]frame.north west) {%
+      \begin{tikzpicture}[baseline]
+        \fill[dotred]    (0,0) circle (0.11);
+        \fill[dotyellow] (0.3,0) circle (0.11);
+        \fill[dotgreen]  (0.6,0) circle (0.11);
+      \end{tikzpicture}%
+      \hspace{1.2em}%
+      \raisebox{-0.225em}{\textcolor{white}{\bfseries\scriptsize Terminal-Output}}%
+    };
+  },
+}
+
+
+
+
+
+
+% Automatisch für alle verbatim-Blöcke anwenden
+\BeforeBeginEnvironment{verbatim}{\begin{terminalbox}}
+\AfterEndEnvironment{verbatim}{\end{terminalbox}}
+
+\makeatletter
+\@ifundefined{Shaded}{
+  \newenvironment{Shaded}
+  {\begin{tcolorbox}[
+      colback=gray!10,
+      colframe=black,
+      boxrule=0.8pt,
+      arc=3mm,
+      width=\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax,
+      boxsep=0mm,
+      breakable=true,
+      sharp corners,
+      enhanced jigsaw,
+      drop shadow={fill=black!50, opacity=0.5}
+  ]}
+  {\end{tcolorbox}}
+}{}
+\makeatother
+
+
+
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+  breaklines=true,          
+  breakanywhere=true,       
+  breakautoindent=false,    
+  breaksymbolleft={},       
+  breakindent=0pt,          
+  xleftmargin=5pt,          
+  xrightmargin=5pt,         
+  commandchars=\\\{\},      
+  formatcom=\color{black},  
+  fontsize=\small,          
+  frame=single,             
+  rulecolor=\color{gray}
+}

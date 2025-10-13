@@ -1,0 +1,290 @@
+---
+lang: de  # Dokumentensprache: Deutsch
+
+format:
+  pdf:
+    documentclass: book
+    classoption: openany, oneside  # Kapitel auf jeder Seite starten (verhindert leere Seiten)
+    mainfont: "Latin Modern Roman"
+    fontsize: 11pt
+    linestretch: 1.5  # Zeilenabstand auf 1,5 setzen (für bessere Lesbarkeit)
+    code-fold: false  # Code-Chunks bleiben immer sichtbar (nicht einklappbar)
+    toc: false
+    toc-depth: 4
+    number-sections: true
+    unnumbered-sections: true
+    geometry: "top=3cm, bottom=3cm, headheight=15pt, headsep=1.5cm, footskip=1.5cm"
+    pdf-engine: lualatex
+    listings: false
+    highlight-style: tango  # Syntax-Highlighting für Code
+    code-block-font-size: \tiny
+    code-overflow: wrap
+    include-in-header: 
+      - setup/header.qmd
+      - setup/glossar-eintraege.qmd
+    include-before-body:
+      - setup/titlepage.qmd
+      - setup/gendererklaerung.qmd
+      - setup/abstract.qmd
+      - setup/verzeichnisse.qmd
+      - setup/mainmatter.qmd
+    include-after-body:
+      - setup/glossar.qmd
+      - setup/ehenwoertlicheErklaerung.qmd
+  html:
+    code-fold: true  # Code-Chunks in HTML können ausgeklappt werden
+    toc: false
+    toc-depth: 4
+    number-sections: true
+    self-contained: true  # Alle Ressourcen (Bilder, CSS, etc.) in einer Datei speichern
+	math: mathjax
+    other-formats: ["pdf", "docx", "pptx"]
+  docx:
+    toc: false
+    number-sections: true
+  pptx:
+    reference-doc: setup/FHDW-Powerpoint-Vorlage_16zu9.pptx  # (Optional) Eigene Vorlage nutzen
+bibliography: setup/references.yaml
+citeproc: true
+csl: setup/apa-with-abstract-de.csl # https://www.zotero.org/styles/apa-with-abstract
+link-citations: true
+link-bibliography: true
+editor: source
+execute:
+  freeze: auto
+  eval: true
+  echo: true       # Code anzeigen
+  results: markup  # Output als formatierten Text ausgeben
+  warning: false   # Warnungen unterdrücken
+  message: false   # Nachrichten (z. B. von Paketen) unterdrücken
+  code-overflow: wrap  # Lange Zeilen umbrechen
+---
+
+```{r r-setup}
+
+#| eval=TRUE
+#| echo=TRUE
+#| include=FALSE
+#| results=TRUE
+#| message=FALSE
+#| warning=FALSE
+
+# Arbeitsumgebung leeren (alle Objekte entfernen)
+rm(list = ls())
+gc()
+
+# Root für Quarto setzen
+knitr::opts_knit$set(root.dir = here::here())
+
+# Installiere und lade erforderliche Bibliotheken
+if (!requireNamespace("reticulate", quietly = TRUE)) install.packages("reticulate")
+if (!requireNamespace("rmarkdown", quietly = TRUE)) install.packages("rmarkdown")
+if (!requireNamespace("shiny", quietly = TRUE)) install.packages("shiny")
+if (!requireNamespace("dplyr", quietly = TRUE)) install.packages("dplyr")
+if (!requireNamespace("tidyr", quietly = TRUE)) install.packages("tidyr")
+if (!requireNamespace("tidyverse", quietly = TRUE)) install.packages("tidyverse")
+if (!requireNamespace("forecast", quietly = TRUE)) install.packages("forecast")
+if (!requireNamespace("ggpubr", quietly = TRUE)) install.packages("ggpubr")
+if (!requireNamespace("viridis", quietly = TRUE)) install.packages("viridis")
+
+
+
+
+library(reticulate)
+library(rmarkdown)
+library(shiny)
+library(dplyr)
+library(tidyr)
+library(tidyverse)
+library(forecast)
+library(ggpubr)
+library(viridis)
+
+```
+
+```{python python-setup}
+
+#| eval=TRUE
+#| echo=TRUE
+#| include=FALSE
+#| results=TRUE
+#| message=FALSE
+#| warning=FALSE
+
+# Erforderliche Bibliotheken installieren (falls nicht vorhanden)
+import subprocess
+import sys
+
+def install_and_import(package):
+    try:
+        __import__(package)
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+    finally:
+        globals()[package] = __import__(package)
+
+# Äquivalente Bibliotheken in Python installieren und importieren
+libraries = ["pandas", "numpy", "matplotlib", "seaborn", "scipy", "statsmodels", "pulp"]
+
+for lib in libraries:
+    install_and_import(lib)
+
+# Bibliotheken laden
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+from statsmodels.tsa.seasonal import STL
+from pulp import LpMaximize, LpProblem, LpVariable, value
+
+```
+
+<!-- ================= 1. Einleitung ================= -->
+
+# Einleitung {#sec-einleitung}
+
+Laut einer Untersuchung von Mustermann [@TestEintrag1] ist das Problem bekannt.
+
+Andere Autoren sind anderer Meinung [@TestEintrag2].
+
+Was eine \gls{mfa} ist, wird im Glossar beschrieben.
+
+## Problemstellung {#sec-problemstellung}
+
+<!-- Hier kommt die Beschreibung der Problemstellung -->
+
+## Zielsetzung {#sec-zielsetzung}
+
+<!-- Hier kommt die Zielsetzung der Arbeit -->
+
+## Vorgehensweise {#sec-vorgehensweise}
+
+<!-- Erläuterung zur Methodik -->
+
+<!-- ================= 2. Theoretische Grundlagen ================= -->
+
+# Grundlagen {#sec-grundlagen}
+
+## Einführung in das Thema {#sec-einfuehrung}
+
+<!-- Einführung in das Hauptthema der Arbeit -->
+
+### Definition und Zielsetzung {#sec-definition}
+
+<!-- Wichtige Definitionen und Zielsetzungen -->
+
+### Teilgebiete des Themas {#sec-teilgebiete}
+
+<!-- Beschreibung der verschiedenen Teilgebiete -->
+
+<!-- ================= 3. Praxisteil ================= -->
+
+# Praxisteil {#sec-praxisteil}
+
+<!-- Beschreibung des praktischen Teils der Arbeit -->
+
+## Datenerhebung {#sec-datenerhebung}
+
+<!-- Wie wurden die Daten gesammelt? -->
+
+### Emotionserkennung mit `j-hartmann/emotion-english-distilroberta-base` {#sec-emotionserkennung}
+
+<!-- Details zur verwendeten Methode der Emotionserkennung -->
+
+<!-- ================= 4. Fazit ================= -->
+
+# Fazit {#sec-fazit}
+
+<!-- Zusammenfassung der Ergebnisse, Reflexion und Ausblick -->
+
+<!-- ================= Literaturverzeichnis ================= -->
+
+# Literaturverzeichnis {.unnumbered}
+
+::: {#refs}
+:::
+\pagestyle{literature}
+\markboth{Literaturverzeichnis}{Literaturverzeichnis}
+
+\clearpage
+
+<!-- ================= Anhangsverzeichnis-Header ================= -->
+
+::: {#sec-anhang}
+# Anhang {.unnumbered}
+:::
+\markboth{Anhang}{Anhang} 
+\thispagestyle{empty}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\setcounter{figure}{0}
+
+*Hinweis:* Alle Abbildungen in den Anhängen tragen das Präfix **A** in ihrer Nummerierung. 
+Das **A** verweist zugleich auf den Anhang und wird fortlaufend gezählt.
+
+
+<!-- ================= Anhangsverzeichnis ================= -->
+
+::: {#sec-anhangsverzeichnis}
+## Anhangsverzeichnis {.unnumbered}
+:::
+\pagestyle{appendixTOC}
+\noindent
+
+
+**Anhang A** [Zero-Trust-Modell](#sec-anhangA) \dotfill  \pageref{sec-anhangA}
+
+&nbsp;&nbsp;&nbsp;**A.1** [Zero-Trust-Säulen](#sec-anhangA.1) \dotfill  \pageref{sec-anhangA.1}
+
+**Anhang B** [Erste Analyse der Daten](#sec-anhangB) \dotfill  \pageref{sec-anhangB}
+
+&nbsp;&nbsp;&nbsp;**B.1** [Ergebnisse der ersten Analyse](#sec-anhangB.1) \dotfill  \pageref{sec-anhangB.1}
+ 
+
+
+
+
+
+\clearpage
+
+<!-- ================= Anhang ================= -->
+\pagestyle{appendix} 
+::: {#sec-anhangA}
+# Anhang A: Zero-Trust-Modell {.unnumbered}
+:::
+\markboth{Anhang A: Zero-Trust-Modell}{}
+
+\clearpage
+
+::: {#sec-anhangA.1}
+## A.1: Zero-Trust-Säulen {.unnumbered}
+:::
+
+\lorem
+
+\clearpage
+
+::: {#sec-anhangB}
+# Anhang B: Erste Analyse der Daten {.unnumbered}
+:::
+\markboth{Anhang B: Erste Analyse der Daten}{}
+
+\lorem
+
+\clearpage
+
+::: {#sec-anhangB1}
+## B1: Lorem {.unnumbered}
+:::
+
+\lorem
+
+
+
+
+
+
+
+
+
+<!-- ================= Ende ================= -->

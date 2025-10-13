@@ -1,0 +1,60 @@
+---
+lang: de  # Dokumentensprache: Deutsch
+
+format:
+  pdf:
+    documentclass: book
+    classoption: openany, oneside  # Kapitel auf jeder Seite starten (verhindert leere Seiten)
+    mainfont: "Latin Modern Roman"
+    fontsize: 11pt
+    linestretch: 1.5  # Zeilenabstand auf 1,5 setzen (für bessere Lesbarkeit)
+    code-fold: false  # Code-Chunks bleiben immer sichtbar (nicht einklappbar)
+    toc: false
+    toc-depth: 4
+    number-sections: true
+    unnumbered-sections: true
+    geometry: "top=3cm, bottom=3cm, headheight=15pt, headsep=1.5cm, footskip=1.5cm"
+    pdf-engine: lualatex
+    listings: false
+    highlight-style: tango  # Syntax-Highlighting für Code
+    code-block-font-size: \tiny
+    code-overflow: wrap
+    include-in-header: 
+      - setup/header.qmd
+      - setup/glossar-eintraege.qmd
+    include-before-body:
+      - setup/titlepage.qmd
+      - setup/gendererklaerung.qmd
+      - setup/abstract.qmd
+      - setup/verzeichnisse.qmd
+      - setup/mainmatter.qmd
+    include-after-body:
+      - setup/glossar.qmd
+      - setup/ehenwoertlicheErklaerung.qmd
+  html:
+    code-fold: true  # Code-Chunks in HTML können ausgeklappt werden
+    toc: false
+    toc-depth: 4
+    number-sections: true
+    self-contained: true  # Alle Ressourcen (Bilder, CSS, etc.) in einer Datei speichern
+    other-formats: ["pdf", "docx", "pptx"]
+  docx:
+    toc: false
+    number-sections: true
+  pptx:
+    reference-doc: setup/FHDW-Powerpoint-Vorlage_16zu9.pptx  # (Optional) Eigene Vorlage nutzen
+bibliography: setup/references.yaml
+citeproc: true
+csl: https://www.zotero.org/styles/apa-with-abstract # setup/apa-with-abstract.csl
+link-citations: true
+link-bibliography: true
+editor: source
+execute:
+  freeze: auto
+  eval: true
+  echo: true       # Code anzeigen
+  results: markup  # Output als formatierten Text ausgeben
+  warning: false   # Warnungen unterdrücken
+  message: false   # Nachrichten (z. B. von Paketen) unterdrücken
+  code-overflow: wrap  # Lange Zeilen umbrechen
+---

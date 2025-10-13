@@ -1,0 +1,1990 @@
+%%%%%%%%%% A %%%%%%%%%%
+
+\newglossaryentry{aad}{
+	name=Azure Active Directory (AAD),
+	description={ein cloudbasierter Identitäts- und Zugriffsverwaltungsdienst von Microsoft, der Authentifizierung und Autorisierung für Benutzer und Anwendungen bereitstellt.}
+}
+
+\newglossaryentry{abac}{
+	name=Attributbasierte Zugriffskontrolle (ABAC),
+	description={ein flexibles Zugriffskontrollmodell, das Berechtigungen auf Grundlage von Benutzerattributen, Umgebungskriterien und kontextbezogenen Faktoren erteilt.}
+}
+
+\newglossaryentry{absatzprognose}{
+  name=Absatzprognose,
+  plural=Absatzprognosen,
+  description={Vorhersage zukünftiger Verkaufszahlen auf Basis historischer Daten, Trends und weiterer Einflussfaktoren.}
+}
+
+
+\newglossaryentry{accessreviews}{
+	name=Access Reviews,
+	description={regelmäßige Überprüfungen von Benutzerberechtigungen in IT-Systemen, um sicherzustellen, dass nur autorisierte Personen Zugriff auf bestimmte Ressourcen haben und ungenutzte oder nicht mehr benötigte Berechtigungen entfernt werden.}
+}
+
+\newglossaryentry{acf}{
+    name=Autokorrelationsfunktion (ACF),
+    description={Eine statistische Metrik zur Messung der Korrelation zwischen einem Zeitreihenwert und seinen früheren Werten über verschiedene Zeitverzögerungen.}
+}
+
+\newglossaryentry{acf_pacf}{
+    name=Autokorrelationsfunktionen (ACF/PACF),
+    description={Statistische Funktionen zur Analyse der Abhängigkeiten innerhalb einer Zeitreihe. Die \textbf{Autokorrelationsfunktion (ACF)} misst die Korrelation zwischen einem Wert und seinen früheren Werten über verschiedene Zeitverzögerungen (Lags) und hilft dabei, Muster oder Saisonalitäten zu identifizieren. Die \textbf{partielle Autokorrelationsfunktion (PACF)} hingegen entfernt indirekte Effekte zwischen weiter entfernten Zeitpunkten und zeigt nur den direkten Einfluss früherer Werte auf die aktuelle Beobachtung. Beide Funktionen werden zur Modellierung von autoregressiven Prozessen in Zeitreihenanalysen verwendet.}
+}
+
+\newglossaryentry{acf-pacf-analyse}{
+    name=ACF-/PACF-Analyse,
+    description={Methodische Untersuchung einer Zeitreihe mithilfe der Autokorrelationsfunktion (ACF) und der partiellen Autokorrelationsfunktion (PACF) zur Bestimmung geeigneter Modellparameter.}
+}
+
+\newglossaryentry{activedirectory}{
+	name=Active Directory (AD),
+	description={ein von Microsoft entwickelter Verzeichnisdienst zur zentralen Verwaltung von Benutzern, Computern, Gruppen und Ressourcen in einem Netzwerk. AD ermöglicht Authentifizierung, Autorisierung und Richtliniendurchsetzung innerhalb von Windows-Domänen.}
+}
+
+\newglossaryentry{adaptivesicherheitsloesung}{
+	name=Adaptive Sicherheitslösung,
+	description={ein Sicherheitsansatz, der Bedrohungen in Echtzeit analysiert und darauf reagiert, indem er dynamische Schutzmaßnahmen basierend auf Risikobewertungen, Nutzerverhalten und Kontextfaktoren anpasst.}
+}
+
+\newglossaryentry{adaptivezugriffskontrollen}{
+	name=Adaptive Zugriffskontrollen,
+	description={dynamische Sicherheitsmechanismen, die Zugriffsentscheidungen in Echtzeit anhand von Kontextfaktoren wie Benutzerverhalten, Gerätestatus, Standort und Risikobewertung anpassen.}
+}
+
+\newglossaryentry{adftest}{
+    name=Augmented Dickey-Fuller-Test (ADF-Test),
+    description={Ein statistischer Test zur Überprüfung, ob eine Zeitreihe stationär ist, d.h. ob sie konstante statistische Eigenschaften über die Zeit aufweist.}
+}
+
+\newglossaryentry{agilitaet}{
+  name=Agilität,
+  plural=Agilitäten,
+  description={Fähigkeit einer Organisation, sich flexibel, schnell und proaktiv an veränderte Rahmenbedingungen und Marktanforderungen anzupassen.}
+}
+
+\newglossaryentry{akaike-information-criterion}{
+    name=Akaike Information Criterion,
+    description={Maß zur Bewertung statistischer Modelle hinsichtlich ihrer Güte und Komplexität; ein niedriger Wert signalisiert ein besseres Modell.}
+}
+
+\newglossaryentry{anzahlimplementiertertechnologien}{
+  name=Anzahl implementierter Technologien,
+  plural=Anzahlen implementierter Technologien,
+  description={Kennzahl zur Messung der digitalen Weiterentwicklung eines Unternehmens durch Erfassung der aktiv eingeführten technologischen Systeme oder Werkzeuge.}
+}
+
+\newglossaryentry{apischnittstellen}{
+	name=API-Schnittstellen,
+	description={Programmierschnittstellen (Application Programming Interfaces, APIs), die den Austausch von Daten und Funktionen zwischen verschiedenen Softwareanwendungen ermöglichen und eine standardisierte Kommunikation zwischen Systemen sicherstellen.}
+}
+
+\newglossaryentry{arbeitsweise}{
+  name=Arbeitsweise,
+  plural=Arbeitsweisen,
+  description={Charakteristische Ausgestaltung und Organisation von Tätigkeiten und Abläufen innerhalb eines Unternehmens oder Teams.}
+}
+
+
+\newglossaryentry{arima}{
+    name=ARIMA-Modell,
+    description={Ein autoregressives, differenziertes gleitendes Durchschnittsmodell zur Modellierung und Prognose von Zeitreihen.}
+}
+
+\newglossaryentry{assistenzsystem}{
+  name=Assistenzsystem,
+  plural=Assistenzsysteme,
+  description={Technische Lösung zur Unterstützung von Menschen bei bestimmten Aufgaben durch Automatisierung, Sensorik oder intelligente Steuerung.}
+}
+
+\newglossaryentry{assumebreach}{
+	name=Assume Breach,
+	description={ein Sicherheitsprinzip, das davon ausgeht, dass ein Angreifer bereits Zugang zum System erlangt hat, wodurch präventive, detektive und reaktive Maßnahmen zur Schadensbegrenzung und Angriffsbekämpfung verstärkt werden.}
+}
+
+\newglossaryentry{asymmetrie}{
+    name=Asymmetrie,
+    description={Eigenschaft einer Verteilung, bei der die Werte ungleich um den Mittelwert verteilt sind; z.\,B.\ bei schiefen Verteilungen.}
+}
+
+\newglossaryentry{asymmetrische-verteilung}{
+    name=Asymmetrische Verteilung,
+    description={Eine statistische Verteilung, bei der die Daten nicht symmetrisch um den Mittelwert verteilt sind. Typischerweise liegt der Median dabei nicht im Zentrum der Verteilung. Man unterscheidet zwischen links- (linksschief) und rechtssteilen (rechtsschiefen) Verteilungen.}
+}
+
+\newglossaryentry{audittrails}{
+	name=Audit-Trails,
+	description={chronologische Aufzeichnungen von sicherheitsrelevanten Ereignissen und Benutzeraktivitäten in IT-Systemen, die zur Überwachung, Nachvollziehbarkeit und Einhaltung von Compliance-Vorgaben genutzt werden.}
+}
+
+\newglossaryentry{ausreisser}{
+    name=Ausreißer,
+    description={Datenpunkte, die stark vom übrigen Datenverlauf abweichen und auf Messfehler oder besondere Ereignisse hinweisen können.}
+}
+
+\newglossaryentry{autokorrelation}{
+    name=Autokorrelation,
+    description={Maß für den Zusammenhang eines Wertes in einer Zeitreihe mit seinen früheren Werten, wichtig zur Identifikation von Mustern und Saisonalitäten.}
+}
+
+\newglossaryentry{autokorrelationsfunktion}{
+    name=Autokorrelationsfunktion,
+    plural=Autokorrelationsfunktionen,
+    description={Funktion, die die Korrelation zwischen den Werten einer Zeitreihe und ihren verzögerten (gelagten) Werten beschreibt.}
+}
+
+%%%%%%%%%% B  %%%%%%%%%%
+
+
+\newglossaryentry{b2beinsatz}{
+  name=B2B-Einsatz,
+  description={Nutzung eines Produkts oder einer Dienstleistung im Rahmen von Geschäftsbeziehungen zwischen Unternehmen (Business-to-Business).}
+}
+
+\newglossaryentry{balancedscorecard}{
+  name=Balanced Scorecard,
+  plural=Balanced Scorecards,
+  description={Instrument des strategischen Managements, das finanzielle und nicht-finanzielle Kennzahlen zur Bewertung und Steuerung der Unternehmensleistung kombiniert.}
+}
+
+\newglossaryentry{bedrohungserkennung}{
+    name=Bedrohungserkennung,
+    description={der Prozess der Identifikation und Analyse von potenziellen Sicherheitsbedrohungen durch automatisierte Systeme oder KI-gestützte Anomalieerkennung.}
+}
+
+\newglossaryentry{begriffsverstaendnis}{
+  name=Begriffsverständnis,
+  plural=Begriffsverständnisse,
+  description={Einheitliches Verständnis über die Bedeutung zentraler Begriffe, das als Grundlage für Kommunikation, Planung und Umsetzung dient.}
+}
+
+\newglossaryentry{betriebswirtschaftlicheStrategie}{
+  name=Betriebswirtschaftliche Strategie,
+  plural=Betriebswirtschaftliche Strategien,
+  description={Langfristig ausgerichteter Handlungsrahmen zur Erreichung wirtschaftlicher Unternehmensziele, häufig unter Berücksichtigung von Wettbewerb, Marktposition und Ressourceneinsatz.}
+}
+
+
+\newglossaryentry{bdac}{
+    name=Behavior-Dependent Access Control (BDAC),
+    description={ein adaptives Zugriffskontrollmodell, das auf Grundlage von Nutzerverhalten dynamische Berechtigungsentscheidungen trifft.}
+}
+
+\newglossaryentry{berechtigungsmanagement}{
+    name=Berechtigungsmanagement,
+    description={Verwaltung und Kontrolle von Zugriffsrechten innerhalb eines IT-Systems, um sicherzustellen, dass Benutzer nur über die für ihre Aufgaben erforderlichen Berechtigungen verfügen.}
+}
+
+\newglossaryentry{bewertung}{
+  name=Bewertung,
+  plural=Bewertungen,
+  description={Systematische Beurteilung von Maßnahmen, Prozessen oder Ergebnissen anhand definierter Kriterien oder Kennzahlen.}
+}
+
+\newglossaryentry{bildverarbeitung}{
+  name=Bildverarbeitung,
+  description={Technologie zur Analyse und Interpretation visueller Informationen aus Kameradaten mithilfe von Algorithmen.}
+}
+
+\newglossaryentry{businessModelCanvas}{
+  name=Business Model Canvas,
+  plural=Business Model Canvas,
+  description={Strukturierungsmodell zur Visualisierung und Analyse von Geschäftsmodellen anhand von neun zentralen Bausteinen wie Kundensegmente, Wertangebote oder Schlüsselressourcen.}
+}
+
+
+%%%%%%%%%%  C %%%%%%%%%%
+
+\newglossaryentry{ciatriad}{
+	name=CIA-Triad,
+	description={ein fundamentales Modell der Informationssicherheit, das aus den drei Prinzipien Vertraulichkeit, Integrität und Verfügbarkeit besteht und als Grundlage für Sicherheitsstrategien und -maßnahmen dient.}
+}
+
+\newglossaryentry{cloudappsecurity}{
+	name=Cloud App Security,
+	description={eine Cloud Access Security Broker (CASB)-Lösung von Microsoft, die Transparenz, Bedrohungsschutz und Richtlinienkontrolle für cloudbasierte Anwendungen bietet, um Sicherheitsrisiken zu minimieren.}
+}
+
+\newglossaryentry{cloud-dienste}{
+    name=Cloud-Dienste,
+    description={IT-Ressourcen und -Dienste, die über das Internet bereitgestellt werden, einschließlich Speicher, Rechenleistung und Softwarelösungen.}
+}
+
+\newglossaryentry{co2neutralitaet}{
+  name=CO\textsubscript{2}-Neutralität,
+  plural=CO\textsubscript{2}-Neutralitäten,
+  description={Zustand, bei dem die durch menschliche oder betriebliche Aktivitäten verursachten Kohlendioxid-Emissionen durch Kompensation oder Vermeidung vollständig ausgeglichen werden.}
+}
+
+
+\newglossaryentry{compliance}{
+	name=Compliance,
+	description={die Einhaltung gesetzlicher, regulatorischer und unternehmensinterner Vorschriften sowie Sicherheitsrichtlinien zur Gewährleistung von Datenschutz, IT-Sicherheit und Governance.}
+}
+
+\newglossaryentry{conditionalaccess}{
+	name=Conditional Access,
+	description={eine Sicherheitsrichtlinie in modernen Identitäts- und Zugriffsmanagementsystemen, die den Zugriff basierend auf bestimmten Bedingungen wie Standort, Gerät oder Benutzerverhalten steuert.}
+}
+
+\newglossaryentry{confidencescoring}{
+	name=Confidence Scoring,
+	description={ein Bewertungsverfahren in der IT-Sicherheit, das anhand verschiedener Faktoren ein Risiko- oder Vertrauensniveau für Benutzeraktivitäten, Zugriffe oder Bedrohungen berechnet, um fundierte Sicherheitsentscheidungen zu ermöglichen.}
+}
+
+\newglossaryentry{covid19Pandemie}{
+  name=COVID-19-Pandemie,
+  description={Weltweite Ausbreitung der durch das Coronavirus SARS-CoV‑2 verursachten Atemwegserkrankung COVID‑19, die ab Anfang 2020 tiefgreifende gesellschaftliche, wirtschaftliche und gesundheitliche Auswirkungen hatte.}
+}
+
+\newglossaryentry{crowdfunding}{
+  name=Crowdfunding,
+  description={Finanzierungsmodell, bei dem Kapital durch viele Einzelpersonen über Onlineplattformen bereitgestellt wird.}
+}
+
+\newglossaryentry{cyberangriffe}{
+	name=Cyberangriffe,
+	description={gezielte Angriffe auf IT-Systeme, Netzwerke oder digitale Infrastrukturen mit dem Ziel, Daten zu stehlen, Systeme zu sabotieren oder finanzielle Schäden zu verursachen.}
+}
+
+\newglossaryentry{cybersecurityorchestration}{
+	name=Cybersecurity Orchestration,
+	description={die koordinierte Automatisierung von Sicherheitsprozessen und -technologien, um Bedrohungen effizient zu erkennen, zu analysieren und darauf zu reagieren, indem verschiedene Sicherheitslösungen integriert und optimiert werden.}
+}
+
+%%%%%%%%%%  D %%%%%%%%%%
+
+\newglossaryentry{dashboard}{
+  name=Dashboard,
+  plural=Dashboards,
+  description={Visuelle Oberfläche zur kompakten Darstellung relevanter Daten, Kennzahlen und Trends zur Unterstützung operativer oder strategischer Entscheidungen.}
+}
+
+\newglossaryentry{dataaccessmonitoring}{
+	name=Data Access Monitoring,
+	description={die kontinuierliche Überwachung und Analyse von Datenzugriffen, um unautorisierte oder verdächtige Aktivitäten zu erkennen, Sicherheitsrisiken zu minimieren und Compliance-Anforderungen zu erfüllen.}
+}
+
+\newglossaryentry{datenaufbereitung}{
+    name=Datenaufbereitung,
+    description={Prozess der Umwandlung, Bereinigung und Strukturierung von Rohdaten in ein analysierbares Format, z.\,B.\ durch Typkonvertierung oder Formatierung.}
+}
+
+\newglossaryentry{datenbasis}{
+  name=Datenbasis,
+  plural=Datenbasen,
+  description={Strukturierter und konsistenter Datenbestand, der als Grundlage für Analysen, Bewertungen und Entscheidungsprozesse dient.}
+}
+
+
+\newglossaryentry{datennutzung}{
+  name=Datennutzung,
+  plural=Datennutzungen,
+  description={Systematische Erhebung, Verarbeitung und Anwendung von Daten zur Unterstützung operativer oder strategischer Entscheidungen.}
+}
+
+
+\newglossaryentry{datenqualitaet}{
+    name=Datenqualität,
+    description={Maß für die Güte von Daten hinsichtlich Vollständigkeit, Genauigkeit, Konsistenz und Aktualität.}
+}
+
+\newglossaryentry{datentyp}{
+    name=Datentyp,
+    plural=Datentypen,
+    description={Spezifikation des Formats eines Datenwerts, z.\,B.\ numerisch, Zeichenkette oder Datum, zur korrekten Verarbeitung in statistischen Programmen.}
+}
+
+\newglossaryentry{deskriptive-analyse}{
+    name=Deskriptive Analyse,
+    description={Statistische Methode zur Zusammenfassung und Darstellung von Daten durch Kennzahlen, Tabellen oder Grafiken, ohne dabei Hypothesen zu testen.}
+}
+
+\newglossaryentry{diversifikation}{
+  name=Diversifikation,
+  description={Strategie zur Ausweitung von Geschäftsbereichen, Produkten oder geografischen Märkten zur Risikostreuung und Erhöhung der Resilienz.}
+}
+
+\newglossaryentry{dlp}{
+	name=Data Loss Prevention (DLP),
+	description={eine Sicherheitsstrategie und Technologie zur Verhinderung des unautorisierten Verlusts, Exports oder der Offenlegung sensibler Daten durch Überwachung, Identifikation und Schutz vor Datenabflüssen in IT-Systemen.}
+}
+
+\newglossaryentry{dsgvo}{
+	name=Datenschutz-Grundverordnung (DSGVO),
+	description={eine Verordnung der Europäischen Union, die den Schutz personenbezogener Daten regelt und Unternehmen sowie Organisationen Vorgaben für die Verarbeitung, Speicherung und Sicherung dieser Daten macht.}
+}
+
+\newglossaryentry{defenderforcloud}{
+	name=Defender for Cloud,
+	description={eine cloudbasierte Sicherheitslösung von Microsoft, die Bedrohungserkennung, Sicherheitsüberwachung und Schutzmaßnahmen für hybride und Multi-Cloud-Umgebungen bietet.}
+}
+
+\newglossaryentry{devicecertificatesauthentication}{
+	name=Device Certificates \& Authentication,
+	description={Sicherheitsmechanismen, die digitale Zertifikate zur Identitätsprüfung von Geräten nutzen, um deren Authentizität zu gewährleisten und sicheren Zugriff auf Netzwerke oder IT-Systeme zu ermöglichen.}
+}
+
+\newglossaryentry{dienstleistungsinnovation}{
+  name=Dienstleistungsinnovation,
+  plural=Dienstleistungsinnovationen,
+  description={Neuentwicklung oder Weiterentwicklung von Dienstleistungen zur Steigerung des Kundennutzens, z. B. durch digitale Funktionen, Zusatzleistungen oder bessere Verfügbarkeit.}
+}
+
+\newglossaryentry{differenzierung}{
+  name=Differenzierung,
+  plural=Differenzierungen,
+  description={Strategische Abgrenzung eines Produkts oder Unternehmens von Wettbewerbern durch einzigartige Merkmale, Zusatznutzen oder besondere Leistungen zur Erhöhung des Kundennutzens.}
+}
+
+\newglossaryentry{differenzierung-zeitreihe}{
+  name=Differenzierung (Zeitreihe),
+  description={Transformation zur Stabilisierung des Mittelwerts einer Zeitreihe durch Bildung von Differenzen aufeinanderfolgender Werte.}
+}
+
+\newglossaryentry{digitalefaehigkeit}{
+  name=Digitale Fähigkeit,
+  plural=Digitale Fähigkeiten,
+  description={Kompetenz eines Unternehmens, digitale Technologien strategisch und operativ wirksam zu nutzen.}
+}
+
+\newglossaryentry{digitaleorientierung}{
+  name=Digitale Orientierung,
+  plural=Digitale Orientierungen,
+  description={Gemeinsame Ausrichtung von Organisationen auf die strategischen, technologischen und kulturellen Anforderungen des digitalen Wandels.}
+}
+
+
+\newglossaryentry{digitaleplattform}{
+  name=Digitale Plattform,
+  plural=Digitale Plattformen,
+  description={Technologische Infrastruktur zur Vermittlung von Leistungen, Informationen oder Transaktionen zwischen mehreren Marktteilnehmern.}
+}
+
+
+\newglossaryentry{digitalestrategie}{
+  name=Digitale Strategie,
+  plural=Digitale Strategien,
+  description={Langfristig ausgerichteter Plan zur Nutzung digitaler Technologien zur Unterstützung von Geschäftsmodellen, Wettbewerbsfähigkeit und Innovationsfähigkeit.}
+}
+
+
+\newglossaryentry{digitaleTransformation}{
+  name=Digitale Transformation,
+  plural=Digitale Transformationen,
+  description={Tiefgreifender Wandel von Unternehmen, Prozessen und Geschäftsmodellen durch den umfassenden Einsatz digitaler Technologien.}
+}
+
+\newglossaryentry{digitaleautomatisierung}{
+  name=Digitale Automatisierung,
+  plural=Digitale Automatisierungen,
+  description={Automatisierung von Geschäftsprozessen mithilfe digitaler Technologien zur Erhöhung von Effizienz, Skalierbarkeit und Anpassungsfähigkeit.}
+}
+
+
+\newglossaryentry{disruptionsgefahr}{
+  name=Disruptionsgefahr,
+  plural=Disruptionsgefahren,
+  description={Risiko, dass bestehende Geschäftsmodelle durch neue, technologiebasierte Marktteilnehmer verdrängt oder überflüssig werden.}
+}
+
+\newglossaryentry{dockingstation}{
+  name=Dockingstation,
+  plural=Dockingstationen,
+  description={Basisstation für Robotergeräte zur automatischen Aufladung, Entleerung oder Wartung ohne manuelle Eingriffe.}
+}
+
+\newglossaryentry{domaincontroller}{
+	name=Domain Controller,
+	description={ein Server in einem Active Directory-Netzwerk, der für die Authentifizierung und Autorisierung von Benutzern und Computern zuständig ist. Er verwaltet Sicherheitsrichtlinien, Benutzerkonten und Zugriffskontrollen innerhalb einer Windows-Domäne.}
+}
+
+\newglossaryentry{durchlaufzeit}{
+  name=Durchlaufzeit,
+  plural=Durchlaufzeiten,
+  description={Zeitspanne vom Beginn bis zum Abschluss eines Prozesses oder Vorgangs, häufig verwendet zur Effizienzbewertung.}
+}
+
+%%%%%%%%%% E  %%%%%%%%%%
+
+\newglossaryentry{eam}{
+	name=Enterprise Access Model (EAM),
+	description={ein strukturiertes Modell zur Verwaltung von Identitäten und Zugriffsrechten, das Prinzipien der Sicherheitsarchitektur mit Identitäts- und Zugriffskontrolle kombiniert.}
+}
+
+\newglossaryentry{erloesstrategie}{
+  name=Erlösstrategie,
+  plural=Erlösstrategien,
+  description={Geplante Struktur und Zusammensetzung von Einnahmequellen eines Unternehmens zur Sicherstellung langfristiger Wirtschaftlichkeit.}
+}
+
+
+\newglossaryentry{earlyadopter}{
+  name=Early Adopter,
+  plural=Early Adopters,
+  description={Personengruppe, die neue Technologien besonders früh annimmt und als Multiplikator für deren Marktdurchdringung gilt.}
+}
+
+\newglossaryentry{ebit}{
+  name=EBIT,
+  description={Abkürzung für „Earnings Before Interest and Taxes“; betriebswirtschaftliche Kennzahl zur Messung des operativen Ergebnisses eines Unternehmens vor Zinsen und Steuern.}
+}
+
+\newglossaryentry{ebitmarge}{
+  name=EBIT-Marge,
+  plural=EBIT-Margen,
+  description={Kennzahl zur Bewertung der operativen Profitabilität eines Unternehmens; berechnet als Verhältnis von EBIT (Earnings Before Interest and Taxes) zum Umsatz.}
+}
+
+\newglossaryentry{echtzeitsteuerung}{
+  name=Echtzeitsteuerung,
+  plural=Echtzeitsteuerungen,
+  description={Datenbasierte Prozess- oder Entscheidungssteuerung, die in unmittelbarer zeitlicher Nähe zum Ereignis erfolgt und flexible Reaktionen ermöglicht.}
+}
+
+\newglossaryentry{edr}{
+	name=Endpoint Detection and Response (EDR),
+	description={eine Sicherheitslösung, die Endgeräte kontinuierlich überwacht, verdächtige Aktivitäten analysiert und auf Bedrohungen reagiert, um Angriffe frühzeitig zu erkennen und zu stoppen.}
+}
+
+\newglossaryentry{effizienz}{
+  name=Effizienz,
+  plural=Effizienzen,
+  description={Verhältnis von erreichtem Output zu eingesetztem Input, mit dem Ziel, Ressourcenverbrauch, Zeitaufwand und Kosten zu minimieren.}
+}
+
+\newglossaryentry{einnahmequelle}{
+  name=Einnahmequelle,
+  plural=Einnahmequellen,
+  description={Ursprung der Umsätze eines Unternehmens, z. B. Produktverkäufe, Abonnements oder Dienstleistungen.}
+}
+
+\newglossaryentry{einzelinitiative}{
+  name=Einzelinitiative,
+  plural=Einzelinitiativen,
+  description={Isoliertes Vorgehen einzelner Personen oder Abteilungen ohne strategische Abstimmung oder Integration in übergeordnete Strukturen.}
+}
+
+\newglossaryentry{einzelmassnahme}{
+  name=Einzelmaßnahme,
+  plural=Einzelmaßnahmen,
+  description={Isolierte, nicht in ein Gesamtkonzept eingebettete Aktivität zur Zielerreichung, oft ohne strategische Integration.}
+}
+
+\newglossaryentry{emailbetrug}{
+	name=E-Mail-Betrug,
+	description={eine Betrugsmasche, bei der Angreifer gefälschte E-Mails versenden, um persönliche Daten zu stehlen, Schadsoftware zu verbreiten oder zu finanziellen Transaktionen zu verleiten.}
+}
+
+
+\newglossaryentry{embodiedai}{
+  name=Embodied AI,
+  description={Künstliche Intelligenz, die in einem physischen System verankert ist und durch Interaktion mit der Umwelt selbstständig lernt.}
+}
+
+\newglossaryentry{enablement}{
+  name=Enablement,
+  plural=Enablements,
+  description={Ermöglichung neuer Produkte, Dienstleistungen oder Geschäftsmodelle durch den gezielten Einsatz von Technologien, Prozessen oder Kompetenzen.}
+}
+
+\newglossaryentry{entscheidungsunterstuetzungssystem}{
+  name=Entscheidungsunterstützungssystem,
+  plural=Entscheidungsunterstützungssysteme,
+  description={Informationssystem, das Entscheidungsträger durch datenbasierte Analysen, Simulationen oder Empfehlungen bei komplexen Fragestellungen unterstützt.}
+}
+
+
+\newglossaryentry{entra}{
+	name=Microsoft Entra,
+	description={eine Suite von Identitäts- und Zugriffslösungen von Microsoft, die moderne Sicherheits- und Verwaltungsfunktionen für hybride und Cloud-Umgebungen bietet.}
+}
+
+\newglossaryentry{entraid}{
+	name=Entra ID,
+	description={der cloudbasierte Identitäts- und Zugriffsverwaltungsdienst von Microsoft, ehemals bekannt als Azure Active Directory (AAD), der Authentifizierung, Autorisierung und Sicherheitsrichtlinien für Benutzer, Geräte und Anwendungen bereitstellt.}
+}
+
+\newglossaryentry{entraidprotection}{
+	name=Microsoft Entra ID Protection,
+	description={ein cloudbasierter Sicherheitsdienst von Microsoft, der mithilfe von maschinellem Lernen und künstlicher Intelligenz Identitätsbedrohungen erkennt, risikobasierte Zugriffskontrollen ermöglicht und verdächtige Anmeldeaktivitäten automatisch analysiert.}
+}
+
+\newglossaryentry{erfolgsfaktor}{
+  name=Erfolgsfaktor,
+  plural=Erfolgsfaktoren,
+  description={Bedingung oder Einflussgröße, die maßgeblich zum Erreichen unternehmerischer Ziele beiträgt.}
+}
+
+\newglossaryentry{erloeslogik}{
+  name=Erlöslogik,
+  plural=Erlöslogiken,
+  description={Grundlegendes Prinzip, nach dem ein Unternehmen aus seinen Leistungen Umsätze generiert; Bestandteil des Geschäftsmodells.}
+}
+
+\newglossaryentry{entscheidungsprozess}{
+  name=Entscheidungsprozess,
+  plural=Entscheidungsprozesse,
+  description={Abfolge von Schritten zur Auswahl zwischen Alternativen unter Berücksichtigung von Informationen, Zielen und Rahmenbedingungen.}
+}
+
+\newglossaryentry{erfolgsmessung}{
+  name=Erfolgsmessung,
+  plural=Erfolgsmessungen,
+  description={Bewertung der Zielerreichung anhand zuvor definierter Kennzahlen, Indikatoren oder qualitativer Kriterien.}
+}
+
+\newglossaryentry{ertragsmodell}{
+  name=Ertragsmodell,
+  plural=Ertragsmodelle,
+  description={Struktur eines Geschäftsmodells, die beschreibt, wie ein Unternehmen Umsätze generiert, z. B. durch Verkauf, Abonnement oder Lizenzierung.}
+}
+
+\newglossaryentry{erweiterte-korrelationsmatrix}{
+    name=Erweiterte Korrelationsmatrix,
+    plural=Erweiterte Korrelationsmatrizen,
+    description={Korrelationsmatrix, die neben den klassischen linearen Zusammenhängen auch zusätzliche Wettervariablen, Extremwerte oder aggregierte Größen einbezieht, um komplexere Abhängigkeiten zwischen Variablen sichtbar zu machen.}
+}
+
+\newglossaryentry{erwaermungstrend}{
+    name=Erwärmungstrend,
+    plural=Erwärmungstrends,
+    description={Langfristige Zunahme der durchschnittlichen Temperatur über einen definierten Zeitraum hinweg, häufig im Zusammenhang mit dem Klimawandel.}
+}
+
+\newglossaryentry{explorativeanalyse}{
+    name=Explorative Analyse,
+    description={Erster Schritt der Datenanalyse zur Entdeckung von Mustern, Zusammenhängen und Auffälligkeiten ohne vorab formulierte Hypothesen.}
+}
+
+\newglossaryentry{explorativedatenanalyse}{
+    name=Explorative Datenanalyse (EDA),
+    description={Ein Verfahren zur ersten Untersuchung und Visualisierung von Daten, um Muster, Ausreißer und Zusammenhänge zu erkennen.}
+}
+
+\newglossaryentry{exponentielle-glaettung}{
+    name=Exponentielle Glättung,
+    description={Methode zur Glättung von Zeitreihen, bei der jüngere Beobachtungen stärker gewichtet werden als ältere, um kurzfristige Muster besser zu erfassen.}
+}
+
+\newglossaryentry{extremereignis}{
+    name=Extremereignis,
+    plural=Extremereignisse,
+    description={Seltenes, statistisch auffälliges Ereignis mit ungewöhnlich hohen oder niedrigen Werten im Vergleich zur langjährigen Verteilung.}
+}
+
+\newglossaryentry{extremwert}{
+    name=Extremwert,
+    plural=Extremwerte,
+    description={Datenpunkt, der besonders hoch oder niedrig im Vergleich zum Rest des Datensatzes liegt und oft besondere Ereignisse abbildet.}
+}
+
+\newglossaryentry{extremwetterereignis}{
+    name=Extremwetterereignis,
+    plural=Extremwetterereignisse,
+    description={Wetterphänomene, die in einem bestimmten Zeitraum außergewöhnlich intensiv oder selten auftreten, wie Hitzewellen oder Starkregen.}
+}
+
+%%%%%%%%%%  F %%%%%%%%%%
+
+\newglossaryentry{fehlerquote}{
+  name=Fehlerquote,
+  plural=Fehlerquoten,
+  description={Anteil fehlerhafter Ergebnisse oder Prozessabweichungen im Verhältnis zur Gesamtmenge aller Vorgänge.}
+}
+
+\newglossaryentry{festkoerperlidar}{
+  name=Festkörper-LiDAR,
+  description={Kompaktes, robustes Lasersensorsystem ohne bewegliche Teile zur Erfassung von Entfernungen und Umgebungsstrukturen.}
+}
+
+\newglossaryentry{fiveforces}{
+  name=Five Forces,
+  description={Modell nach Porter zur Analyse der Wettbewerbskräfte in einer Branche anhand von fünf Einflussfaktoren wie Lieferanten, Kunden und Markteintrittsbarrieren.}
+}
+
+\newglossaryentry{forschungundentwicklung}{
+  name=Forschung und Entwicklung (F\&E),
+  description={Unternehmensbereich, der für die Entwicklung neuer Produkte, Technologien oder Prozesse sowie für Innovationsprojekte zuständig ist.}
+}
+
+\newglossaryentry{foundationmodel}{
+  name=Foundation Model,
+  plural=Foundation Models,
+  description={Großes, vortrainiertes KI-Modell, das vielseitig einsetzbar ist und unterschiedliche Aufgaben wie Sprach- oder Bilderkennung übernehmen kann.}
+}
+
+\newglossaryentry{freeipa}{
+	name=FreeIPA,
+	description={eine Open-Source-Lösung für Identitäts- und Zugriffsmanagement unter Linux, die Funktionen wie Benutzerverwaltung, Authentifizierung, Autorisierung und PKI-Integration bietet.}
+}
+
+%%%%%%%%%% G  %%%%%%%%%%
+
+\newglossaryentry{gefaehrlicheshalbwissen}{
+  name=Gefährliches Halbwissen,
+  plural=Gefährliche Halbwissen,
+  description={Unvollständiges oder verzerrtes Wissen, das in Entscheidungsprozessen zu Fehlinterpretationen oder unkoordiniertem Handeln führen kann.}
+}
+
+\newglossaryentry{geopolitik}{
+  name=Geopolitik,
+  description={Einfluss politischer, wirtschaftlicher und geografischer Faktoren auf internationale Beziehungen und wirtschaftliche Abhängigkeiten.}
+}
+
+\newglossaryentry{geraeteauthentifizierung}{
+	name=Geräteauthentifizierung,
+	description={ein Sicherheitsmechanismus zur Überprüfung der Identität eines Endgeräts, bevor es Zugriff auf ein Netzwerk oder eine Ressource erhält. Dies kann durch Zertifikate, Tokens oder andere kryptografische Verfahren erfolgen.}
+}
+
+\newglossaryentry{geschaeftsmodell}{
+  name=Geschäftsmodell,
+  plural=Geschäftsmodelle,
+  description={Darstellung der grundlegenden Logik, wie ein Unternehmen Werte schafft, vermittelt und erfasst.}
+}
+
+\newglossaryentry{geschaeftsmodellinnovation}{
+  name=Geschäftsmodellinnovation,
+  plural=Geschäftsmodellinnovationen,
+  description={Weiterentwicklung oder radikale Veränderung der bestehenden Geschäftslogik eines Unternehmens zur Erschließung neuer Märkte oder zur Erhöhung der Wettbewerbsfähigkeit.}
+}
+
+\newglossaryentry{geschaeftsprozess}{
+  name=Geschäftsprozess,
+  plural=Geschäftsprozesse,
+  description={Strukturierte Abfolge von Aktivitäten zur Erstellung eines Produkts oder einer Dienstleistung mit Mehrwert für Kunden oder interne Anspruchsgruppen.}
+}
+
+\newglossaryentry{greifarm}{
+  name=Greifarm,
+  plural=Greifarme,
+  description={Mechanischer Arm eines Roboters, der Objekte gezielt erkennen, greifen und bewegen kann, häufig mithilfe von Sensorik und KI.}
+}
+
+\newglossaryentry{greifarmtechnologie}{
+  name=Greifarmtechnologie,
+  plural=Greifarmtechnologien,
+  description={Technologische Komponenten und Steuerungssysteme, die es Robotern ermöglichen, Objekte gezielt zu erfassen, zu bewegen oder zu manipulieren.}
+}
+
+
+\newglossaryentry{grid-search}{
+    name=Grid Search,
+    description={Systematische Methode zur Optimierung von Modellparametern durch das Durchprobieren aller Kombinationen innerhalb eines definierten Suchraums.}
+}
+
+%%%%%%%%%% H  %%%%%%%%%%
+
+\newglossaryentry{handlungsdruck}{
+  name=Handlungsdruck,
+  plural=Handlungsdrücke,
+  description={Gefühl oder Notwendigkeit, kurzfristig Maßnahmen ergreifen zu müssen, häufig ausgelöst durch externe Erwartungen oder Unsicherheit.}
+}
+
+\newglossaryentry{haushaltsassistenz}{
+  name=Haushaltsassistenz,
+  description={Technologiebasierte Unterstützung bei alltäglichen Aufgaben im Haushalt, etwa durch Roboter oder smarte Systeme.}
+}
+
+\newglossaryentry{heatmap}{
+    name=Heatmap,
+    plural=Heatmaps,
+    description={Visualisierungsmethode, bei der Werte durch Farbkodierung dargestellt werden, um Muster oder Anomalien sichtbar zu machen.}
+}
+
+\newglossaryentry{heterogenitaet}{
+    name=Heterogenität,
+    plural=Heterogenitäten,
+    description={Maß für die Verschiedenartigkeit oder Uneinheitlichkeit innerhalb einer Gruppe oder eines Datensatzes, z.\,B.\ in Bezug auf Struktur, Eigenschaften oder Verhalten.}
+}
+
+\newglossaryentry{hitzetag}{
+    name=Hitzetag,
+    plural=Hitzetage,
+    description={Tag mit außergewöhnlich hoher Temperatur, meist definiert über eine Schwelle wie 30 °C, häufig Indikator für Hitzewellen.}
+}
+
+\newglossaryentry{hitzewelle}{
+    name=Hitzewelle,
+    plural=Hitzewellen,
+    description={Auftreten mehrerer Hitzetage in Folge; ein typisches Extremwetterereignis mit möglichen gesundheitlichen und ökologischen Folgen.}
+}
+
+\newglossaryentry{holtwinters}{
+    name=Holt-Winters Modell,
+    description={Ein Verfahren zur Zeitreihenprognose, das Trend- und saisonale Muster durch exponentielle Glättung berücksichtigt.}
+}
+
+%%%%%%%%%% I  %%%%%%%%%%
+
+\newglossaryentry{iam}{
+	name=Identity and Access Management (IAM),
+	description={ein Framework zur Verwaltung von Benutzeridentitäten und Zugriffsrechten innerhalb eines Unternehmens.}
+}
+
+\newglossaryentry{identitymanagement}{
+	name=Identity Management (IdM),
+	description={ein Prozess zur Verwaltung digitaler Identitäten, der die Erstellung, Pflege und Kontrolle von Benutzerkonten sowie deren Berechtigungen umfasst. Ziel ist es, den Zugriff auf IT-Systeme sicher und effizient zu steuern, indem Authentifizierung und Autorisierung zentral verwaltet werden.}
+}
+
+\newglossaryentry{imputation}{
+    name=Imputation,
+    description={Statistisches Verfahren zum Ersetzen fehlender Werte in einem Datensatz durch plausible Schätzwerte, um die Analyse zu ermöglichen.}
+}
+
+\newglossaryentry{informationprotection}{
+	name=Information Protection,
+	description={eine Sicherheitsstrategie und Technologie zur Klassifizierung, Verschlüsselung und Zugriffskontrolle sensibler Daten, um unautorisierte Offenlegung oder Manipulation zu verhindern.}
+}
+
+\newglossaryentry{innovationsdruck}{
+  name=Innovationsdruck,
+  plural=Innovationsdrücke,
+  description={Zwang zur kontinuierlichen Erneuerung von Produkten, Prozessen oder Geschäftsmodellen zur Sicherung der Wettbewerbsfähigkeit.}
+}
+
+\newglossaryentry{innovationsmanagement}{
+  name=Innovationsmanagement,
+  plural=Innovationsmanagements,
+  description={Planung, Steuerung und Kontrolle von Innovationsprozessen in Unternehmen zur Entwicklung und Umsetzung neuer Produkte, Dienstleistungen oder Geschäftsmodelle.}
+}
+
+\newglossaryentry{integritaet}{
+	name=Integrität,
+	description={ein Sicherheitsprinzip der CIA-Triad, das sicherstellt, dass Daten unverändert, vollständig und vor unbefugter Manipulation geschützt bleiben.}
+}
+
+\newglossaryentry{ids}{
+	name=Intrusion Detection System (IDS),
+	description={ein Sicherheitssystem, das Netzwerke und IT-Systeme auf verdächtige Aktivitäten oder Sicherheitsverletzungen überwacht und diese meldet. IDS können zwischen signaturbasierten und verhaltensbasierten Erkennungsmethoden unterscheiden.}
+}
+
+\newglossaryentry{iqr-methode}{
+    name=IQR-Methode,
+    description={Verfahren zur Identifikation von Ausreißern anhand des Interquartilsabstands, das häufig in der explorativen Datenanalyse eingesetzt wird.}
+}
+
+\newglossaryentry{iso27001}{
+	name=ISO 27001,
+	description={eine internationale Norm für Informationssicherheits-Managementsysteme (ISMS), die Anforderungen an die Planung, Implementierung, Überwachung und Verbesserung der Informationssicherheit in Unternehmen und Organisationen definiert.}
+}
+
+\newglossaryentry{itsystem}{
+  name=IT-System,
+  plural=IT-Systeme,
+  description={Technische Infrastruktur aus Hard- und Softwarekomponenten zur elektronischen Verarbeitung, Speicherung und Übertragung von Informationen.}
+}
+
+
+%%%%%%%%%% K  %%%%%%%%%%
+
+\newglossaryentry{kaelteereignis}{
+    name=Kälteereignis,
+    plural=Kälteereignisse,
+    description={Wetterlage mit extrem niedrigen Temperaturen, typischerweise im Winter; kann Auswirkungen auf Mensch, Infrastruktur und Natur haben.}
+}
+
+\newglossaryentry{kennwert}{
+    name=Kennwert,
+    plural=Kennwerte,
+    description={Zusammenfassende statistische Größe zur Beschreibung eines Datensatzes, z.\,B.\ Mittelwert, Median oder Standardabweichung.}
+}
+
+\newglossaryentry{kennzahl}{
+  name=Kennzahl,
+  plural=Kennzahlen,
+  description={Messgröße zur quantitativen Bewertung von Prozessen, Leistungen oder Zielerreichung innerhalb eines Unternehmens.}
+}
+
+\newglossaryentry{ki}{
+  name=Künstliche Intelligenz,
+  plural=Künstliche Intelligenzen,
+  description={Teilgebiet der Informatik, das Maschinen befähigt, menschenähnliche Entscheidungs- und Lernprozesse durchzuführen.}
+}
+
+
+\newglossaryentry{kianomalieanalysen}{
+	name=KI-Anomalieanalysen,
+	description={die Nutzung von Künstlicher Intelligenz (KI) und maschinellem Lernen zur Erkennung ungewöhnlicher oder verdächtiger Aktivitäten in IT-Systemen, Netzwerken oder Benutzerverhalten, um potenzielle Sicherheitsbedrohungen frühzeitig zu identifizieren.}
+}
+
+\newglossaryentry{ki-gestuetzte-bedrohungsanalyse}{
+    name=KI-gestützte Bedrohungsanalyse,
+    plural=KI-gestützte Bedrohungsanalysen,
+    description={Analyseverfahren zur Identifikation potenzieller Sicherheitsbedrohungen, bei dem künstliche Intelligenz eingesetzt wird, um Zugriffsmuster, Anomalien und ungewöhnliche Aktivitäten automatisiert zu erkennen.}
+}
+
+
+\newglossaryentry{kiaccesscontrol}{
+    name=KI-gestützte Zugriffskontrolle (KIAccessControl),
+    description={Automatisierte Verwaltung von Zugriffsrechten mithilfe Künstlicher Intelligenz, um Sicherheitsrichtlinien effizienter durchzusetzen und Risiken frühzeitig zu erkennen.}
+}
+
+\newglossaryentry{kizugriffskontrolle}{
+	name=KI-gestützte Zugriffskontrollen,
+	description={automatisierte Zugriffskontrollmechanismen, die Künstliche Intelligenz (KI) und maschinelles Lernen nutzen, um Zugriffsentscheidungen basierend auf Echtzeitdaten, Nutzerverhalten und Risikobewertungen dynamisch anzupassen.}
+}
+
+\newglossaryentry{kiberechtigungsmanagement}{
+	name=KI-gestütztes Berechtigungsmanagement,
+	description={der Einsatz von Künstlicher Intelligenz (KI) und maschinellem Lernen zur dynamischen Verwaltung und Anpassung von Zugriffsrechten, um Sicherheitsrisiken zu minimieren und Berechtigungen in Echtzeit basierend auf Nutzerverhalten und Kontextfaktoren zu steuern.}
+}
+
+\newglossaryentry{kigestuetztesystem}{
+  name=KI-gestütztes System,
+  plural=KI-gestützte Systeme,
+  description={Informationssystem, das auf Verfahren der Künstlichen Intelligenz basiert, um automatisierte Entscheidungen zu treffen oder adaptive Funktionen bereitzustellen.}
+}
+
+
+\newglossaryentry{klimaindex}{
+    name=Klimaindex,
+    plural=Klimaindizes,
+    description={Indikator zur Beschreibung großräumiger klimatischer Phänomene wie El Niño oder die Nordatlantische Oszillation.}
+}
+
+\newglossaryentry{klimatische-verschiebung}{
+    name=Klimatische Verschiebung,
+    description={Langfristige Veränderung in klimatischen Mustern, z.\,B.\ durch veränderte Häufigkeit extremer Wetterlagen oder veränderte Jahreszeitenverläufe.}
+}
+
+\newglossaryentry{klimawandel}{
+    name=Klimawandel,
+    description={Langfristige Veränderung des globalen oder regionalen Klimas, insbesondere im Hinblick auf Temperatur, Niederschlag und Extremereignisse.}
+}
+
+\newglossaryentry{kommunale-anpassungsplanung}{
+    name=Kommunale Anpassungsplanung,
+    description={Lokale Strategien und Maßnahmen zur Reaktion auf klimatische Veränderungen, basierend auf regionaler Datenauswertung und Risikoabschätzung.}
+}
+
+\newglossaryentry{kompromittiertekonten}{
+	name=kompromittierte Konten,
+	description={Benutzerkonten, deren Zugangsdaten durch Cyberangriffe, Phishing oder Schadsoftware gestohlen wurden und die von Angreifern für unbefugte Zugriffe oder schädliche Aktivitäten missbraucht werden können.}
+}
+
+\newglossaryentry{kostenstruktur}{
+  name=Kostenstruktur,
+  description={Gesamtheit aller anfallenden Kostenarten eines Geschäftsmodells, gegliedert nach Fixkosten, variablen Kosten und Investitionen.}
+}
+
+\newglossaryentry{konfidenzintervall}{
+    name=Konfidenzintervall,
+    plural=Konfidenzintervalle,
+    description={Intervall, das den Bereich angibt, in dem ein unbekannter Parameter mit einer bestimmten Wahrscheinlichkeit liegt; typischerweise verwendet in der statistischen Schätzung.}
+}
+
+\newglossaryentry{kontextbezogeneReaktion}{
+  name=Kontextbezogene Reaktion,
+  plural=Kontextbezogene Reaktionen,
+  description={Reaktion eines Systems, die sich an der jeweiligen Umgebung, Situation oder Nutzerinteraktion orientiert und entsprechend angepasst wird.}
+}
+
+\newglossaryentry{konvertierung}{
+    name=Konvertierung,
+    plural=Konvertierungen,
+    description={Technischer Vorgang zur Umwandlung von Daten in ein anderes Format, z.\,B.\ von Text in Zahlen oder von einem Datentyp in einen anderen.}
+}
+
+\newglossaryentry{konzernstruktur}{
+  name=Konzernstruktur,
+  plural=Konzernstrukturen,
+  description={Aufbau und rechtliche Organisation eines Unternehmensverbundes mit Muttergesellschaft und verbundenen Tochtergesellschaften.}
+}
+
+\newglossaryentry{korrelation}{
+    name=Korrelation,
+    plural=Korrelationen,
+    description={Statistisches Maß für die Stärke und Richtung eines linearen Zusammenhangs zwischen zwei Variablen. Positive Korrelation bedeutet, dass beide Variablen tendenziell gemeinsam steigen oder fallen, negative Korrelation bedeutet gegenläufiges Verhalten.}
+}
+
+\newglossaryentry{korrelationsmatrix}{
+    name=Korrelationsmatrix,
+    plural=Korrelationsmatrizen,
+    description={Symmetrische Matrix, die alle paarweisen Korrelationen zwischen mehreren Variablen enthält.}
+}
+
+\newglossaryentry{kuenstlicheintelligenz}{
+  name=Künstliche Intelligenz,
+  plural=Künstliche Intelligenzen,
+  description={Teilgebiet der Informatik, das sich mit der Nachbildung kognitiver Fähigkeiten durch Maschinen zur Lösung komplexer Aufgaben befasst.}
+}
+
+\newglossaryentry{kundenbeziehung}{
+  name=Kundenbeziehung,
+  plural=Kundenbeziehungen,
+  description={Art und Weise, wie ein Unternehmen mit seinen Kundinnen und Kunden interagiert, kommuniziert und Bindung aufbaut.}
+}
+
+\newglossaryentry{kundennutzen}{
+  name=Kundennutzen,
+  plural=Kundennutzen,
+  description={Wahrgenommener Mehrwert eines Produkts oder einer Dienstleistung aus Sicht der Nutzerinnen und Nutzer.}
+}
+
+\newglossaryentry{kundensegment}{
+  name=Kundensegment,
+  plural=Kundensegmente,
+  description={Abgegrenzte Zielgruppe mit ähnlichen Bedürfnissen, die ein Unternehmen gezielt adressiert.}
+}
+
+%%%%%%%%%% L  %%%%%%%%%%
+
+\newglossaryentry{langzeitdaten}{
+    name=Langzeitdaten,
+    description={Daten, die über einen langen Zeitraum hinweg kontinuierlich erhoben wurden und zeitliche Entwicklungen abbilden.}
+}
+
+\newglossaryentry{lateraleangriffe}{
+	name=laterale Angriffe,
+	description={eine Angriffstechnik, bei der sich Angreifer nach dem initialen Zugriff innerhalb eines Netzwerks horizontal bewegen, um weitere Systeme zu kompromittieren und höhere Berechtigungen zu erlangen.}
+}
+
+\newglossaryentry{leastprivilegeaccess}{
+	name=Least Privilege Access,
+	description={ein Sicherheitsprinzip, das sicherstellt, dass Benutzer, Anwendungen und Systeme nur die minimal notwendigen Berechtigungen erhalten, um ihre Aufgaben auszuführen, wodurch das Risiko von Missbrauch und Sicherheitsverletzungen reduziert wird.}
+}
+
+\newglossaryentry{legacytiermodel}{
+	name=Legacy Tier Model,
+	description={ein hierarchisches Sicherheitsmodell zur Verwaltung von Zugriffsrechten, das IT-Systeme in drei Ebenen unterteilt: Tier 0 für kritische Infrastrukturen, Tier 1 für geschäftskritische IT-Dienste und Tier 2 für Endbenutzergeräte. Es dient dazu, privilegierte Zugriffe zu segmentieren und Sicherheitsrisiken zu minimieren.}
+}
+
+\newglossaryentry{leistungskennzahl}{
+  name=Leistungskennzahl,
+  plural=Leistungskennzahlen,
+  description={Quantitative Größe zur Bewertung der Leistung oder Zielerreichung eines Unternehmens, z. B. EBIT-Marge, Wiederkaufrate oder Fehlerquote.}
+}
+
+\newglossaryentry{lernalgorithmus}{
+  name=Lernalgorithmus,
+  plural=Lernalgorithmen,
+  description={Algorithmus, der auf Basis von Daten selbstständig Muster erkennt und sein Verhalten kontinuierlich anpasst.}
+}
+
+\newglossaryentry{lernplattform}{
+  name=Lernplattform,
+  plural=Lernplattformen,
+  description={Digitale Umgebung zur Bereitstellung, Durchführung und Verwaltung von Lern- und Qualifizierungsangeboten.}
+}
+
+\newglossaryentry{lessonslearned}{
+  name=Lessons Learned,
+  plural=Lessons Learned,
+  description={Systematisch dokumentierte Erkenntnisse aus abgeschlossenen Projekten oder Prozessen, die für zukünftige Vorhaben genutzt werden, um Fehler zu vermeiden und bewährte Praktiken zu wiederholen.}
+}
+
+\newglossaryentry{lidar}{
+  name=LiDAR,
+  description={Abkürzung für „Light Detection and Ranging“; optisches Messverfahren zur präzisen Entfernungsmessung und Umgebungserfassung mittels Laserimpulsen.}
+}
+
+\newglossaryentry{lieferkette}{
+  name=Lieferkette,
+  plural=Lieferketten,
+  description={Gesamtheit aller Stufen eines Produktions- und Lieferprozesses, von der Rohstoffgewinnung über die Fertigung bis zur Auslieferung an Endkunden.}
+}
+
+
+\newglossaryentry{lineare-trendlinie}{
+    name=Lineare Trendlinie,
+    plural=Lineare Trendlinien,
+    description={Gerade, die mithilfe einer linearen Regression durch einen Datensatz gelegt wird, um einen langfristigen Trend darzustellen.}
+}
+
+
+\newglossaryentry{loganalysen}{
+	name=Log-Analysen,
+	description={die systematische Auswertung von Protokolldateien (Logs), um sicherheitsrelevante Ereignisse, Anomalien oder verdächtige Aktivitäten zu identifizieren und die IT-Sicherheit sowie Compliance-Anforderungen zu verbessern.}
+}
+
+\newglossaryentry{logistiksystem}{
+  name=Logistiksystem,
+  plural=Logistiksysteme,
+  description={Gesamtheit der Strukturen und Prozesse zur Planung, Steuerung und Durchführung von Transport, Lagerung und Umschlag von Gütern.}
+}
+
+%%%%%%%%%% M  %%%%%%%%%%
+
+\newglossaryentry{malware}{
+	name=Malware,
+	description={eine Sammelbezeichnung für schädliche Software, die entwickelt wurde, um IT-Systeme zu infiltrieren, Daten zu stehlen oder Schaden anzurichten, z. B. durch Viren, Trojaner oder Spyware.}
+}
+
+\newglossaryentry{managementsteuerung}{
+  name=Managementsteuerung,
+  plural=Managementsteuerungen,
+  description={Führung und Ausrichtung eines Unternehmens durch Planung, Kontrolle und Entscheidungsfindung auf Basis strategischer Ziele.}
+}
+
+\newglossaryentry{marktanteil}{
+  name=Marktanteil,
+  plural=Marktanteile,
+  description={Anteil eines Unternehmens am Gesamtumsatz oder Absatz in einem definierten Markt, meist ausgedrückt in Prozent.}
+}
+
+\newglossaryentry{marktposition}{
+  name=Marktposition,
+  plural=Marktpositionen,
+  description={Stellung eines Unternehmens oder Produkts im Wettbewerbsumfeld, gemessen z. B. an Marktanteilen, Bekanntheit oder Wahrnehmung.}
+}
+
+\newglossaryentry{marktsegmentierung}{
+  name=Marktsegmentierung,
+  plural=Marktsegmentierungen,
+  description={Aufteilung eines Gesamtmarkts in homogene Teilmärkte, um gezielt auf unterschiedliche Bedürfnisse und Merkmale von Kundengruppen eingehen zu können.}
+}
+
+\newglossaryentry{maschinelles-lernen}{
+    name=Maschinelles Lernen,
+    description={Teilbereich der künstlichen Intelligenz, bei dem Algorithmen auf Basis von Beispieldaten Muster erkennen und Vorhersagen treffen können.}
+}
+
+\newglossaryentry{messstation}{
+    name=Messstation,
+    plural=Messstationen,
+    description={Ort oder Einrichtung zur kontinuierlichen Erfassung von Wetter- oder Klimadaten wie Temperatur, Niederschlag oder Luftdruck.}
+}
+
+\newglossaryentry{mikroklima}{
+    name=Mikroklima,
+    plural=Mikroklimata,
+    description={Lokal begrenzte klimatische Bedingungen, die sich durch spezielle Gegebenheiten wie Bebauung, Vegetation oder Topografie vom regionalen Klima unterscheiden.}
+}
+
+\newglossaryentry{mitarbeiterschulung}{
+  name=Mitarbeiterschulung,
+  plural=Mitarbeiterschulungen,
+  description={Maßnahme zur systematischen Erweiterung von Wissen und Fähigkeiten von Mitarbeitenden im Rahmen organisationaler Weiterentwicklung.}
+}
+
+
+\newglossaryentry{mittelstand}{
+  name=Mittelstand,
+  plural=Mittelstandsunternehmen,
+  description={Bezeichnung für kleine und mittlere Unternehmen (KMU), die typischerweise eigentümergeführt sind und eine zentrale Rolle in der Wirtschaftsstruktur einnehmen.}
+}
+
+
+\newglossaryentry{modellguete}{
+    name=Modellgüte,
+    description={Maß für die Qualität und Genauigkeit eines Modells im Hinblick auf die Übereinstimmung zwischen vorhergesagten und tatsächlichen Werten.}
+}
+
+\newglossaryentry{modellparameter}{
+    name=Modellparameter,
+    plural=Modellparameter,
+    description={Einstellungen innerhalb eines Prognosemodells, die dessen Verhalten bestimmen, z.\,B.\ Ordnung des AR- oder MA-Anteils.}
+}
+
+\newglossaryentry{modellvariable}{
+    name=Modellvariable,
+    plural=Modellvariablen,
+    description={Eingangsgröße eines statistischen Modells, die als erklärende oder zu prognostizierende Komponente dient.}
+}
+
+\newglossaryentry{multikollinearitaet}{
+    name=Multikollinearität,
+    description={Starke Korrelation zwischen zwei oder mehr unabhängigen Variablen in einem Regressionsmodell, die zu instabilen Schätzungen führen kann.}
+}
+
+%%%%%%%%%%  M %%%%%%%%%%
+
+\newglossaryentry{marktsegment}{
+  name=Marktsegment,
+  plural=Marktsegmente,
+  description={Teilmarkt mit spezifischen Kundengruppen, Bedürfnissen oder Eigenschaften, der gezielt durch Marketing und Angebote adressiert wird.}
+}
+
+\newglossaryentry{median}{
+    name=Median,
+    description={Zentralwert einer geordneten Datenreihe, bei dem 50\,\% der Werte kleiner und 50\,\% größer sind.}
+}
+
+\newglossaryentry{mfa}{
+	name=Multi-Faktor-Authentifizierung (MFA),
+	description={eine Sicherheitsmethode, die eine zusätzliche Verifikationsebene erfordert, beispielsweise durch eine Kombination aus Passwort und biometrischer Authentifizierung.}
+}
+
+\newglossaryentry{microsegmentierung}{
+    name=Mikrosegmentierung,
+    description={eine Sicherheitsstrategie zur Netzwerksegmentierung, bei der IT-Ressourcen in kleine, isolierte Segmente unterteilt werden, um laterale Bewegungen von Angreifern zu verhindern.}
+}
+
+\newglossaryentry{midrangesegment}{
+  name=Midrange-Segment,
+  description={Mittleres Marktsegment mit ausgewogenem Verhältnis von Preis und Leistung zwischen Einsteiger- und Premiumklasse.}
+}
+
+\newglossaryentry{mittelwert}{
+    name=Mittelwert,
+    description={Durchschnittswert einer Zahlenreihe, berechnet durch die Summe aller Werte geteilt durch deren Anzahl.}
+}
+
+\newglossaryentry{modellanpassung}{
+    name=Modellanpassung,
+    plural=Modellanpassungen,
+    description={Prozess der Justierung eines Modells an vorhandene Daten durch Optimierung seiner Parameter zur Minimierung von Fehlermaßen.}
+}
+
+\newglossaryentry{modellstruktur}{
+    name=Modellstruktur,
+    plural=Modellstrukturen,
+    description={Aufbau und Zusammensetzung eines statistischen Modells, z.\,B.\ hinsichtlich seiner Komponenten wie Trend, Saisonalität und Störgrößen.}
+}
+
+\newglossaryentry{multimodaleki}{
+  name=Multimodale KI,
+  description={Künstliche Intelligenz, die verschiedene Eingabekanäle wie Sprache, Bilder und Sensordaten gleichzeitig verarbeitet und kombiniert.}
+}
+
+%%%%%%%%%%  N %%%%%%%%%%
+
+\newglossaryentry{navigation}{
+  name=Navigation,
+  description={Technologie zur gezielten Bewegung eines Roboters oder Fahrzeugs durch Raumorientierung mithilfe von Sensoren oder Algorithmen.}
+}
+
+
+
+\newglossaryentry{netzwerksegmentierung}{
+    name=Netzwerksegmentierung,
+    description={eine Sicherheitsmaßnahme zur Trennung von Netzwerken in kleinere, isolierte Bereiche, um unautorisierten Zugriff zu erschweren und Angriffsflächen zu reduzieren.}
+}
+
+\newglossaryentry{neuronales-netz}{
+    name=Neuronales Netz,
+    plural=Neuronale Netze,
+    description={Rechenmodell, das aus miteinander verbundenen Einheiten (Neuronen) besteht und zur Erkennung komplexer Muster in Daten eingesetzt wird.}
+}
+
+\newglossaryentry{nicht-stationaere-zeitreihe}{
+    name=Nicht-stationäre Zeitreihe,
+    plural=Nicht-stationäre Zeitreihen,
+    description={Zeitreihe, deren Mittelwert oder Varianz sich über die Zeit verändern, was viele Prognosemodelle einschränkt.}
+}
+
+\newglossaryentry{niederschlagsvariable}{
+    name=Niederschlagsvariable,
+    plural=Niederschlagsvariablen,
+    description={Größen zur Beschreibung von Niederschlag, z.\,B.\ Niederschlagssumme pro Monat oder Anzahl der Regentage.}
+}
+
+\newglossaryentry{nist}{
+	name=National Institute of Standards and Technology (NIST),
+	description={eine US-amerikanische Behörde, die Standards und Richtlinien für Cybersicherheit, Kryptografie und IT-Sicherheit entwickelt, darunter das NIST Cybersecurity Framework.}
+}
+
+\newglossaryentry{nps}{
+  name=Net Promoter Score,
+  plural=Net Promoter Scores,
+  description={Kennzahl zur Messung der Kundenzufriedenheit und Weiterempfehlungsbereitschaft auf einer Skala von −100 bis +100.}
+}
+
+\newglossaryentry{numerischer-datentyp}{
+    name=Numerischer Datentyp,
+    plural=Numerische Datentypen,
+    description={Datentyp zur Darstellung von Zahlen, z.\,B.\ Ganzzahlen oder Gleitkommazahlen, der mathematische Berechnungen ermöglicht.}
+}
+
+\newglossaryentry{nutzerversprechen}{
+  name=Nutzerversprechen,
+  plural=Nutzerversprechen,
+  description={Zentrale Aussage eines Geschäftsmodells über den konkreten Nutzen, den ein Produkt oder eine Dienstleistung für den Kunden stiftet.}
+}
+
+\newglossaryentry{nutzungshuerde}{
+  name=Nutzungshürde,
+  plural=Nutzungshürden,
+  description={Barriere oder Aufwand, der potenzielle Nutzerinnen und Nutzer davon abhält, ein Produkt oder eine Technologie zu verwenden.}
+}
+
+
+%%%%%%%%%% O  %%%%%%%%%%
+
+\newglossaryentry{objsensorik}{
+  name=3D-Sensorik,
+  description={Technologie zur dreidimensionalen Erfassung von Objekten und Umgebungen mithilfe von Tiefensensoren, Kameras oder Lasertechnik.}
+}
+
+\newglossaryentry{okta}{
+	name=Okta,
+	description={ein cloudbasierter Identitäts- und Zugriffsmanagementdienst, der Single Sign-On (SSO), Multi-Faktor-Authentifizierung (MFA) und Zero Trust Access Control für Unternehmen bereitstellt.}
+}
+
+\newglossaryentry{open-data}{
+    name=Open Data,
+    description={Frei verfügbare, offen lizenzierte Datenbestände, die ohne Einschränkung weiterverwendet und verbreitet werden dürfen.}
+}
+
+\newglossaryentry{operativemassnahme}{
+  name=Operative Maßnahme,
+  plural=Operative Maßnahmen,
+  description={Konkrete Handlung zur Umsetzung strategischer Ziele auf der operativen Ebene, z. B. Schulungen, Digitalisierung einzelner Prozesse oder Einführung neuer Systeme.}
+}
+
+
+%%%%%%%%%% P  %%%%%%%%%%
+
+\newglossaryentry{pacf}{
+    name=Partielle Autokorrelationsfunktion (PACF),
+    description={Ein Verfahren zur Bestimmung des direkten Einflusses früherer Werte einer Zeitreihe auf den aktuellen Wert unter Ausschluss der indirekten Effekte.}
+}
+
+\newglossaryentry{pam}{
+	name=Privileged Access Management (PAM),
+	description={ein Sicherheitsansatz zur Verwaltung und Kontrolle von privilegierten Konten und Zugriffen in IT-Systemen, um Missbrauch und unautorisierte Zugriffe zu verhindern. PAM umfasst Mechanismen wie Just-in-Time-Zugriff, Session-Monitoring und die Verwaltung von Administratorrechten.}
+}
+
+\newglossaryentry{pa}{
+  name=Pa,
+  description={Einheit des Drucks im Internationalen Einheitensystem (SI); 1 Pascal entspricht einem Druck von einem Newton pro Quadratmeter.}
+}
+
+\newglossaryentry{premiumsegment}{
+  name=Premiumsegment,
+  description={Marktbereich mit Produkten höherer Qualität, technischer Ausstattung oder Exklusivität, die zu einem überdurchschnittlichen Preis angeboten werden.}
+}
+
+\newglossaryentry{produktionsstandort}{
+  name=Produktionsstandort,
+  plural=Produktionsstandorte,
+  description={Geografischer Ort, an dem industrielle Fertigung oder Montage von Produkten erfolgt.}
+}
+
+\newglossaryentry{prozessautomatisierung}{
+  name=Prozessautomatisierung,
+  plural=Prozessautomatisierungen,
+  description={Automatisierung wiederkehrender Arbeitsabläufe mithilfe digitaler Technologien mit dem Ziel der Effizienzsteigerung und Fehlervermeidung.}
+}
+
+\newglossaryentry{prozessinnovation}{
+  name=Prozessinnovation,
+  plural=Prozessinnovationen,
+  description={Verbesserung, Neugestaltung oder Automatisierung bestehender Geschäftsprozesse zur Effizienzsteigerung, Qualitätsverbesserung oder Kostensenkung.}
+}
+
+\newglossaryentry{prozesskennzahl}{
+  name=Prozesskennzahl,
+  plural=Prozesskennzahlen,
+  description={Messgröße zur quantitativen Bewertung der Leistungsfähigkeit und Effizienz einzelner Geschäftsprozesse.}
+}
+
+\newglossaryentry{prozessoptimierung}{
+  name=Prozessoptimierung,
+  plural=Prozessoptimierungen,
+  description={Gezielte Verbesserung bestehender Prozesse hinsichtlich Effizienz, Qualität oder Ressourcennutzung.}
+}
+
+
+
+\newglossaryentry{partielle-autokorrelationsfunktion}{
+    name=Partielle Autokorrelationsfunktion,
+    plural=Partielle Autokorrelationsfunktionen,
+    description={Funktion, die den direkten Zusammenhang zwischen einem Wert und seinen gelagten Werten misst, unter Ausschluss indirekter Einflüsse.}
+}
+
+\newglossaryentry{paws}{
+	name=Privileged Access Workstations (PAWs),
+	description={spezialisierte, hochgesicherte Arbeitsstationen, die ausschließlich für administrative Aufgaben und den Zugriff auf besonders schützenswerte IT-Systeme verwendet werden, um das Risiko von Kompromittierungen durch Malware oder Phishing zu minimieren.}
+}
+
+\newglossaryentry{persistenteueberforderung}{
+  name=Persistente Überforderung,
+  plural=Persistente Überforderungen,
+  description={Dauerhaft bestehender Zustand kognitiver oder organisatorischer Überlastung, der durch komplexe, dynamische Anforderungen und mangelnde Ressourcen oder Kompetenzen verstärkt wird.}
+}
+
+\newglossaryentry{perzentil}{
+    name=Perzentil,
+    description={Statistischer Schwellenwert, der angibt, wie viel Prozent der Beobachtungen unterhalb eines bestimmten Wertes liegen.}
+}
+
+\newglossaryentry{plattformsystem}{
+  name=Plattformsystem,
+  plural=Plattformsysteme,
+  description={Technologische Infrastruktur, die den Austausch und die Verarbeitung von Daten und Prozessen zwischen verschiedenen Akteuren oder Anwendungen ermöglicht.}
+}
+
+\newglossaryentry{plattformtechnologie}{
+  name=Plattformtechnologie,
+  plural=Plattformtechnologien,
+  description={Technologische Basis, auf der verschiedene Produkte oder Dienste aufbauen können, um eine gemeinsame Infrastruktur zu nutzen.}
+}
+
+
+\newglossaryentry{policyengines}{
+	name=Policy Engines,
+	description={Regelbasierte Systeme, die Zugriffskontrollen und Sicherheitsrichtlinien in IT-Umgebungen automatisiert durchsetzen, indem sie Benutzer-, Geräte- und Kontextinformationen auswerten, um Zugriffsentscheidungen in Echtzeit zu treffen.}
+}
+
+\newglossaryentry{preismodell}{
+  name=Preismodell,
+  plural=Preismodelle,
+  description={Struktur, nach der der Preis eines Produkts oder einer Dienstleistung gebildet wird, z. B. Abo-Modell, nutzungsabhängige Tarife oder Flatrates.}
+}
+
+\newglossaryentry{prognose}{
+    name=Prognose,
+    description={Vorhersage zukünftiger Entwicklungen oder Werte auf Basis vorhandener Daten und Modelle, häufig unter Einbeziehung von Trends und Mustern.}
+}
+
+\newglossaryentry{prognoseunsicherheit}{
+    name=Prognoseunsicherheit,
+    plural=Prognoseunsicherheiten,
+    description={Maß für die potenzielle Abweichung einer Vorhersage vom tatsächlichen zukünftigen Wert; beeinflusst durch Modellwahl, Datenqualität und externe Faktoren.}
+}
+
+\newglossaryentry{prognoseverfahren}{
+    name=Prognoseverfahren,
+    description={Methoden zur Vorhersage zukünftiger Werte auf Basis historischer Daten, häufig unter Verwendung statistischer Modelle wie ARIMA, SARIMA oder exponentieller Glättung zur Modellierung von Trends, Saisonalitäten und Zufallsschwankungen.}
+}
+
+\newglossaryentry{prognosemodell}{
+    name=Prognosemodell,
+    plural=Prognosemodelle,
+    description={Ein mathematisches oder statistisches Modell, das zur Vorhersage zukünftiger Werte einer Zeitreihe basierend auf historischen Daten verwendet wird. Beispiele sind das Holt-Winters-Modell, ARIMA und SARIMA.}
+}
+
+\newglossaryentry{prozessverstaendnis}{
+  name=Prozessverständnis,
+  plural=Prozessverständnisse,
+  description={Verständnis der logischen Struktur, Zielsetzung und Ablauflogik eines Geschäfts- oder Veränderungsprozesses durch beteiligte Akteure.}
+}
+
+
+
+%%%%%%%%%%  R %%%%%%%%%%
+
+\newglossaryentry{ransomware}{
+	name=Ransomware,
+	description={eine Art von Schadsoftware, die Daten oder Systeme verschlüsselt und erst nach Zahlung eines Lösegelds wieder freigibt.}
+}
+
+\newglossaryentry{rbac}{
+	name=Rollenbasierte Zugriffskontrolle (RBAC),
+	description={ein Modell zur Steuerung des Zugriffs auf IT-Ressourcen basierend auf definierten Benutzerrollen und zugewiesenen Berechtigungen.}
+}
+
+\newglossaryentry{reifegradmodell}{
+  name=Reifegradmodell,
+  plural=Reifegradmodelle,
+  description={Strukturierte Darstellung von Entwicklungsstufen zur Bewertung des Fortschritts eines Unternehmens in Bezug auf bestimmte Fähigkeiten oder Prozesse.}
+}
+
+\newglossaryentry{relevanzklassifizierung}{
+  name=Relevanzklassifizierung,
+  description={Einstufung von Objekten oder Informationen nach ihrer Bedeutung oder Dringlichkeit im Kontext der Entscheidungsfindung.}
+}
+
+\newglossaryentry{residuum}{
+    name=Residuum,
+    plural=Residuen,
+    description={Zufälliger Restfehler einer Zeitreihe, der nach Abzug von Trend und Saisonalität verbleibt.}
+}
+
+\newglossaryentry{residuale-saisonalitaet}{
+    name=Residuale Saisonalität,
+    description={Nicht vollständig modellierte saisonale Schwankungen, die nach Anwendung eines Prognosemodells verbleiben.}
+}
+
+\newglossaryentry{risikomanagementstrategie}{
+  name=Risikomanagementstrategie,
+  plural=Risikomanagementstrategien,
+  description={Maßnahmen zur systematischen Identifikation, Bewertung und Steuerung von Risiken mit dem Ziel, potenzielle Schäden zu vermeiden oder zu minimieren.}
+}
+
+\newglossaryentry{rueckfrage}{
+  name=Rückfrage,
+  plural=Rückfragen,
+  description={Nachträgliche Klärung oder Informationsanforderung durch Mitarbeitende oder Kunden infolge unvollständiger, unklarer oder fehlerhafter Prozesse.}
+}
+
+\newglossaryentry{roboterarm}{
+  name=Roboterarm,
+  plural=Roboterarme,
+  description={Mechanisches Greif- und Bewegungssystem, das Objekte erkennen, greifen und bewegen kann, häufig durch Sensorik und KI gesteuert.}
+}
+
+\newglossaryentry{robotik}{
+  name=Robotik,
+  description={Interdisziplinäres Technologiefeld, das sich mit der Konstruktion, Steuerung und Anwendung autonomer oder halbautonomer Maschinen befasst.}
+}
+
+\newglossaryentry{robotikloesung}{
+  name=Robotiklösung,
+  plural=Robotiklösungen,
+  description={Technisches System, das mithilfe von Robotern spezifische Aufgaben automatisiert übernimmt, z. B. im Haushalt, in der Industrie oder Medizin.}
+}
+
+\newglossaryentry{roboticprocessautomation}{
+  name=Robotic Process Automation,
+  plural=Robotic Process Automations,
+  description={Technologie zur Automatisierung regelbasierter, strukturierter Prozesse durch den Einsatz virtueller Software-Roboter.}
+}
+
+\newglossaryentry{rmse}{
+    name=Root Mean Squared Error,
+    description={Statistisches Maß für die durchschnittliche quadratische Abweichung zwischen vorhergesagten und tatsächlichen Werten; sensibel gegenüber Ausreißern.}
+}
+
+%%%%%%%%%% S  %%%%%%%%%%
+
+\newglossaryentry{saisonale-struktur}{
+    name=Saisonale Struktur,
+    plural=Saisonale Strukturen,
+    description={Systematische saisonale Schwankungen in Daten, die sich regelmäßig über festgelegte Zeiträume hinweg wiederholen.}
+}
+
+\newglossaryentry{saisonales-muster}{
+    name=Saisonales Muster,
+    description={Wiederkehrendes Verhalten innerhalb eines festen Zeitintervalls, z.\,B.\ monatliche oder jährliche Schwankungen in Wetterdaten.}
+}
+
+\newglossaryentry{saisonalitaet}{
+    name=Saisonalität,
+    description={Wiederkehrende Muster in einer Zeitreihe, die sich in regelmäßigen Abständen wiederholen.}
+}
+
+\newglossaryentry{saisonalitaetszerlegung}{
+    name=Saisonalitätszerlegung,
+    plural=Saisonalitätszerlegungen,
+    description={Aufspaltung einer Zeitreihe in Trend, saisonale und Residuenkomponente zur Analyse wiederkehrender Muster.}
+}
+
+\newglossaryentry{sarima}{
+    name=SARIMA-Modell,
+    plural=SARIMA-Modelle,
+    description={Eine Erweiterung des ARIMA-Modells, die saisonale Komponenten in Zeitreihen berücksichtigt.}
+}
+
+\newglossaryentry{schwankungsbreite}{
+    name=Schwankungsbreite,
+    plural=Schwankungsbreiten,
+    description={Maß für die Spannweite der Werte in einem Datensatz; berechnet als Differenz zwischen dem größten und dem kleinsten Wert.}
+}
+
+\newglossaryentry{schluesselaktivitaet}{
+  name=Schlüsselaktivität,
+  plural=Schlüsselaktivitäten,
+  description={Zentrale Tätigkeiten, die ein Unternehmen zur Umsetzung seines Geschäftsmodells ausführt.}
+}
+
+\newglossaryentry{schluesselressource}{
+  name=Schlüsselressource,
+  plural=Schlüsselressourcen,
+  description={Wichtige materielle, immaterielle oder personelle Ressourcen, die für die Leistungserbringung eines Unternehmens notwendig sind.}
+}
+
+\newglossaryentry{siem}{
+	name=Security Information and Event Management (SIEM),
+	description={eine Sicherheitslösung, die in Echtzeit sicherheitsrelevante Ereignisse aus verschiedenen IT-Systemen sammelt, analysiert und korreliert, um Bedrohungen zu erkennen, zu überwachen und darauf zu reagieren.}
+}
+
+\newglossaryentry{soar}{
+	name=Security Orchestration Automation and Response (SOAR),
+	description={eine Sicherheitslösung, die Bedrohungserkennung, Incident-Response und Automatisierung kombiniert, um Sicherheitsvorfälle effizient zu analysieren, koordinieren und zu beheben.}
+}
+
+\newglossaryentry{sprachsteuerung}{
+  name=Sprachsteuerung,
+  plural=Sprachsteuerungen,
+  description={Technologie zur Bedienung von Geräten oder Systemen durch gesprochene Spracheingaben, häufig unterstützt durch KI.}
+}
+
+\newglossaryentry{semantischesclustering}{
+    name=Semantisches Clustering,
+    description={eine Technik zur Gruppierung von Datenpunkten basierend auf inhaltlichen und kontextbezogenen Ähnlichkeiten.}
+}
+
+\newglossaryentry{sicherheitscompliance}{
+	name=Sicherheits- und Compliance-Anforderungen,
+	description={die Gesamtheit der rechtlichen, organisatorischen und technischen Maßnahmen, die Unternehmen einhalten müssen, um IT-Sicherheit zu gewährleisten und regulatorische Vorgaben wie DSGVO oder ISO/IEC 27001 zu erfüllen.}
+}
+
+\newglossaryentry{sicherheitskonzepte}{
+	name=Sicherheitskonzepte,
+	description={strategische und technische Ansätze zur Absicherung von IT-Systemen und Daten gegen unbefugten Zugriff, Manipulation oder Verlust; dazu gehören Modelle wie Zero Trust, Defense-in-Depth und Least Privilege.}
+}
+
+\newglossaryentry{skalierbarkeit}{
+  name=Skalierbarkeit,
+  plural=Skalierbarkeiten,
+  description={Fähigkeit eines Systems oder Prozesses, ohne proportionale Mehraufwände auf höhere Anforderungen, Volumina oder Nutzerzahlen ausgeweitet werden zu können.}
+}
+
+\newglossaryentry{skalierbarkeit_geschaeftsmodell}{
+  name=Skalierbarkeit,
+  description={Fähigkeit eines Systems oder Geschäftsmodells, bei steigendem Umfang oder Nachfrage effizient erweitert werden zu können.}
+}
+
+\newglossaryentry{smartHome}{
+  name=Smart Home,
+  plural=Smart Homes,
+  description={Technologisch vernetztes Wohnumfeld, in dem Geräte, Sensoren und Steuerungssysteme automatisiert zusammenarbeiten.}
+}
+
+
+\newglossaryentry{socialengineering}{
+	name=Social Engineering,
+	description={eine Manipulationstechnik, bei der Angreifer menschliches Vertrauen ausnutzen, um sensible Informationen zu erlangen oder Personen zu bestimmten Handlungen zu verleiten, etwa zur Preisgabe von Passwörtern oder zum Öffnen schadhafter Links.}
+}
+
+\newglossaryentry{standardabweichung}{
+    name=Standardabweichung,
+    description={Statistisches Maß für die Streuung von Werten um den Mittelwert; gibt an, wie stark einzelne Werte im Durchschnitt vom Mittelwert abweichen.}
+}
+
+\newglossaryentry{starkregen}{
+    name=Starkregen,
+    description={Kurzzeitiger, intensiver Regen mit hoher Niederschlagsmenge, oft Auslöser für Überschwemmungen.}
+}
+
+\newglossaryentry{starsight}{
+  name=StarSight-System,
+  description={Sensortechnologie von Roborock, die auf Festkörper-LiDAR und 3D-ToF basiert und eine präzise Umgebungswahrnehmung sowie Navigation ermöglicht.}
+}
+
+\newglossaryentry{stationaritaet}{
+    name=Stationarität,
+    description={Eigenschaft einer Zeitreihe, bei der statistische Kennwerte wie Mittelwert und Varianz über die Zeit konstant bleiben.}
+}
+
+\newglossaryentry{stationaritaetstest}{
+    name=Stationaritätstest (ADF-Test),
+    plural=Stationaritätstests (ADF-Tests),
+    description={Ein statistischer Test zur Überprüfung, ob eine Zeitreihe stationär ist, d.h. ob sie konstante statistische Eigenschaften über die Zeit aufweist.}
+}
+
+\newglossaryentry{staubsaugerroboter}{
+  name=Staubsaugerroboter,
+  plural=Staubsaugerroboter,
+  description={Autonom arbeitendes Gerät zur Bodenreinigung, das mithilfe von Sensorik, Navigation und Saugmechanismen Staub und Schmutz entfernt.}
+}
+
+\newglossaryentry{strategieumsetzung}{
+  name=Strategieumsetzung,
+  plural=Strategieumsetzungen,
+  description={Überführung strategischer Ziele in konkrete Maßnahmen, Prozesse und Steuerungsinstrumente zur Erreichung langfristiger Unternehmensziele.}
+}
+
+
+\newglossaryentry{strategischereife}{
+  name=Strategische Reife,
+  plural=Strategische Reifegrade,
+  description={Grad der organisationalen Fähigkeit, strategische Ziele systematisch zu planen, umzusetzen und über geeignete Steuerungsmechanismen fortlaufend zu optimieren.}
+}
+
+
+\newglossaryentry{strategischezielsysteme}{
+  name=Strategisches Zielsystem,
+  plural=Strategische Zielsysteme,
+  description={Strukturierter Rahmen zur Formulierung, Priorisierung und Überwachung langfristiger Unternehmensziele.}
+}
+
+\newglossaryentry{steuerungsalltag}{
+  name=Steuerungsalltag,
+  plural=Steuerungsalltage,
+  description={Regelmäßige, operative Umsetzung strategischer Steuerungsmechanismen im Tagesgeschäft eines Unternehmens.}
+}
+
+
+\newglossaryentry{steuerungsansatz}{
+  name=Steuerungsansatz,
+  plural=Steuerungsansätze,
+  description={Konzeptioneller Rahmen zur Planung, Durchführung und Kontrolle von Maßnahmen zur Zielerreichung innerhalb einer Organisation.}
+}
+
+\newglossaryentry{steuerungskette}{
+  name=Steuerungskette,
+  plural=Steuerungsketten,
+  description={Verknüpfte Abfolge von Steuerungsmechanismen zur automatisierten Planung, Durchführung und Kontrolle betrieblicher Prozesse.}
+}
+
+
+\newglossaryentry{steuerungskonzept}{
+  name=Steuerungskonzept,
+  plural=Steuerungskonzepte,
+  description={Systematische Gesamtlösung zur Planung, Umsetzung und Kontrolle strategischer und operativer Maßnahmen in Unternehmen.}
+}
+
+
+\newglossaryentry{steuerungslogik}{
+  name=Steuerungslogik,
+  plural=Steuerungslogiken,
+  description={Konzeptioneller Rahmen, der festlegt, wie ein Unternehmen Entscheidungen trifft, Maßnahmen ableitet und strategische Ziele verfolgt.}
+}
+
+
+\newglossaryentry{steuerungssystem}{
+  name=Steuerungssystem,
+  plural=Steuerungssysteme,
+  description={System aus Methoden, Prozessen und Instrumenten zur gezielten Steuerung betrieblicher Abläufe im Einklang mit strategischen Zielen.}
+}
+
+
+\newglossaryentry{streuung}{
+    name=Streuung,
+    description={Statistisches Maß für die Variabilität oder Schwankung von Werten in einem Datensatz, z.\,B.\ Standardabweichung.}
+}
+
+\newglossaryentry{supplychain}{
+  name=Supply Chain,
+  plural=Supply Chains,
+  description={Gesamtheit aller Wertschöpfungsstufen eines Produkts oder einer Dienstleistung – vom Rohstoff bis zum Endkunden –, einschließlich aller logistischen und informatorischen Verbindungen.}
+}
+
+\newglossaryentry{swotanalyse}{
+  name=SWOT-Analyse,
+  plural=SWOT-Analysen,
+  description={Strategisches Analyseinstrument zur Bewertung von internen Stärken und Schwächen sowie externen Chancen und Risiken eines Unternehmens oder Produkts.}
+}
+
+
+\newglossaryentry{systemvernetzung}{
+  name=Systemvernetzung,
+  plural=Systemvernetzungen,
+  description={Technische und organisatorische Integration von IT-Systemen innerhalb und außerhalb eines Unternehmens zur Ermöglichung durchgängiger Prozesse.}
+}
+
+
+%%%%%%%%%% T  %%%%%%%%%%
+
+\newglossaryentry{taktileSensorik}{
+  name=Taktile Sensorik,
+  description={Technologie zur Erkennung von Berührung, Druck oder Vibrationen zur verbesserten Steuerung physischer Interaktionen.}
+}
+
+\newglossaryentry{technikorientierung}{
+  name=Technikorientierung,
+  plural=Technikorientierungen,
+  description={Fokussierung auf technologische Lösungen oder Tools, oft ohne ausreichende Berücksichtigung strategischer oder kultureller Anforderungen.}
+}
+
+\newglossaryentry{technischeverwirrung}{
+  name=Technische Verwirrung,
+  plural=Technische Verwirrungen,
+  description={Unklarheit über Funktion, Zusammenspiel und Auswahl technischer Systeme, häufig bedingt durch fehlende Schnittstellen- oder Architekturkompetenz.}
+}
+
+\newglossaryentry{technologischeInnovation}{
+  name=Technologische Innovation,
+  plural=Technologische Innovationen,
+  description={Neuartige technische Lösung oder Weiterentwicklung, die bestehende Technologien ergänzt oder ersetzt und dadurch neue Funktionen, Märkte oder Anwendungen ermöglicht.}
+}
+
+
+\newglossaryentry{telemetriedaten}{
+	name=Telemetriedaten,
+	description={automatisch erfasste und übermittelte Daten über den Zustand, die Leistung oder das Verhalten von IT-Systemen, Anwendungen oder Netzwerken, die zur Analyse, Fehlerbehebung und Sicherheitsüberwachung genutzt werden.}
+}
+
+\newglossaryentry{temperaturvariable}{
+    name=Temperaturvariable,
+    plural=Temperaturvariablen,
+    description={Messgrößen zur Beschreibung des Temperaturverlaufs, z.\,B.\ Tagesminimum, Tagesmaximum oder Durchschnittstemperatur.}
+}
+
+\newglossaryentry{tiefensensorik}{
+  name=Tiefensensorik,
+  description={Technologie zur Erfassung von Entfernungen und räumlicher Tiefe durch die Analyse von Lichtlaufzeiten, Stereobildern oder Infrarotsignalen.}
+}
+
+\newglossaryentry{tof}{
+  name=3D-ToF-Technologie,
+  description={Abkürzung für „Time of Flight“; misst die Laufzeit von Lichtimpulsen, um dreidimensionale Entfernungsinformationen zu erfassen.}
+}
+
+
+\newglossaryentry{transformationslogik}{
+  name=Transformationslogik,
+  plural=Transformationslogiken,
+  description={Übergeordnete Denkweise zur Planung, Steuerung und Verankerung tiefgreifender organisatorischer und strategischer Veränderungen.}
+}
+
+\newglossaryentry{transformationsprozess}{
+  name=Transformationsprozess,
+  plural=Transformationsprozesse,
+  description={Tiefgreifender Veränderungsprozess in Organisationen, der bestehende Strukturen, Prozesse und Denkweisen zugunsten strategischer Zielsetzungen neu ausrichtet.}
+}
+
+
+\newglossaryentry{trend}{
+    name=Trend,
+    description={Die langfristige Entwicklung einer Zeitreihe, die eine allgemeine Aufwärts- oder Abwärtsbewegung zeigt.}
+}
+
+\newglossaryentry{trendstationaritaet}{
+    name=Trend-Stationarität,
+    description={Form der Stationarität, bei der eine Zeitreihe um einen systematischen Trend schwankt, jedoch stabile Varianz und Autokorrelation aufweist.}
+}
+
+\newglossaryentry{trendkomponente}{
+    name=Trendkomponente,
+    description={Langfristige Entwicklung in einer Zeitreihe, die systematische Veränderungen über die Zeit hinweg abbildet.}
+}
+
+\newglossaryentry{trockenperiode}{
+    name=Trockenperiode,
+    description={Längere Zeitspanne mit ungewöhnlich geringer Niederschlagsmenge, oft mit Dürregefahr verbunden.}
+}
+
+%%%%%%%%%%  U %%%%%%%%%%
+
+\newglossaryentry{unternehmensanalyse}{
+  name=Unternehmensanalyse,
+  plural=Unternehmensanalysen,
+  description={Systematische Untersuchung eines Unternehmens zur Bewertung seiner Stärken, Schwächen, Chancen und Risiken als Grundlage strategischer Entscheidungen.}
+}
+
+\newglossaryentry{umsetzungsmassnahme}{
+  name=Umsetzungsmaßnahme,
+  plural=Umsetzungsmaßnahmen,
+  description={Gezielte Handlung oder Initiative zur Realisierung von strategischen oder operativen Zielen innerhalb eines Projekts oder Prozesses.}
+}
+
+\newglossaryentry{unit-root}{
+    name=Unit Root,
+    plural=Unit Roots,
+    description={Eigenschaft einer Zeitreihe, die auf Nicht-Stationarität hindeutet und durch spezielle Tests wie den ADF-Test überprüft wird.}
+}
+
+%%%%%%%%%%  V %%%%%%%%%%
+
+\newglossaryentry{variabilitaet}{
+    name=Variabilität,
+    description={Ausmaß der Schwankungen einer Messgröße über die Zeit hinweg; hohe Variabilität kann auf instabile oder dynamische Prozesse hinweisen.}
+}
+
+\newglossaryentry{vendorlockin}{
+	name=Vendor Lock-in,
+	description={eine Situation, in der Unternehmen aufgrund technischer Abhängigkeiten, hoher Migrationskosten oder proprietärer Standards an einen bestimmten Anbieter gebunden sind und ein Wechsel erschwert wird.}
+}
+
+\newglossaryentry{veraenderungskompetenz}{
+  name=Veränderungskompetenz,
+  plural=Veränderungskompetenzen,
+  description={Fähigkeit von Führungskräften oder Organisationen, Veränderungsprozesse wirksam zu gestalten, zu kommunizieren und nachhaltig umzusetzen.}
+}
+
+\newglossaryentry{verfuegbarkeit}{
+	name=Verfügbarkeit,
+	description={ein Sicherheitsprinzip der CIA-Triad, das gewährleistet, dass IT-Systeme, Netzwerke und Daten für autorisierte Benutzer jederzeit zugänglich und nutzbar sind.}
+}
+
+\newglossaryentry{vergleichszeitraum}{
+    name=Vergleichszeitraum,
+    description={Ausgewählter Zeitraum historischer Daten, der zur Berechnung statistischer Kenngrößen für Vergleiche oder Imputationen herangezogen wird.}
+}
+
+\newglossaryentry{verhaltensanalyse}{
+    name=Verhaltensanalyse,
+    description={die Untersuchung und Bewertung von Nutzeraktivitäten, um Anomalien zu erkennen und Sicherheitsmaßnahmen anzupassen.}
+}
+
+\newglossaryentry{verstaendigungsebene}{
+  name=Verständigungsebene,
+  plural=Verständigungsebenen,
+  description={Abstrakte Kommunikationsebene, auf der Akteure innerhalb eines Veränderungsprozesses gemeinsame Begriffe, Zielvorstellungen oder Prozessverständnisse entwickeln.}
+}
+
+
+\newglossaryentry{verteilung}{
+    name=Verteilung,
+    plural=Verteilungen,
+    description={Statistische Darstellung, wie sich Werte eines Merkmals über ein Intervall oder in einer Stichprobe verteilen.}
+}
+
+\newglossaryentry{vertraulichkeit}{
+	name=Vertraulichkeit,
+	description={ein Sicherheitsprinzip der CIA-Triad, das sicherstellt, dass Informationen nur von autorisierten Personen oder Systemen eingesehen und verarbeitet werden können.}
+}
+
+\newglossaryentry{vertriebskanal}{
+  name=Vertriebskanal,
+  plural=Vertriebskanäle,
+  description={Weg, über den ein Produkt oder eine Dienstleistung zum Endkunden gelangt, z. B. Online-Shop oder Einzelhandel.}
+}
+
+\newglossaryentry{vertriebsprozess}{
+  name=Vertriebsprozess,
+  plural=Vertriebsprozesse,
+  description={Abfolge strukturierter Maßnahmen zur Vermarktung und zum Verkauf von Produkten oder Dienstleistungen an Kundinnen und Kunden.}
+}
+
+\newglossaryentry{vertriebsstrategie}{
+  name=Vertriebsstrategie,
+  plural=Vertriebsstrategien,
+  description={Plan zur Platzierung und Vermarktung von Produkten oder Dienstleistungen mit dem Ziel, Absatz und Kundenbindung zu optimieren.}
+}
+
+\newglossaryentry{visualisierung}{
+    name=Visualisierung,
+    plural=Visualisierungen,
+    description={Grafische Darstellung von Daten, um Muster, Trends oder Anomalien verständlich und interpretierbar zu machen.}
+}
+
+\newglossaryentry{volatilitaet}{
+    name=Volatilität,
+    description={Ausmaß der Schwankungen von Messwerten innerhalb eines Zeitraums; hohe Volatilität erschwert stabile Prognosen.}
+}
+
+\newglossaryentry{vuca}{
+  name=VUCA,
+  description={Acronym für Volatilität, Unsicherheit, Komplexität und Ambiguität; beschreibt instabile, schwer vorhersehbare Rahmenbedingungen für unternehmerisches Handeln.}
+}
+
+
+%%%%%%%%%% W  %%%%%%%%%%
+
+\newglossaryentry{wertschoepfungsarchitektur}{
+  name=Wertschöpfungsarchitektur,
+  plural=Wertschöpfungsarchitekturen,
+  description={Gesamtheit der internen und externen Strukturen, Prozesse und Ressourcen, mit denen ein Unternehmen seine Produkte oder Dienstleistungen erstellt und bereitstellt.}
+}
+
+\newglossaryentry{wertversprechen}{
+  name=Wertversprechen,
+  plural=Wertversprechen,
+  description={Kernnutzen oder Mehrwert, den ein Produkt oder eine Dienstleistung aus Sicht der Kundschaft bietet.}
+}
+
+\newglossaryentry{wettbewerbsintensitaet}{
+  name=Wettbewerbsintensität,
+  description={Grad der Konkurrenz in einem Markt, gemessen an der Anzahl und Stärke der Wettbewerber sowie der Markttransparenz.}
+}
+
+\newglossaryentry{wetterprognose}{
+    name=Wetterprognose,
+    description={Die Vorhersage zukünftiger Wetterbedingungen basierend auf historischen Wetterdaten und statistischen Modellen.}
+}
+
+\newglossaryentry{wiederkaufrate}{
+  name=Wiederkaufrate,
+  plural=Wiederkaufraten,
+  description={Anteil der Kundinnen und Kunden, die nach einem Erstkauf erneut Produkte oder Dienstleistungen eines Unternehmens erwerben.}
+}
+
+\newglossaryentry{wissenstransfer}{
+  name=Wissenstransfer,
+  plural=Wissenstransfers,
+  description={Prozess der systematischen Weitergabe von Wissen, Fähigkeiten oder Erfahrungen zwischen Personen, Abteilungen oder Organisationen.}
+}
+
+\newglossaryentry{workflowengine}{
+  name=Workflow-Engine,
+  plural=Workflow-Engines,
+  description={Softwarekomponente, die Geschäftsprozesse automatisch ausführt, steuert und überwacht, basierend auf vordefinierten Regeln und Abläufen.}
+}
+
+
+%%%%%%%%%% Z  %%%%%%%%%%
+
+
+\newglossaryentry{zeichensatzkonvertierung}{
+    name=Zeichensatzkonvertierung,
+    description={Technischer Vorgang zur Umwandlung von Zeichencodierungen, z.\,B.\ Komma in Punkt zur korrekten Interpretation numerischer Daten.}
+}
+
+\newglossaryentry{zeitreihe}{
+    name=Zeitreihe,
+    plural=Zeitreihen,
+    description={Geordnete Folge von Beobachtungen, die in regelmäßigen zeitlichen Abständen erhoben wurden, z.\,B.\ monatliche Temperaturmessungen.}
+}
+
+\newglossaryentry{zeitreihenanalyse}{
+    name=Zeitreihenanalyse,
+    plural=Zeitreihenanalysen,
+    description={Eine statistische Methode zur Untersuchung von Datenpunkten, die in regelmäßigen Zeitabständen erfasst wurden, um Muster, Trends und saisonale Schwankungen zu identifizieren.}
+}
+
+\newglossaryentry{zeitreihenmodell}{
+    name=Zeitreihenmodell,
+    plural=Zeitreihenmodelle,
+    description={Mathematisches Modell zur Beschreibung von Daten, die in zeitlicher Reihenfolge vorliegen, wie z.\,B.\ ARIMA oder Holt-Winters.}
+}
+
+\newglossaryentry{zeitreihenprognose}{
+    name=Zeitreihenprognose,
+    plural=Zeitreihenprognosen,
+    description={Vorhersage zukünftiger Werte einer Zeitreihe auf Basis historischer Beobachtungen und mathematischer Modelle.}
+}
+
+\newglossaryentry{zerlegung}{
+    name=Zerlegung,
+    description={Aufteilung einer Zeitreihe in Trend-, Saison- und Restkomponenten zur besseren Analyse ihrer Struktur.}
+}
+
+\newglossaryentry{zero-trust-control}{
+	name=Zero Trust Access Control,
+	description={ein Sicherheitskonzept, das keinen Benutzer oder Gerät standardmäßig als vertrauenswürdig einstuft und eine kontinuierliche Authentifizierung sowie kontextabhängige Zugriffskontrollen erfordert.}
+}
+
+\newglossaryentry{zeroTrustExtended}{
+    name=Zero Trust eXtended (ZTX) Model,
+    description={eine erweiterte Zero-Trust-Architektur, die neben Identitäts- und Zugriffskontrollen auch Netzwerk-, Geräte- und Workload-Sicherheit integriert.}
+}
+
+\newglossaryentry{ztna}{
+	name=Zero Trust Network Access (ZTNA),
+	description={ein Sicherheitsmodell, das den Netzwerkzugriff strikt regelt, indem es den Zugriff auf Anwendungen und Ressourcen nur nach einer kontinuierlichen Authentifizierung und Autorisierung basierend auf Identität, Gerätestatus und Kontext gewährt.}
+}
+
+\newglossaryentry{zerotrustpolicyengine}{
+	name=Zero Trust Policy Engine,
+	description={eine zentrale Komponente des Zero-Trust-Modells, die kontinuierlich Benutzeridentitäten, Gerätestatus und Kontextinformationen analysiert, um in Echtzeit Zugriffsentscheidungen basierend auf vordefinierten Sicherheitsrichtlinien zu treffen.}
+}
+
+\newglossaryentry{zero-trust-paradigma}{
+	name=Zero-Trust-Paradigma,
+	description={ein Sicherheitskonzept, das davon ausgeht, dass kein Benutzer oder Gerät automatisch vertraut wird, selbst wenn es sich innerhalb des Unternehmensnetzwerks befindet.}
+}
+
+\newglossaryentry{zielbild}{
+  name=Zielbild,
+  plural=Zielbilder,
+  description={Gemeinsame, visuell oder sprachlich formulierte Vorstellung über einen angestrebten zukünftigen Zustand einer Organisation oder eines Projekts.}
+}
+
+
+\newglossaryentry{zieldefinition}{
+  name=Zieldefinition,
+  plural=Zieldefinitionen,
+  description={Festlegung konkreter, messbarer und realistischer Zielgrößen, die als Orientierung für Projekte oder strategische Maßnahmen dienen.}
+}
+
+
+\newglossaryentry{zielkategorie}{
+  name=Zielkategorie,
+  plural=Zielkategorien,
+  description={Oberbegriff zur Systematisierung strategischer Zielsetzungen, z. B. Effizienz, Skalierbarkeit oder Agilität.}
+}
+
+\newglossaryentry{zielsetzung}{
+  name=Zielsetzung,
+  plural=Zielsetzungen,
+  description={Formulierung eines angestrebten Soll-Zustands, der durch Maßnahmen oder Projekte erreicht werden soll.}
+}
+
+
+\newglossaryentry{zielsystem}{
+  name=Zielsystem,
+  plural=Zielsysteme,
+  description={Struktur zur systematischen Erfassung, Gewichtung und Steuerung von unternehmerischen Zielgrößen.}
+}
+
+\newglossaryentry{zielwert}{
+  name=Zielwert,
+  plural=Zielwerte,
+  description={Konkreter quantitativer Sollwert zur Erfolgskontrolle von Maßnahmen im Rahmen strategischer oder operativer Zielverfolgung.}
+}
+
+\newglossaryentry{zugriffsbeschraenkungen}{
+	name=Zugriffsbeschränkungen,
+	description={Maßnahmen zur Begrenzung des Zugriffs auf IT-Systeme, Netzwerke oder Daten, basierend auf vordefinierten Regeln, Benutzerrollen oder Sicherheitsrichtlinien. Zugriffsbeschränkungen dienen dazu, unautorisierte Zugriffe zu verhindern und die Datensicherheit zu gewährleisten.}
+}
+
+\newglossaryentry{zugriffsmanagement}{
+	name=Zugriffsmanagement (Access Management),
+	description={der Prozess der Steuerung und Überwachung von Benutzerzugriffen auf IT-Systeme, Anwendungen und Daten, um sicherzustellen, dass nur autorisierte Personen Zugriff auf bestimmte Ressourcen erhalten. Es umfasst Methoden wie Authentifizierung, Autorisierung und Zugriffsbeschränkungen.}
+}
