@@ -1,13 +1,13 @@
 % ==================================================================
 % Konfigurationsdatei für wissenschaftliche Arbeiten an der FHDW
-% Autor: [Autor Name]
-% Stand: [Monat Jahr]
+% Autor: Christian Roth und Nick Schneider
+% Stand: Dezember 2025
 % ==================================================================
 
 % ---------------- Dokumenttitel & Metadaten -----------------------
 
-\newcommand{\thetitle}{[Titel der Arbeit]} % Dokumenttitel
-\newcommand{\headertitle}{[Kurztitel für Kopfzeile]} % Kurztitel für Kopfzeile
+\newcommand{\thetitle}{Risikobewertung nach ISO31000 mit wissensbasierter FMEA-Struktur} % Dokumenttitel
+\newcommand{\headertitle}{Intelligente Risikoanalyse} % Kurztitel für Kopfzeile
 \newcommand{\kooperationsunternehmen}{[Name des Unternehmens]} % optional
 
 % 1 = Seminararbeit, 2 = Projektarbeit, 3 = Studienarbeit, 4 = Praxisarbeit,
@@ -16,7 +16,7 @@
 
 % ------------------------- Beteiligte Personen -------------------------
 % Gebe hier an, wie viele Personen beteiligt sind: 1 oder 2
-\newcommand{\anzahlpersonen}{1} % zentrale Steuerung
+\newcommand{\anzahlpersonen}{2} % zentrale Steuerung
 
 % ------------------------- Studierender A und B -------------------------
 
@@ -29,14 +29,14 @@
 
 \newcommand{\studentnameB}{Nick Schneider}
 \newcommand{\studentadresseB}{Wilhelm-Baumann-Stra\ss{}e 38}
-\newcommand{\studentplzortB}{Gütersloh}
+\newcommand{\studentplzortB}{33330 Gütersloh}
 \newcommand{\studentemailB}{nick.schneider@edu.fhdw.de}
-\newcommand{\eingereichtamB}{29. M\"arz 2026}
+\newcommand{\eingereichtamB}{08. Dezember 2026}
 \newcommand{\einreichungsortB}{Bielefeld}
 
 % ------------------------- Studiengang & Standort -------------------------
 
-\newcommand{\studiengang}{Wirtschaftsinformatik mit Schwerpunkt Data Science (\textit{M.Sc.})}
+\newcommand{\studiengang}{Wirtschaftsinformatik mit Schwerpunkt Data Science an der Fachhochschule der Wirtschaft (FHDW) Bielefeld}
 \newcommand{\fhdwstandort}{Bielefeld}
 \newcommand{\modulname}{Knowledge Engineering and Knowledge Representation}
 

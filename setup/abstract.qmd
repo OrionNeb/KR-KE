@@ -2,6 +2,8 @@
 \addcontentsline{toc}{chapter}{Abstract}
 \thispagestyle{nohead}
 
-\lorem
+Diese Studienarbeit untersucht, wie Wissen aus Risikoanalysen mithilfe von Methoden des Knowledge Engineering in ein wissensbasiertes Decision-Support-System (DSS) überführt werden kann. Ziel ist es, Unsicherheiten in Bewertungen zu berücksichtigen und priorisierte Handlungsempfehlungen zu generieren.
+Die Arbeit orientiert sich an der Norm ISO 31000:2018-02 und nutzt die Struktur der FMEA (Fehlermöglichkeits- und Einflussanalyse) als methodische Grundlage. Im praktischen Teil wird eine Python-Pipeline entwickelt, die Risikodaten verarbeitet, mit Fuzzy-Logik unscharfe Bewertungen integriert und Ergebnisse als maschinenlesbare Wissensbasis (JSON/RDF) ablegt.
+Damit wird gezeigt, wie klassische Risikoanalysen durch semantische Wissensmodelle und unscharfe Logik zu intelligenten Entscheidungssystemen erweitert werden können.
 
 \clearpage

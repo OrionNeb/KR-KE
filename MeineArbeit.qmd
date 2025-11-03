@@ -144,30 +144,32 @@ from pulp import LpMaximize, LpProblem, LpVariable, value
 
 # Einleitung {#sec-einleitung}
 
-Laut einer Untersuchung von Mustermann [@TestEintrag1] ist das Problem bekannt.
-
-Andere Autoren sind anderer Meinung [@TestEintrag2].
-
-Was eine \gls{mfa} ist, wird im Glossar beschrieben.
-
-Test
+Unternehmen stehen vor der Herausforderung, Risiken zuverlässig zu identifizieren und zu bewerten. Klassische Methoden wie die FMEA liefern zwar strukturierte Ergebnisse, sind jedoch unflexibel bei unsicheren oder subjektiven Einschätzungen. Zudem bleibt viel Wissen über Ursachen, Wirkungen und Zusammenhänge implizit in den Köpfen der Experten verborgen.
 
 ## Problemstellung {#sec-problemstellung}
 
-<!-- Hier kommt die Beschreibung der Problemstellung -->
+Diese Arbeit verfolgt das Ziel, eine wissensbasierte Risikoanalyse zu entwickeln, die Unsicherheiten berücksichtigt und Wissen formalisiert darstellt. Durch den Einsatz von Knowledge Engineering wird Wissen aus Risikoanalysen systematisch erfasst und mit Hilfe von Fuzzy-Logik in ein Decision-Support-System (DSS) überführt.
 
 ## Zielsetzung {#sec-zielsetzung}
 
-<!-- Hier kommt die Zielsetzung der Arbeit -->
+Diese Arbeit verfolgt das Ziel, eine wissensbasierte Risikoanalyse zu entwickeln, die Unsicherheiten berücksichtigt und Wissen formalisiert darstellt. Dabei wird das Wissen aus Risikoanalysen mithilfe von Knowledge Engineering systematisch erfasst und mit Hilfe von Fuzzy-Logik in ein Decision-Support-System (DSS) überführt.
+
+Im Mittelpunkt steht die Frage, wie Wissen aus Risikoanalysen so modelliert werden kann, dass daraus ein intelligentes Entscheidungssystem entsteht, das Unsicherheiten einbezieht und priorisierte Handlungsempfehlungen ermöglicht.
 
 ## Vorgehensweise {#sec-vorgehensweise}
 
-<!-- Erläuterung zur Methodik -->
+Die Arbeit folgt dem Vorgehensmodell CRISP-DM, das Theorie und Praxis klar voneinander trennt. Nach der theoretischen Beschreibung von FMEA, Knowledge Engineering und Decision-Support-Systemen werden FMEA-Daten vorbereitet, in Python verarbeitet und mithilfe von Fuzzy-Logik bewertet. Die Ergebnisse werden abschließend interpretiert, visualisiert und als maschinenlesbare Wissensbasis exportiert.
 
 <!-- ================= 2. Theoretische Grundlagen ================= -->
 
 # Grundlagen {#sec-grundlagen}
+Laut einer Untersuchung von Mustermann [@internationalorganizationforstandardizationISO3100020182018] ist das Problem bekannt.
 
+Andere Autoren sind anderer Meinung [@sauterDecisionSupportSystems2011].
+
+Was eine \gls{mfa} ist, wird im Glossar beschrieben.
+
+Test
 ## Einführung in das Thema {#sec-einfuehrung}
 
 <!-- Einführung in das Hauptthema der Arbeit -->
@@ -196,9 +198,19 @@ Test
 
 <!-- ================= 4. Fazit ================= -->
 
-# Fazit {#sec-fazit}
+# Fazit und Ausblick {#sec-fazit}
 
-<!-- Zusammenfassung der Ergebnisse, Reflexion und Ausblick -->
+## Beantwortung der Forschungsfrage
+
+Die Forschungsfrage konnte beantwortet werden. Durch die Kombination von Knowledge Engineering und Fuzzy-Logik lassen sich Risikoanalysen strukturiert, nachvollziehbar und realitätsnah abbilden. Unsicheres Wissen wird dadurch für Computersysteme verständlich und auswertbar.
+
+## Bewertung des Nutzens wissensbasierter Risikomodelle
+
+Das entwickelte Konzept zeigt, dass wissensbasierte Modelle klassische FMEA-Ansätze deutlich erweitern. Sie fördern Wissenstransparenz, erhöhen die Entscheidungssicherheit und ermöglichen die Priorisierung von Risiken auf Grundlage formalisierter Regeln.
+
+## Ausblick auf die Integration in unternehmensweite DSS und Ontologien
+
+In Zukunft können solche Systeme in größere Entscheidungsplattformen integriert werden. Die Anbindung an Ontologien und semantische Netze eröffnet die Möglichkeit, Risiken nicht nur zu bewerten, sondern auch automatisch zu erkennen und vorbeugende Maßnahmen vorzuschlagen.
 
 <!-- ================= Literaturverzeichnis ================= -->
 

@@ -1,0 +1,146 @@
+﻿Diagnose log at 2025-10-13T19:17:50Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Chris
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=ORION
+MSYSTEM=MINGW64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+WINDIR=C:\WINDOWS
+OneDrive=C:\Users\Chris\OneDrive - bib & FHDW
+PYTHON_BASIC_REPL=1
+ProgramFiles(x86)=C:\Program Files (x86)
+BUNDLED_DEBUGPY_PATH=c:\Users\Chris\.vscode\extensions\ms-python.debugpy-2025.14.0-win32-x64\bundled\libs\debugpy
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+CONFIG_SITE=C:/Program Files/Git/etc/config.site
+PROCESSOR_REVISION=2102
+PYDEVD_DISABLE_FILE_VALIDATION=1
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+RTOOLS45_HOME=C:\Program Files\R\rtools45
+MSYSTEM_PREFIX=C:/Program Files/Git/mingw64
+USERNAME=Chris
+MINGW_PREFIX=C:/Program Files/Git/mingw64
+GITHUB_TOKEN=github_pat_XXXXXXX
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+TEMP=C:\Users\Chris\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Chris\AppData\Local
+MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD
+MSYSTEM_CARCH=x86_64
+PROGRAMFILES=C:\Program Files (x86)
+ProgramData=C:\ProgramData
+TERM_PROGRAM_VERSION=1.105.0
+ORIGINAL_TMP=C:/Users/Chris/AppData/Local/Temp
+SHELL=C:\Program Files\Git\usr\bin\bash.exe
+SYSTEMROOT=C:\WINDOWS
+TERM_PROGRAM=vscode
+PROCESSOR_LEVEL=25
+NUMBER_OF_PROCESSORS=16
+SSH_ASKPASS=C:/Program Files/Git/mingw64/bin/git-askpass.exe
+SHLVL=1
+SYSTEMDRIVE=C:
+EFC_9164_1592913036=1
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-d063c0ebef-sock
+HOSTNAME=Orion
+PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+USERDOMAIN_ROAMINGPROFILE=ORION
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\Chris\.vscode\extensions\ms-python.debugpy-2025.14.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-03a413df1a74390c.txt
+MSYSTEM_CHOST=x86_64-w64-mingw32
+ORIGINAL_TEMP=C:/Users/Chris/AppData/Local/Temp
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_28488_BPEWTPJYDAAHYKXH
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\Chris\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+PLINK_PROTOCOL=ssh
+COLORTERM=truecolor
+ProgramW6432=C:\Program Files
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Users\Chris\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Chris\bin;C:\Users\Chris\AppData\Local\Programs\Quarto\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.3.1;C:\Users\Chris\AppData\Local\Programs\Quarto\bin;C:\Users\Chris\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\Chris\AppData\Local\Programs\Python\Python313;C:\Users\Chris\AppData\Local\Programs\Python\Launcher;C:\Users\Chris\AppData\Local\Microsoft\WindowsApps;C:\Users\Chris\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chris\AppData\Local\GitHubDesktop\bin;C:\Users\Chris\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Chris\.vscode\extensions\ms-python.debugpy-2025.14.0-win32-x64\bundled\scripts\noConfigScripts;C:\Users\Chris\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+MINGW_CHOST=x86_64-w64-mingw32
+GIT_TRACE2_PARENT_SID=531bc42d-9a9b-48c2-8b29-7aa69410be5b
+USERDOMAIN=ORION
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=C:/Program Files/Git/mingw64/lib
+TMPDIR=C:\Users\Chris\AppData\Local\Temp
+TMP=C:\Users\Chris\AppData\Local\Temp
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0
+HOME=C:\Users\Chris
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+LOGONSERVER=\\ORION
+USERPROFILE=C:\Users\Chris
+DISPLAY=needs-to-be-defined
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+VSCODE_GIT_ASKPASS_NODE=C:\Users\Chris\AppData\Local\Programs\Microsoft VS Code\Code.exe
+_=C:/Program Files/Git/mingw64/bin/git
+CUDA_PATH_V13_0=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0
+APPDATA=C:\Users\Chris\AppData\Roaming
+HOMEDRIVE=C:
+INFOPATH=C:\Program Files\Git\mingw64\local\info;C:\Program Files\Git\mingw64\share\info;C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+OneDriveConsumer=C:\Users\Chris\OneDrive
+OneDriveCommercial=C:\Users\Chris\OneDrive - bib & FHDW
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+CommonProgramW6432=C:\Program Files\Common Files
+SESSIONNAME=Console
+PWD=C:/Users/Chris/Documents/GitHub/KR-KE
+EXEPATH=C:\Program Files\Git\bin
+LANG=en_US.UTF-8
+PROCESSOR_ARCHITEW6432=AMD64
+ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Chris\bin;C:\Users\Chris\AppData\Local\Programs\Quarto\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.3.1;C:\Users\Chris\AppData\Local\Programs\Quarto\bin;C:\Users\Chris\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\Chris\AppData\Local\Programs\Python\Python313;C:\Users\Chris\AppData\Local\Programs\Python\Launcher;C:\Users\Chris\AppData\Local\Microsoft\WindowsApps;C:\Users\Chris\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chris\AppData\Local\GitHubDesktop\bin;C:\Users\Chris\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\Chris\.vscode\extensions\ms-python.debugpy-2025.14.0-win32-x64\bundled\scripts\noConfigScripts;C:\Users\Chris\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
+PROCESSOR_ARCHITECTURE=x86
+PS1=\[]633;A\]\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ \[]633;B\]
+OS=Windows_NT
+PYTHONSTARTUP=c:\Users\Chris\AppData\Roaming\Code\User\workspaceStorage\1ee716854b23414af6aee84b86220fa1\ms-python.python\pythonrc.py
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=C:/Program Files/Git/mingw64/include
+GIT_ASKPASS=c:\Users\Chris\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Chris\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Chris\AppData\Local\Temp\03114fffa2891dab86598034'... OK
+Reading from temporary file 'C:\Users\Chris\AppData\Local\Temp\03114fffa2891dab86598034'... OK
+Deleting temporary file 'C:\Users\Chris\AppData\Local\Temp\03114fffa2891dab86598034'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Chris
+UserDataDirectoryPath: C:\Users\Chris\.gcm
+GetCurrentDirectory(): C:\Users\Chris\Documents\GitHub\KR-KE
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60694/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
