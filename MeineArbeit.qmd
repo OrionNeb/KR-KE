@@ -143,60 +143,88 @@ from pulp import LpMaximize, LpProblem, LpVariable, value
 <!-- ================= 1. Einleitung ================= -->
 
 # Einleitung {#sec-einleitung}
-
-Unternehmen stehen vor der Herausforderung, Risiken zuverlässig zu identifizieren und zu bewerten. Klassische Methoden wie die FMEA liefern zwar strukturierte Ergebnisse, sind jedoch unflexibel bei unsicheren oder subjektiven Einschätzungen. Zudem bleibt viel Wissen über Ursachen, Wirkungen und Zusammenhänge implizit in den Köpfen der Experten verborgen.
+<!--== Verantwortlich: Christian ==-->
+<!--== Enthält 1.1 Problemstellung, 1.2 Zielsetzung, 1.3 Vorgehensweise ==-->
 
 ## Problemstellung {#sec-problemstellung}
-
-Diese Arbeit verfolgt das Ziel, eine wissensbasierte Risikoanalyse zu entwickeln, die Unsicherheiten berücksichtigt und Wissen formalisiert darstellt. Durch den Einsatz von Knowledge Engineering wird Wissen aus Risikoanalysen systematisch erfasst und mit Hilfe von Fuzzy-Logik in ein Decision-Support-System (DSS) überführt.
+Unternehmen müssen Risiken in komplexen Geschäftsprozessen frühzeitig erkennen und bewerten. 
+Klassische Methoden wie die FMEA sind zwar etabliert, stoßen jedoch an Grenzen, wenn Unsicherheiten oder 
+domänenübergreifende Zusammenhänge zwischen Abteilungen berücksichtigt werden müssen.
 
 ## Zielsetzung {#sec-zielsetzung}
+Diese Arbeit verfolgt das Ziel, ein wissensbasiertes Decision-Support-System (DSS) auf Grundlage der ISO 31000 zu entwickeln. 
+Dabei soll Wissen aus Risikoanalysen mithilfe von *Knowledge Engineering* systematisch erfasst und durch Fuzzy-Logik 
+um Unsicherheiten erweitert werden. So entsteht ein Ansatz, der Risiken nicht nur bewertet, sondern auch 
+Handlungsempfehlungen ermöglicht.
 
-Diese Arbeit verfolgt das Ziel, eine wissensbasierte Risikoanalyse zu entwickeln, die Unsicherheiten berücksichtigt und Wissen formalisiert darstellt. Dabei wird das Wissen aus Risikoanalysen mithilfe von Knowledge Engineering systematisch erfasst und mit Hilfe von Fuzzy-Logik in ein Decision-Support-System (DSS) überführt.
-
-Im Mittelpunkt steht die Frage, wie Wissen aus Risikoanalysen so modelliert werden kann, dass daraus ein intelligentes Entscheidungssystem entsteht, das Unsicherheiten einbezieht und priorisierte Handlungsempfehlungen ermöglicht.
+**Forschungsfrage:**  
+Wie kann Wissen aus Risikoanalysen mithilfe von Methoden des Knowledge Engineering in ein wissensbasiertes 
+Decision-Support-System überführt werden, das Unsicherheiten berücksichtigt und priorisierte Handlungsempfehlungen liefert?
 
 ## Vorgehensweise {#sec-vorgehensweise}
-
-Die Arbeit folgt dem Vorgehensmodell CRISP-DM, das Theorie und Praxis klar voneinander trennt. Nach der theoretischen Beschreibung von FMEA, Knowledge Engineering und Decision-Support-Systemen werden FMEA-Daten vorbereitet, in Python verarbeitet und mithilfe von Fuzzy-Logik bewertet. Die Ergebnisse werden abschließend interpretiert, visualisiert und als maschinenlesbare Wissensbasis exportiert.
-
-<!-- ================= 2. Theoretische Grundlagen ================= -->
-
-# Grundlagen {#sec-grundlagen}
+Die Arbeit folgt dem CRISP-DM-Vorgehensmodell und trennt Theorie und Praxis klar voneinander. 
+Kapitel [Theoretischer Rahmen und Grundlagen](#sec-theorie) legt das methodische Fundament, 
+Kapitel [Umsetzung des Modells](#sec-umsetzung) beschreibt die praktische Anwendung mit Python 
+und einem domänenübergreifenden FMEA-Datensatz.
 Laut einer Untersuchung von Mustermann [@internationalorganizationforstandardizationISO3100020182018] ist das Problem bekannt.
 
 Andere Autoren sind anderer Meinung [@sauterDecisionSupportSystems2011].
 
 Was eine \gls{mfa} ist, wird im Glossar beschrieben.
+<!-- ================= 2. Theoretischer Rahmen und Grundlagen ================= -->
 
-Test
-## Einführung in das Thema {#sec-einfuehrung}
+# Theoretischer Rahmen und Grundlagen {#sec-theorie}
+<!--== Verantwortlich: Christian – Nick liefert Fachquellen ==-->
+<!--== Entspricht CRISP-DM Phase 1–2: Business & Data Understanding ==-->
 
-<!-- Einführung in das Hauptthema der Arbeit -->
+## Grundlagen des Risikomanagements nach ISO 31000 {#sec-iso31000}
+Erläuterung der Prinzipien, Ziele und Struktur der Norm sowie die Verbindung zwischen Risiko, Unsicherheit und Entscheidungsfindung.
 
-### Definition und Zielsetzung {#sec-definition}
+## Fehlermöglichkeits- und Einflussanalyse (FMEA) {#sec-fmea}
+Darstellung der Methode, Aufbau, Berechnung der Risikoprioritätszahl (RPN) und Grenzen klassischer FMEA-Ansätze.
 
-<!-- Wichtige Definitionen und Zielsetzungen -->
+## Knowledge Engineering und Wissensrepräsentation {#sec-ke}
+Definition und Zielsetzung, Unterscheidung von implizitem und explizitem Wissen, 
+sowie Einsatz von Ontologien, semantischen Netzen und RDF/JSON zur formalen Darstellung von Risiko-Wissen.
 
-### Teilgebiete des Themas {#sec-teilgebiete}
+## Decision-Support-Systeme und Fuzzy-Logik {#sec-dss-fuzzy}
+Grundlagen von DSS im Risikomanagement, Einführung in Fuzzy-Logik zur Abbildung unscharfer Bewertungen 
+und Verknüpfung von FMEA, Fuzzy-Logik und Wissensrepräsentation.
 
-<!-- Beschreibung der verschiedenen Teilgebiete -->
+<!-- ================= 3. Umsetzung des Modells ================= -->
 
-<!-- ================= 3. Praxisteil ================= -->
+# Umsetzung des Modells {#sec-umsetzung}
+<!--== Verantwortlich: Nick (Daten & Technik), Christian (Wissenschaftliche Dokumentation) ==-->
+<!--== Entspricht CRISP-DM Phase 3–6: Data Preparation, Modeling, Evaluation, Deployment ==-->
 
-# Praxisteil {#sec-praxisteil}
+## Data Preparation {#sec-dataprep}
+Aufbau und Beschreibung des domänenübergreifenden FMEA-Datensatzes. 
+Darstellung der Bewertungsattribute, Skalen und Abteilungszuordnung. 
+Begründung der Datenauswahl und Einbettung in reale Geschäftsprozesse.
 
-<!-- Beschreibung des praktischen Teils der Arbeit -->
+## Modeling {#sec-modeling}
+Entwicklung der Python-Pipeline `fmea_dss.py` zur automatisierten Bewertung von Risiken.  
+Berechnung klassischer RPN-Werte, Integration der Fuzzy-Logik zur Abbildung von Unsicherheiten 
+und Generierung einer Wissensrepräsentation in JSON/RDF.
 
-## Datenerhebung {#sec-datenerhebung}
+## Evaluation {#sec-evaluation}
+Vergleich klassischer und Fuzzy-basierter Risikoanalysen. 
+Interpretation der Ergebnisse anhand der Top-Risiken und Risikoverläufe. 
+Visualisierung der Resultate (Balkendiagramme, Heatmaps).
 
-<!-- Wie wurden die Daten gesammelt? -->
+## Deployment {#sec-deployment}
+Export der Wissensbasis (`knowledge.json`, RDF) und Integration der Ergebnisse 
+in Entscheidungsprozesse. Reflexion des Nutzens für verschiedene Geschäftsdomänen.
 
-### Emotionserkennung mit `j-hartmann/emotion-english-distilroberta-base` {#sec-emotionserkennung}
+<!-- ================= 4. Diskussion ================= -->
+<!--== Verantwortlich: Christian (Analytisch), Nick (Technische Reflexion) ==-->
+Bewertung der Ergebnisse im Hinblick auf die Forschungsfrage. 
+Darstellung des Mehrwerts wissensbasierter Fuzzy-FMEA-Modelle, 
+Grenzen der Implementierung sowie Potenziale für zukünftige Anwendungen.
 
-<!-- Details zur verwendeten Methode der Emotionserkennung -->
 
-<!-- ================= 4. Fazit ================= -->
+
+<!-- ================= 5. Fazit ================= -->
 
 # Fazit und Ausblick {#sec-fazit}
 
