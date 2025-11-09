@@ -1,0 +1,25 @@
+Domäne,Abteilung,Prozess,Fehler,Ursache,Wirkung,Bedeutung (B),Auftreten (A),Entdeckung (E),Bestehende Kontrolle,Verantwortlich,Datensensitivität,Prozesskritikalität,SLA-Auswirkung,RPN
+Order-to-Cash,Vertrieb,Angebotserstellung,Falscher Listenpreis im Angebot,Preisregel im BI-Tool veraltet,Margenverlust und Reklamation,7,5,6,Monatliche Preislistenprüfung,Sales Operations,mittel,hoch,mittel,210
+Order-to-Cash,Vertrieb,Auftragserfassung,Falsche Kundennummer,Manuelle Eingabe ohne Validierung,Fehlrouting und Verzögerung,6,6,5,Validierung gegen CRM,Innendienst,niedrig,mittel,hoch,180
+Procure-to-Pay,Einkauf,Lieferantenauswahl,Lieferant nicht qualifiziert,Qualifikationsnachweis fehlt,Qualitätsmängel,8,4,6,Approved-Vendor-List,Strategischer Einkauf,niedrig,hoch,mittel,192
+Procure-to-Pay,Einkauf,Bestellabwicklung,Verspätete Lieferung,Fehlende Lieferanten-ETA,Produktionsstillstand,9,5,4,SLA im Rahmenvertrag,Operativer Einkauf,niedrig,hoch,hoch,180
+Plan-to-Produce,Produktion,Maschinenlauf,Ungeplanter Maschinenausfall,Wartungsintervall überschritten,Stillstand und Ausschuss,9,4,4,TPM und Sensorüberwachung,Instandhaltung,niedrig,hoch,hoch,144
+Plan-to-Produce,Qualität,Wareneingang,Fehlklassifikation Gut/Schlecht,Grenzwerte falsch parametriert,Ausschussquote steigt,8,4,5,Vier-Augen-Prinzip,Qualitätssicherung,niedrig,mittel,mittel,160
+Warehouse & Logistics,Logistik,Kommissionierung,Falsche Artikel gepickt,Ähnliche Artikelnummern,Fehllieferung,7,6,5,Barcode-Scan Pflicht,Lagerleitung,niedrig,mittel,hoch,210
+Warehouse & Logistics,Logistik,Transportplanung,Falscher Spediteur gebucht,Fehlendes Routing-Profil,Kostensteigerung und Verzögerung,6,5,5,Standardrouten im TMS,Transportplanung,niedrig,mittel,mittel,150
+Record-to-Report,Finanzen,Rechnungsprüfung,Doppelte Rechnung bezahlt,Duplikat nicht erkannt,Liquiditätsverlust,8,3,6,3-Way-Match,Buchhaltung,mittel,mittel,mittel,144
+Record-to-Report,Finanzen,Abschluss,Falsche Periodenabgrenzung,Fehlende Rückstellung,Fehlende Aussagekraft der KPIs,7,4,5,Checkliste Monatsabschluss,Controlling,niedrig,mittel,niedrig,140
+Hire-to-Retire,HR,Payroll,Fehlberechnung Lohn,Parameteränderung nicht übernommen,Mitarbeiterunzufriedenheit,6,4,5,Vier-Augen-Prinzip Payroll,HR Payroll,hoch,mittel,mittel,120
+Hire-to-Retire,HR,Recruiting,Nicht DSGVO-konforme Speicherung,Manuelle Dateiablage,Bußgeldrisiko,9,3,6,DSGVO-Checkliste,HR Administration,hoch,mittel,niedrig,162
+Lead-to-Cash,Marketing,Segmentierung,Falsches Zielgruppensegment,Veraltete Kundendaten,Streuverlust,5,6,5,Datenqualitätsregeln,Marketing Ops,mittel,niedrig,niedrig,150
+Lead-to-Cash,Kundendienst,Ticketpriorisierung,SLA-Verstoß durch Fehlpriorisierung,Falsche Kategorisierung,Vertragsstrafe,8,4,6,SLA-Regeln im ITSM,Service Desk,mittel,hoch,hoch,192
+IT Service,IT,Change Management,Ungeplante Downtime nach Change,Unvollständige Tests,Geschäftsunterbrechung,9,3,5,CAB und Rollback-Plan,IT Betrieb,mittel,hoch,hoch,135
+IT Service,IT,Incident Response,Verzögerte Störungseingrenzung,Fehlende Runbooks,Lange MTTR,7,5,5,Runbooks und On-Call,SRE/IT Ops,mittel,mittel,hoch,175
+Data & Analytics,BI/Analytics,Datenmodellierung,Fehlende KPI-Definition,Uneinheitliche Berechnung,Fehlentscheidungen,7,5,6,KPI-Katalog,BI Governance,mittel,mittel,mittel,210
+Data & Analytics,Data Governance,Datenklassifizierung,PII falsch klassifiziert,Unzureichende Schutzmaßnahmen,9,3,6,Datenklassifizierungsrichtlinie,Data Owner,hoch,hoch,mittel,,DatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinieDatenklassifizierungsrichtlinie
+Compliance & Legal,Compliance,KYC/AML,Unvollständige KYC-Prüfung,Automatischer Abgleich fehlte,Bußgeld und Reputationsschaden,9,2,6,Toolgestützte KYC-Checks,Compliance Officer,hoch,hoch,niedrig,108
+Compliance & Legal,Recht,Vertragsmanagement,Falsche Vertragsversion,Fehlende Versionierung,Rechtsrisiko,8,3,5,Zentrales DMS,Legal Counsel,mittel,mittel,niedrig,120
+Facilities & EHS,Facility,Energieversorgung,Stromunterbrechung,Wartungsfenster nicht koordiniert,Produktionsstopp,9,2,5,Wartungsplan und USV,Facility Manager,niedrig,hoch,hoch,90
+Facilities & EHS,EHS,Arbeitssicherheit,Nicht gemeldeter Beinaheunfall,Schulungslücke,Erhöhtes Unfallrisiko,8,4,6,Sicherheitsbriefings,EHS Officer,niedrig,hoch,niedrig,192
+R&D,Forschung,Testbetrieb,Verlust von Testdaten,Kein Backup der Entwicklungsumgebung,Zeitverlust und Rework,6,4,6,Automatisierte Backups,Dev Lead,hoch,mittel,niedrig,144
+R&D,Produktmanagement,Anforderungsmanagement,Fehlende Abnahme des Lastenhefts,Stakeholder nicht einbezogen,Scope Creep,7,4,5,Stage-Gate-Prozess,Product Owner,niedrig,mittel,niedrig,140
