@@ -2,8 +2,12 @@
 \addcontentsline{toc}{chapter}{Abstract}
 \thispagestyle{nohead}
 
-Diese Studienarbeit untersucht, wie Wissen aus Risikoanalysen mithilfe von Methoden des Knowledge Engineering in ein wissensbasiertes Decision-Support-System (DSS) überführt werden kann. Ziel ist es, Unsicherheiten in Bewertungen zu berücksichtigen und priorisierte Handlungsempfehlungen zu generieren.
-Die Arbeit orientiert sich an der Norm ISO 31000:2018-02 und nutzt die Struktur der FMEA (Fehlermöglichkeits- und Einflussanalyse) als methodische Grundlage. Im praktischen Teil wird eine Python-Pipeline entwickelt, die Risikodaten verarbeitet, mit Fuzzy-Logik unscharfe Bewertungen integriert und Ergebnisse als maschinenlesbare Wissensbasis (JSON/RDF) ablegt.
-Damit wird gezeigt, wie klassische Risikoanalysen durch semantische Wissensmodelle und unscharfe Logik zu intelligenten Entscheidungssystemen erweitert werden können.
+Diese Studienarbeit untersucht, wie Wissen aus \glspl{risikoanalyse} mithilfe von Methoden des \gls{knowledgeengineering} in ein wissensbasiertes \gls{decisionsupportsystem} überführt werden kann. Das System berücksichtigt \glspl{unsicherheit} und ermöglicht priorisierte \glspl{handlungsempfehlung}. Ausgangspunkt ist die Beobachtung, dass klassische Verfahren wie die \glslink{fmea}{Fehlermöglichkeits- und Einflussanalyse} nur eingeschränkt geeignet sind, wenn Bewertungen unscharf sind oder wenn mehrere Fachbereiche beteiligt sind.
+
+Die Studienarbeit orientiert sich an den Grundsätzen der \gls{iso31000}. Sie beschreibt die Grundlagen des Risikomanagements und zeigt, wie Wissen strukturiert erfasst und formal dargestellt werden kann. Für die Abbildung unsicherer Einschätzungen wird ein \gls{fuzzyansatz} entwickelt. Dieser Ansatz wird in einer \gls{pythonpipeline} umgesetzt, die auf einem domänenübergreifenden \glslink{fmea}{FMEA} Datensatz basiert. Die Pipeline erzeugt sowohl klassische \glspl{rpn} als auch unsicherheitsbasierte Bewertungen. Die Ergebnisse werden in einer strukturierten \gls{wissensbasis} gespeichert, die maschinell verarbeitet werden kann.
+
+Die Evaluation zeigt, dass die \gls{fuzzyfmea} differenziertere Prioritäten ermöglicht und eine nachvollziehbare Einordnung unsicherer Informationen unterstützt. Die formale \gls{wissensrepraesentation} verbessert die Transparenz und erhöht die Verwendbarkeit des Risikowissens für automatisierte Entscheidungen.
+
+Die Studienarbeit leistet einen Beitrag zur Verbindung von \gls{knowledgeengineering} und Risikomanagement. Sie zeigt, wie unsicheres \gls{expertenwissen} strukturiert erfasst und in ein unterstützendes System überführt werden kann. Dadurch entstehen neue Möglichkeiten für den Einsatz in unternehmensweiten Entscheidungsprozessen.
 
 \clearpage

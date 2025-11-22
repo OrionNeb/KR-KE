@@ -1,0 +1,74 @@
+---
+title: "Fuzzy-gestütztes Decision Support System für domänenübergreifende Risikoanalysen"
+lang: de
+format:
+  pdf:
+    documentclass: article
+    pdf-engine: lualatex
+    toc: false
+  html:
+    toc: false
+header-includes:
+  - \usepackage{tikz}
+  - \usetikzlibrary{positioning}
+---
+
+## Einordnung
+
+Dieses Dokument beschreibt in knapper Form den Aufbau eines Fuzzy gestützten Decision Support Systems für domänenübergreifende Risikoanalysen.  
+Im Mittelpunkt steht eine Abbildung, welche die Rolle von Fuzzy Logik, Domänenwissen und Decision Support System in der Risikobewertung verdeutlicht.
+
+## Struktur von Fuzzy Logik, Domänenwissen und DSS
+
+Die folgende Abbildung zeigt den Informationsfluss.  
+Links steht die FMEA Bewertung mit Auftreten, Entdeckbarkeit und Schwere.  
+Die Fuzzy Logik erzeugt daraus einen unscharfen Risikowert.  
+Das Decision Support System verbindet diesen Risikowert mit Domänenwissen aus der Ontologie und leitet priorisierte Handlungsempfehlungen ab.
+
+::: {#fig-dss-fuzzy}
+
+```{=latex}
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[
+    node distance=18mm,
+    every node/.style={font=\small},
+    block/.style={draw, rounded corners, minimum width=35mm, minimum height=10mm, align=center},
+    bigblock/.style={draw, rounded corners, minimum width=45mm, minimum height=12mm, align=center},
+    line/.style={->, thick}
+  ]
+
+  % Links: FMEA-Risikobewertung
+  \node[block] (input) {FMEA\\Risikobewertung\\\footnotesize(O, D, S, RPN)};
+
+  % Mitte: Fuzzy-Logik
+  \node[bigblock, right=of input] (fuzzy) {Fuzzy-Logik\\\footnotesize If--Then-Regeln\\\footnotesize Fuzzy-Risiko};
+
+  % Oben rechts: Domänenwissen / Ontologie
+  \node[bigblock, above=20mm of fuzzy, xshift=20mm] (domain) {Domänenwissen\\\footnotesize Prozesse, Abteilungen,\\\footnotesize Ursachen, Maßnahmen, Verantwortliche};
+
+  % Rechts Mitte: DSS
+  \node[bigblock, right=28mm of fuzzy] (dss) {Decision-Support-System\\\footnotesize Integration von\\\footnotesize Fuzzy-Risiko und Domänenwissen};
+
+  % Unten rechts: Handlungsempfehlungen
+  \node[block, below=20mm of dss] (actions) {Handlungsempfehlungen\\\footnotesize priorisierte Maßnahmen};
+
+  % Pfeile
+  \draw[line] (input) -- node[above]{\footnotesize O, D, S} (fuzzy);
+  \draw[line] (fuzzy) -- node[above]{\footnotesize Fuzzy-Risikowert} (dss);
+  \draw[line] (domain) -- node[right]{\footnotesize Ontologie, Regeln,\\\footnotesize Verantwortlichkeiten} (dss);
+  \draw[line] (dss) -- node[right]{\footnotesize Prioritäten, Empfehlungen} (actions);
+
+  % Legende unten
+  \node[align=left, below=18mm of fuzzy] (legend) {
+    \footnotesize Fuzzy-Logik berechnet aus O, D und S einen unscharfen Risikowert.\\
+    \footnotesize Das Decision-Support-System verbindet diesen Wert mit Domänenwissen und leitet Maßnahmen ab.
+  };
+
+  \end{tikzpicture}
+  \caption{Rolle von Fuzzy-Logik, Domänenwissen und Decision-Support-System in der Risikobewertung}
+\end{figure}
+{.only-html}
+
+:::
+

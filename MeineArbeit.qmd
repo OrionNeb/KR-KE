@@ -147,30 +147,16 @@ from pulp import LpMaximize, LpProblem, LpVariable, value
 <!--== Enthält 1.1 Problemstellung, 1.2 Zielsetzung, 1.3 Vorgehensweise ==-->
 
 ## Problemstellung {#sec-problemstellung}
-Unternehmen müssen Risiken in komplexen Geschäftsprozessen frühzeitig erkennen und bewerten. 
-Klassische Methoden wie die FMEA sind zwar etabliert, stoßen jedoch an Grenzen, wenn Unsicherheiten oder 
-domänenübergreifende Zusammenhänge zwischen Abteilungen berücksichtigt werden müssen.
+Unternehmen müssen Risiken in komplexen Geschäftsprozessen frühzeitig erkennen und strukturiert bewerten. Klassische Methoden wie die Fehlermöglichkeits- und Einflussanalyse sind weit verbreitet, stoßen jedoch an Grenzen, wenn Abteilungen unterschiedliche Bewertungslogiken verwenden oder wenn Unsicherheiten in den Einschätzungen bestehen. Dadurch wird die Vergleichbarkeit von Risiken erschwert und die Entscheidungsfindung verliert an Transparenz.
 
 ## Zielsetzung {#sec-zielsetzung}
-Diese Arbeit verfolgt das Ziel, ein wissensbasiertes Decision-Support-System (DSS) auf Grundlage der ISO 31000 zu entwickeln. 
-Dabei soll Wissen aus Risikoanalysen mithilfe von *Knowledge Engineering* systematisch erfasst und durch Fuzzy-Logik 
-um Unsicherheiten erweitert werden. So entsteht ein Ansatz, der Risiken nicht nur bewertet, sondern auch 
-Handlungsempfehlungen ermöglicht.
+Diese Arbeit verfolgt das Ziel, ein wissensbasiertes Decision Support System nach den Grundsätzen der ISO 31000 zu entwickeln. Das System soll Wissen aus Risikoanalysen systematisch erfassen und mithilfe eines Fuzzy-Ansatzes um Unsicherheiten erweitern. Dadurch entsteht ein Modell, das Risiken nachvollziehbar bewertet und priorisierte Handlungsempfehlungen ermöglicht.
 
-**Forschungsfrage:**  
-Wie kann Wissen aus Risikoanalysen mithilfe von Methoden des Knowledge Engineering in ein wissensbasiertes 
-Decision-Support-System überführt werden, das Unsicherheiten berücksichtigt und priorisierte Handlungsempfehlungen liefert?
+Im Mittelpunkt dieser Arbeit steht die Frage, wie Wissen aus Risikoanalysen mithilfe von Methoden des Knowledge Engineering in ein wissensbasiertes Decision Support System überführt werden kann, das Unsicherheiten berücksichtigt und priorisierte Handlungsempfehlungen ermöglicht.
 
 ## Vorgehensweise {#sec-vorgehensweise}
-Die Arbeit folgt dem CRISP-DM-Vorgehensmodell und trennt Theorie und Praxis klar voneinander. 
-Kapitel [Theoretischer Rahmen und Grundlagen](#sec-theorie) legt das methodische Fundament, 
-Kapitel [Umsetzung des Modells](#sec-umsetzung) beschreibt die praktische Anwendung mit Python 
-und einem domänenübergreifenden FMEA-Datensatz.
-Laut einer Untersuchung von Mustermann [@internationalorganizationforstandardizationISO3100020182018] ist das Problem bekannt.
+Die Arbeit folgt dem CRISP DM Vorgehensmodell. Der theoretische Teil stellt die Grundlagen des Risikomanagements, der FMEA Methode und der Wissensrepräsentation dar. Der praktische Teil beschreibt die Umsetzung in Python auf der Basis eines domänenübergreifenden FMEA Datensatzes. Die Ergebnisse werden verglichen und in einer strukturierten Wissensbasis dokumentiert. Eine Untersuchung zeigt, dass das zugrunde liegende Problem in der Literatur bereits beschrieben wurde. Andere Autoren kommen zu unterschiedlichen Einschätzungen.
 
-Andere Autoren sind anderer Meinung [@sauterDecisionSupportSystems2011].
-
-Was eine \gls{mfa} ist, wird im Glossar beschrieben.
 <!-- ================= 2. Theoretischer Rahmen und Grundlagen ================= -->
 
 # Theoretischer Rahmen und Grundlagen {#sec-theorie}
@@ -217,6 +203,8 @@ Export der Wissensbasis (`knowledge.json`, RDF) und Integration der Ergebnisse
 in Entscheidungsprozesse. Reflexion des Nutzens für verschiedene Geschäftsdomänen.
 
 <!-- ================= 4. Diskussion ================= -->
+
+# Diskussion {#sec-diskussion}
 <!--== Verantwortlich: Christian (Analytisch), Nick (Technische Reflexion) ==-->
 Bewertung der Ergebnisse im Hinblick auf die Forschungsfrage. 
 Darstellung des Mehrwerts wissensbasierter Fuzzy-FMEA-Modelle, 
@@ -303,6 +291,9 @@ Das **A** verweist zugleich auf den Anhang und wird fortlaufend gezählt.
 :::
 
 \lorem
+Laut einer Untersuchung von Mustermann [@internationalorganizationforstandardizationISO3100020182018] ist das Problem bekannt.
+
+Andere Autoren sind anderer Meinung [@sauterDecisionSupportSystems2011].
 
 \clearpage
 

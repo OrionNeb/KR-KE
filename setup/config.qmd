@@ -47,5 +47,5 @@
 
 % ------------------------- Unterschriften -------------------------
 
-\newcommand{\unterschriftA}{img/UnterschriftA} % nur wenn vorhanden
-\newcommand{\unterschriftB}{img/UnterschriftB} % optional
+\newcommand{\unterschriftA}{img/UnterschriftA.png} % nur wenn vorhanden
+\newcommand{\unterschriftB}{img/UnterschriftB.png} % optional

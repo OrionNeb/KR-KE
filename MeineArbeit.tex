@@ -1,3 +1,210 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ngerman,
+  11pt,
+  openany, oneside]{book}
+\usepackage{xcolor}
+\usepackage[top=3cm, bottom=3cm, headheight=15pt, headsep=1.5cm,
+footskip=1.5cm]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Latin Modern Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{setspace}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Latin Modern Roman}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage[german]{selnolig} % disable illegal ligatures
+\fi
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\input{setup/config.qmd}
+
+\input{setup/preamble_MeineArbeit.qmd}
+
+\input{setup/macros.qmd}
+
+
+
 %%%%%%%%%% A %%%%%%%%%%
 
 \newglossaryentry{aad}{
@@ -644,14 +851,14 @@
 }
 
 \newglossaryentry{fuzzyansatz}{
-  name=Fuzzy-Ansatz,
-  plural=Fuzzy-Ansätze,
+  name=Fuzzy Ansatz,
+  plural=Fuzzy Ansätze,
   description={Methode zur Abbildung unscharfer oder ungenauer Expertenbewertungen. Die Methode nutzt Fuzzy Mengen, um linguistische Bewertungen mathematisch darzustellen.}
 }
 
 \newglossaryentry{fuzzyfmea}{
-  name=Fuzzy-FMEA,
-  plural=Fuzzy-FMEA-Verfahren,
+  name=Fuzzy FMEA,
+  plural=Fuzzy FMEA Verfahren,
   description={Erweiterung der klassischen Fehlermöglichkeits- und Einflussanalyse durch Fuzzy Logik. Sie dient der realitätsnäheren Abbildung unsicherer oder unscharfer Expertenbewertungen.}
 }
 
@@ -2095,3 +2302,546 @@
 	name=Zugriffsmanagement (Access Management),
 	description={der Prozess der Steuerung und Überwachung von Benutzerzugriffen auf IT-Systeme, Anwendungen und Daten, um sicherzustellen, dass nur autorisierte Personen Zugriff auf bestimmte Ressourcen erhalten. Es umfasst Methoden wie Authentifizierung, Autorisierung und Zugriffsbeschränkungen.}
 }
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Inhaltsverzeichnis}
+\else
+  \newcommand\contentsname{Inhaltsverzeichnis}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Abbildungsverzeichnis}
+\else
+  \newcommand\listfigurename{Abbildungsverzeichnis}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Tabellenverzeichnis}
+\else
+  \newcommand\listtablename{Tabellenverzeichnis}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Abbildung}
+\else
+  \newcommand\figurename{Abbildung}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabelle}
+\else
+  \newcommand\tablename{Tabelle}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{Listingverzeichnis}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={de},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+\frontmatter
+
+\begin{titlepage}
+\centering
+\thispagestyle{empty}
+
+% Logo der FHDW
+\vspace*{0.5cm}
+\includegraphics[width=0.4\textwidth]{img/fhdw.png}
+
+\vspace*{1cm}
+{\large Fachhochschule der Wirtschaft\\[0.3em]
+FHDW \fhdwstandort}
+
+\vspace*{1.0cm}
+{\large \arbeitstyp{} im Modul \modulname}
+
+\vspace*{1.2cm}
+{\Large\bfseries \thetitle}
+
+\vspace{1.2cm}
+{\normalsize Vorgestellt von:}
+
+\vspace{0.5em}
+\ifnum\anzahlpersonen=1
+\begin{minipage}[t]{0.6\textwidth}
+\centering
+\textbf{\studentname{}}\\
+\studentadresse{}\\
+\studentplzort{}\\
+\texttt{\studentemail{}}
+\end{minipage}
+\else
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\textbf{\studentname{}}\\
+\studentadresse{}\\
+\studentplzort{}\\
+\texttt{\studentemail{}}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\centering
+\textbf{\studentnameB{}}\\
+\studentadresseB{}\\
+\studentplzortB{}\\
+\texttt{\studentemailB{}}
+\end{minipage}
+\fi
+
+\vspace{1.0cm}
+{\normalsize Studiengang:}\\[0.3em]
+{\normalsize \studiengang{}}
+
+\vspace{0.8cm}
+{\normalsize Prüfer:}\\[0.3em]
+{\normalsize \prueferA{}
+\ifstrempty{\prueferB}{}{\\ \prueferB}}
+
+\vspace{0.8cm}
+{\normalsize Eingereicht am:}\\[0.3em]
+{\normalsize \eingereichtam{} in \einreichungsort{}}
+
+\end{titlepage}
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+\chapter*{Gendererkl\"arung}
+\addcontentsline{toc}{chapter}{Gendererkl\"arung}
+\thispagestyle{nohead}
+
+Aus Gr\"unden der besseren Lesbarkeit wird auf die gleichzeitige Verwendung der Sprachformen m\"annlich, weiblich und divers (m/w/d) verzichtet. S\"amtliche Personenbezeichnungen gelten gleichermaßen für alle Geschlechter.
+
+
+\clearpage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\thispagestyle{nohead}
+
+Diese Studienarbeit untersucht, wie Wissen aus \glspl{risikoanalyse} mithilfe von Methoden des \gls{knowledgeengineering} in ein wissensbasiertes \gls{decisionsupportsystem} überführt werden kann. Das System berücksichtigt \glspl{unsicherheit} und ermöglicht priorisierte \glspl{handlungsempfehlung}. Ausgangspunkt ist die Beobachtung, dass klassische Verfahren wie die \glslink{fmea}{Fehlermöglichkeits- und Einflussanalyse} nur eingeschränkt geeignet sind, wenn Bewertungen unscharf sind oder wenn mehrere Fachbereiche beteiligt sind.
+
+Die Studienarbeit orientiert sich an den Grundsätzen der \gls{iso31000}. Sie beschreibt die Grundlagen des Risikomanagements und zeigt, wie Wissen strukturiert erfasst und formal dargestellt werden kann. Für die Abbildung unsicherer Einschätzungen wird ein \gls{fuzzyansatz} entwickelt. Dieser Ansatz wird in einer \gls{pythonpipeline} umgesetzt, die auf einem domänenübergreifenden \glslink{fmea}{FMEA} Datensatz basiert. Die Pipeline erzeugt sowohl klassische \glspl{rpn} als auch unsicherheitsbasierte Bewertungen. Die Ergebnisse werden in einer strukturierten \gls{wissensbasis} gespeichert, die maschinell verarbeitet werden kann.
+
+Die Evaluation zeigt, dass die \gls{fuzzyfmea} differenziertere Prioritäten ermöglicht und eine nachvollziehbare Einordnung unsicherer Informationen unterstützt. Die formale \gls{wissensrepraesentation} verbessert die Transparenz und erhöht die Verwendbarkeit des Risikowissens für automatisierte Entscheidungen.
+
+Die Studienarbeit leistet einen Beitrag zur Verbindung von \gls{knowledgeengineering} und Risikomanagement. Sie zeigt, wie unsicheres \gls{expertenwissen} strukturiert erfasst und in ein unterstützendes System überführt werden kann. Dadurch entstehen neue Möglichkeiten für den Einsatz in unternehmensweiten Entscheidungsprozessen.
+
+\clearpage
+
+\tableofcontents
+\thispagestyle{nohead}
+\clearpage
+
+\clearpage
+\listoffigures
+\thispagestyle{nohead} 
+\clearpage
+
+\clearpage
+\thispagestyle{nohead} 
+\listoftables
+\clearpage
+
+\pagestyle{fancy}
+\mainmatter
+\pagenumbering{arabic}
+
+
+\setstretch{1.5}
+\mainmatter
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\#| eval=TRUE}
+\CommentTok{\#| echo=TRUE}
+\CommentTok{\#| include=FALSE}
+\CommentTok{\#| results=TRUE}
+\CommentTok{\#| message=FALSE}
+\CommentTok{\#| warning=FALSE}
+
+\CommentTok{\# Arbeitsumgebung leeren (alle Objekte entfernen)}
+\FunctionTok{rm}\NormalTok{(}\AttributeTok{list =} \FunctionTok{ls}\NormalTok{())}
+\FunctionTok{gc}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1709994 91.4    2910832 155.5  2910832 155.5
+Vcells 3002330 23.0    8388608  64.0  4763885  36.4
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Root für Quarto setzen}
+\NormalTok{knitr}\SpecialCharTok{::}\NormalTok{opts\_knit}\SpecialCharTok{$}\FunctionTok{set}\NormalTok{(}\AttributeTok{root.dir =}\NormalTok{ here}\SpecialCharTok{::}\FunctionTok{here}\NormalTok{())}
+
+\CommentTok{\# Installiere und lade erforderliche Bibliotheken}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"reticulate"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"reticulate"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"rmarkdown"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"rmarkdown"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"shiny"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"shiny"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"tidyr"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"tidyr"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"tidyverse"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"tidyverse"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"forecast"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"forecast"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"ggpubr"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"ggpubr"}\NormalTok{)}
+\ControlFlowTok{if}\NormalTok{ (}\SpecialCharTok{!}\FunctionTok{requireNamespace}\NormalTok{(}\StringTok{"viridis"}\NormalTok{, }\AttributeTok{quietly =} \ConstantTok{TRUE}\NormalTok{)) }\FunctionTok{install.packages}\NormalTok{(}\StringTok{"viridis"}\NormalTok{)}
+
+
+
+
+\FunctionTok{library}\NormalTok{(reticulate)}
+\FunctionTok{library}\NormalTok{(rmarkdown)}
+\FunctionTok{library}\NormalTok{(shiny)}
+\FunctionTok{library}\NormalTok{(dplyr)}
+\FunctionTok{library}\NormalTok{(tidyr)}
+\FunctionTok{library}\NormalTok{(tidyverse)}
+\FunctionTok{library}\NormalTok{(forecast)}
+\FunctionTok{library}\NormalTok{(ggpubr)}
+\FunctionTok{library}\NormalTok{(viridis)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+
+\CommentTok{\#| eval=TRUE}
+\CommentTok{\#| echo=TRUE}
+\CommentTok{\#| include=FALSE}
+\CommentTok{\#| results=TRUE}
+\CommentTok{\#| message=FALSE}
+\CommentTok{\#| warning=FALSE}
+
+\CommentTok{\# Erforderliche Bibliotheken installieren (falls nicht vorhanden)}
+\ImportTok{import}\NormalTok{ subprocess}
+\ImportTok{import}\NormalTok{ sys}
+
+\KeywordTok{def}\NormalTok{ install\_and\_import(package):}
+    \ControlFlowTok{try}\NormalTok{:}
+        \BuiltInTok{\_\_import\_\_}\NormalTok{(package)}
+    \ControlFlowTok{except} \PreprocessorTok{ImportError}\NormalTok{:}
+\NormalTok{        subprocess.check\_call([sys.executable, }\StringTok{"{-}m"}\NormalTok{, }\StringTok{"pip"}\NormalTok{, }\StringTok{"install"}\NormalTok{, package])}
+    \ControlFlowTok{finally}\NormalTok{:}
+        \BuiltInTok{globals}\NormalTok{()[package] }\OperatorTok{=} \BuiltInTok{\_\_import\_\_}\NormalTok{(package)}
+
+\CommentTok{\# Äquivalente Bibliotheken in Python installieren und importieren}
+\NormalTok{libraries }\OperatorTok{=}\NormalTok{ [}\StringTok{"pandas"}\NormalTok{, }\StringTok{"numpy"}\NormalTok{, }\StringTok{"matplotlib"}\NormalTok{, }\StringTok{"seaborn"}\NormalTok{, }\StringTok{"scipy"}\NormalTok{, }\StringTok{"statsmodels"}\NormalTok{, }\StringTok{"pulp"}\NormalTok{]}
+
+\ControlFlowTok{for}\NormalTok{ lib }\KeywordTok{in}\NormalTok{ libraries:}
+\NormalTok{    install\_and\_import(lib)}
+
+\CommentTok{\# Bibliotheken laden}
+\ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd}
+\ImportTok{import}\NormalTok{ numpy }\ImportTok{as}\NormalTok{ np}
+\ImportTok{import}\NormalTok{ matplotlib.pyplot }\ImportTok{as}\NormalTok{ plt}
+\ImportTok{import}\NormalTok{ seaborn }\ImportTok{as}\NormalTok{ sns}
+\ImportTok{from}\NormalTok{ scipy }\ImportTok{import}\NormalTok{ stats}
+\ImportTok{from}\NormalTok{ statsmodels.tsa.seasonal }\ImportTok{import}\NormalTok{ STL}
+\ImportTok{from}\NormalTok{ pulp }\ImportTok{import}\NormalTok{ LpMaximize, LpProblem, LpVariable, value}
+\end{Highlighting}
+\end{Shaded}
+
+\chapter{Einleitung}\label{sec-einleitung}
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[
+    node distance=18mm,
+    every node/.style={font=\small},
+    block/.style={draw, rounded corners, minimum width=35mm, minimum height=10mm, align=center},
+    bigblock/.style={draw, rounded corners, minimum width=45mm, minimum height=12mm, align=center},
+    line/.style={->, thick}
+  ]
+
+  % Links: FMEA-Risikobewertung
+  \node[block] (input) {FMEA\\Risikobewertung\\\footnotesize(O, D, S, RPN)};
+
+  % Mitte: Fuzzy-Logik
+  \node[bigblock, right=of input] (fuzzy) {Fuzzy-Logik\\\footnotesize If–Then Regeln\\\footnotesize Fuzzy-Risiko};
+
+  % Oben rechts: Domänenwissen / Ontologie
+  \node[bigblock, above=20mm of fuzzy, xshift=20mm] (domain) {Domänenwissen\\\footnotesize Prozesse, Abteilungen,\\\footnotesize Ursachen, Maßnahmen, Verantwortliche};
+
+  % Rechts Mitte: DSS
+  \node[bigblock, right=28mm of fuzzy] (dss) {Decision-Support-System\\\footnotesize Integration von\\\footnotesize Fuzzy-Risiko und Domänenwissen};
+
+  % Unten rechts: Handlungsempfehlungen
+  \node[block, below=20mm of dss] (actions) {Handlungsempfehlungen\\\footnotesize priorisierte Maßnahmen};
+
+  % Pfeile
+  \draw[line] (input) -- node[above]{\footnotesize O, D, S} (fuzzy);
+  \draw[line] (fuzzy) -- node[above]{\footnotesize Fuzzy-Risikowert} (dss);
+  \draw[line] (domain) -- node[right]{\footnotesize Ontologie, Regeln,\\\footnotesize Verantwortlichkeiten} (dss);
+  \draw[line] (dss) -- node[right]{\footnotesize Prioritäten, Empfehlungen} (actions);
+
+  % Legende unten
+  \node[align=left, below=18mm of fuzzy] (legend) {
+    \footnotesize Fuzzy-Logik berechnet aus O, D und S einen unscharfen Risikowert.\\
+    \footnotesize Das DSS verbindet diesen Wert mit Domänenwissen und leitet Maßnahmen ab.
+  };
+
+  \end{tikzpicture}
+  \caption{Rolle von Fuzzy-Logik, Domänenwissen und Decision-Support-System in der Risikobewertung}
+\end{figure}
+
+\section{Problemstellung}\label{sec-problemstellung}
+
+Unternehmen müssen Risiken in komplexen Geschäftsprozessen frühzeitig
+erkennen und strukturiert bewerten. Klassische Methoden wie die
+Fehlermöglichkeits- und Einflussanalyse sind weit verbreitet, stoßen
+jedoch an Grenzen, wenn Abteilungen unterschiedliche Bewertungslogiken
+verwenden oder wenn Unsicherheiten in den Einschätzungen bestehen.
+Dadurch wird die Vergleichbarkeit von Risiken erschwert und die
+Entscheidungsfindung verliert an Transparenz.
+
+\section{Zielsetzung}\label{sec-zielsetzung}
+
+Diese Arbeit verfolgt das Ziel, ein wissensbasiertes Decision Support
+System nach den Grundsätzen der ISO 31000 zu entwickeln. Das System soll
+Wissen aus Risikoanalysen systematisch erfassen und mithilfe eines
+Fuzzy-Ansatzes um Unsicherheiten erweitern. Dadurch entsteht ein Modell,
+das Risiken nachvollziehbar bewertet und priorisierte
+Handlungsempfehlungen ermöglicht.
+
+Im Mittelpunkt dieser Arbeit steht die Frage, wie Wissen aus
+Risikoanalysen mithilfe von Methoden des Knowledge Engineering in ein
+wissensbasiertes Decision Support System überführt werden kann, das
+Unsicherheiten berücksichtigt und priorisierte Handlungsempfehlungen
+ermöglicht.
+
+\section{Vorgehensweise}\label{sec-vorgehensweise}
+
+Die Arbeit folgt dem CRISP DM Vorgehensmodell. Der theoretische Teil
+stellt die Grundlagen des Risikomanagements, der FMEA Methode und der
+Wissensrepräsentation dar. Der praktische Teil beschreibt die Umsetzung
+in Python auf der Basis eines domänenübergreifenden FMEA Datensatzes.
+Die Ergebnisse werden verglichen und in einer strukturierten
+Wissensbasis dokumentiert. Eine Untersuchung zeigt, dass das zugrunde
+liegende Problem in der Literatur bereits beschrieben wurde. Andere
+Autoren kommen zu unterschiedlichen Einschätzungen.
+
+\chapter{Theoretischer Rahmen und Grundlagen}\label{sec-theorie}
+
+\section{Grundlagen des Risikomanagements nach ISO
+31000}\label{sec-iso31000}
+
+Erläuterung der Prinzipien, Ziele und Struktur der Norm sowie die
+Verbindung zwischen Risiko, Unsicherheit und Entscheidungsfindung.
+
+\section{Fehlermöglichkeits- und Einflussanalyse (FMEA)}\label{sec-fmea}
+
+Darstellung der Methode, Aufbau, Berechnung der Risikoprioritätszahl
+(RPN) und Grenzen klassischer FMEA-Ansätze.
+
+\section{Knowledge Engineering und Wissensrepräsentation}\label{sec-ke}
+
+Definition und Zielsetzung, Unterscheidung von implizitem und explizitem
+Wissen, sowie Einsatz von Ontologien, semantischen Netzen und RDF/JSON
+zur formalen Darstellung von Risiko-Wissen.
+
+\section{Decision-Support-Systeme und Fuzzy-Logik}\label{sec-dss-fuzzy}
+
+Grundlagen von DSS im Risikomanagement, Einführung in Fuzzy-Logik zur
+Abbildung unscharfer Bewertungen und Verknüpfung von FMEA, Fuzzy-Logik
+und Wissensrepräsentation.
+
+\chapter{Umsetzung des Modells}\label{sec-umsetzung}
+
+\section{Data Preparation}\label{sec-dataprep}
+
+Aufbau und Beschreibung des domänenübergreifenden FMEA-Datensatzes.
+Darstellung der Bewertungsattribute, Skalen und Abteilungszuordnung.
+Begründung der Datenauswahl und Einbettung in reale Geschäftsprozesse.
+
+\section{Modeling}\label{sec-modeling}
+
+Entwicklung der Python-Pipeline \texttt{fmea\_dss.py} zur
+automatisierten Bewertung von Risiken.\\
+Berechnung klassischer RPN-Werte, Integration der Fuzzy-Logik zur
+Abbildung von Unsicherheiten und Generierung einer Wissensrepräsentation
+in JSON/RDF.
+
+\section{Evaluation}\label{sec-evaluation}
+
+Vergleich klassischer und Fuzzy-basierter Risikoanalysen. Interpretation
+der Ergebnisse anhand der Top-Risiken und Risikoverläufe. Visualisierung
+der Resultate (Balkendiagramme, Heatmaps).
+
+\section{Deployment}\label{sec-deployment}
+
+Export der Wissensbasis (\texttt{knowledge.json}, RDF) und Integration
+der Ergebnisse in Entscheidungsprozesse. Reflexion des Nutzens für
+verschiedene Geschäftsdomänen.
+
+\chapter{Diskussion}\label{sec-diskussion}
+
+Bewertung der Ergebnisse im Hinblick auf die Forschungsfrage.
+Darstellung des Mehrwerts wissensbasierter Fuzzy-FMEA-Modelle, Grenzen
+der Implementierung sowie Potenziale für zukünftige Anwendungen.
+
+\chapter{Fazit und Ausblick}\label{sec-fazit}
+
+\section{Beantwortung der
+Forschungsfrage}\label{beantwortung-der-forschungsfrage}
+
+Die Forschungsfrage konnte beantwortet werden. Durch die Kombination von
+Knowledge Engineering und Fuzzy-Logik lassen sich Risikoanalysen
+strukturiert, nachvollziehbar und realitätsnah abbilden. Unsicheres
+Wissen wird dadurch für Computersysteme verständlich und auswertbar.
+
+\section{Bewertung des Nutzens wissensbasierter
+Risikomodelle}\label{bewertung-des-nutzens-wissensbasierter-risikomodelle}
+
+Das entwickelte Konzept zeigt, dass wissensbasierte Modelle klassische
+FMEA-Ansätze deutlich erweitern. Sie fördern Wissenstransparenz, erhöhen
+die Entscheidungssicherheit und ermöglichen die Priorisierung von
+Risiken auf Grundlage formalisierter Regeln.
+
+\section{Ausblick auf die Integration in unternehmensweite DSS und
+Ontologien}\label{ausblick-auf-die-integration-in-unternehmensweite-dss-und-ontologien}
+
+In Zukunft können solche Systeme in größere Entscheidungsplattformen
+integriert werden. Die Anbindung an Ontologien und semantische Netze
+eröffnet die Möglichkeit, Risiken nicht nur zu bewerten, sondern auch
+automatisch zu erkennen und vorbeugende Maßnahmen vorzuschlagen.
+
+\chapter*{Literaturverzeichnis}\label{literaturverzeichnis}
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-internationalorganizationforstandardizationISO3100020182018}
+International Organization for Standardization. (2018). \emph{ISO
+31000:2018 -- Risk management --- Guidelines}. ISO.
+\url{https://www.iso.org/standard/65694.html}
+
+\bibitem[\citeproctext]{ref-sauterDecisionSupportSystems2011}
+Sauter, V. L. (2011). \emph{Decision Support Systems for Business
+Intelligence} (1. Aufl.). Wiley.
+\url{https://doi.org/10.1002/9780470634431}
+
+\end{CSLReferences}
+
+\pagestyle{literature}
+\markboth{Literaturverzeichnis}{Literaturverzeichnis}
+
+\clearpage
+
+\phantomsection\label{sec-anhang}
+\chapter*{Anhang}\label{anhang}
+\addcontentsline{toc}{chapter}{Anhang}
+
+\markboth{Anhang}{Anhang} 
+\thispagestyle{empty}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\setcounter{figure}{0}
+
+\emph{Hinweis:} Alle Abbildungen in den Anhängen tragen das Präfix
+\textbf{A} in ihrer Nummerierung. Das \textbf{A} verweist zugleich auf
+den Anhang und wird fortlaufend gezählt.
+
+\phantomsection\label{sec-anhangsverzeichnis}
+\section*{Anhangsverzeichnis}\label{anhangsverzeichnis}
+\addcontentsline{toc}{section}{Anhangsverzeichnis}
+
+\pagestyle{appendixTOC}
+
+\noindent
+
+\textbf{Anhang A} \hyperref[sec-anhangA]{Zero-Trust-Modell}
+\dotfill  \pageref{sec-anhangA}
+
+~~~\textbf{A.1} \hyperref[sec-anhangA.1]{Zero-Trust-Säulen}
+\dotfill  \pageref{sec-anhangA.1}
+
+\textbf{Anhang B} \hyperref[sec-anhangB]{Erste Analyse der Daten}
+\dotfill  \pageref{sec-anhangB}
+
+~~~\textbf{B.1} \hyperref[sec-anhangB.1]{Ergebnisse der ersten Analyse}
+\dotfill  \pageref{sec-anhangB.1}
+
+\clearpage
+
+\pagestyle{appendix}
+
+\phantomsection\label{sec-anhangA}
+\chapter*{Anhang A: Zero-Trust-Modell}\label{anhang-a-zero-trust-modell}
+\addcontentsline{toc}{chapter}{Anhang A: Zero-Trust-Modell}
+
+\markboth{Anhang A: Zero-Trust-Modell}{}
+
+\clearpage
+
+\phantomsection\label{sec-anhangA.1}
+\section*{A.1: Zero-Trust-Säulen}\label{a.1-zero-trust-suxe4ulen}
+\addcontentsline{toc}{section}{A.1: Zero-Trust-Säulen}
+
+\lorem
+
+Laut einer Untersuchung von Mustermann
+(\citeproc{ref-internationalorganizationforstandardizationISO3100020182018}{International
+Organization for Standardization, 2018}) ist das Problem bekannt.
+
+Andere Autoren sind anderer Meinung
+(\citeproc{ref-sauterDecisionSupportSystems2011}{Sauter, 2011}).
+
+\clearpage
+
+\phantomsection\label{sec-anhangB}
+\chapter*{Anhang B: Erste Analyse der
+Daten}\label{anhang-b-erste-analyse-der-daten}
+\addcontentsline{toc}{chapter}{Anhang B: Erste Analyse der Daten}
+
+\markboth{Anhang B: Erste Analyse der Daten}{}
+
+\lorem
+
+\clearpage
+
+\phantomsection\label{sec-anhangB1}
+\section*{B1: Lorem}\label{b1-lorem}
+\addcontentsline{toc}{section}{B1: Lorem}
+
+\lorem
+
+
+\backmatter
+
+\printglossary[title=Glossar, toctitle=Glossar]
+\label{tab:Glossar}
+
+
+
+
+
+\chapter*{Ehrenw\"ortliche Erkl\"arung}
+\label{tab:ehrenwoertlicheerklaerung}
+\thispagestyle{empty}
+
+Hiermit erkl\"are ich, dass ich die vorliegende \arbeitstyp  selbstst\"andig angefertigt habe. Es wurden nur die in der Arbeit ausdr\"ucklich benannten Quellen und Hilfsmittel benutzt. W\"ortlich oder sinngem\"aß \"ubernommenes Gedankengut habe ich als solches kenntlich gemacht. Diese Arbeit hat in gleicher oder \"ahnlicher Form noch keiner Pr\"ufungsbeh\"orde vorgelegen.
+
+\vspace{2cm}
+\noindent
+\hspace*{\fill}
+
+\ehrenwoertlicheErklaerung
+
+
+
+\end{document}
